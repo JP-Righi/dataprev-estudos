@@ -1,0 +1,10 @@
+# Apenas o material autoral de estudo pertence a este pacote.
+.codex*
+.env*
+*.pdf
+*.jpg
+*.jpeg
+*.png
+work/
+outputs/
+node_modules/
