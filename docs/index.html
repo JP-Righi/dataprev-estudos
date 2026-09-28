@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DATAPREV — Estudos</title>
+<meta name="robots" content="noindex, nofollow">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#/">DATAPREV · Estudos</a>
+  <nav id="subjectNav" class="subject-nav"></nav>
+</header>
+
+<main id="app" class="app"></main>
+
+<footer class="footer">
+  <span>Material pessoal, não oficial. Progresso salvo só neste navegador.</span>
+  <span class="footer-actions">
+    <button id="exportBtn" class="linklike">exportar progresso</button>
+    ·
+    <label class="linklike" for="importInput">importar progresso</label>
+    <input type="file" id="importInput" accept="application/json" hidden>
+  </span>
+</footer>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

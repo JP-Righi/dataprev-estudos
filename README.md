@@ -2,6 +2,10 @@
 
 Material pessoal de preparação, com foco em **um microtema + uma questão real FGV**, sem apostila gigante.
 
+## Site de estudos
+
+Tem uma versão navegável em `docs/` — painel com progresso, cartões clicáveis, gabarito escondido até você revelar, e contagem de dias até a prova. Roda no navegador, sem servidor. Pra colocar no ar no GitHub Pages (uma vez só), veja [SITE-SETUP.md](SITE-SETUP.md). Enquanto isso, dá pra abrir `docs/index.html` direto no navegador, local mesmo.
+
 ## O que fazer agora
 
 Comece por [Lógica, cartões 01 e 02](material-logica/01-GUIA.md): **aumentos sucessivos** e **o que é uma proposição**. Faça só esses dois; confira depois no [gabarito](material-logica/02-GABARITO.md).
@@ -15,8 +19,9 @@ Se quiser manter o foco em Português, continue da sessão em que parou. Não é
 | Português | 32 | 16 | [Comece aqui](material-portugues/00-COMECE-AQUI.md) |
 | Inglês | 10 | 5 | [Comece aqui](material-ingles/00-COMECE-AQUI.md) |
 | Raciocínio Lógico | 16 | 8 | [Comece aqui](material-logica/00-COMECE-AQUI.md) |
+| Legislação | 12 | 6 | [Comece aqui](material-legislacao/00-COMECE-AQUI.md) |
 
-Total: **58 cartões**, organizados em 29 sessões. É o tamanho do acervo, não uma obrigação de completar 29 sessões agora. Os 26 cartões novos de Inglês/Lógica incluem testes relâmpago autorais, além das questões reais.
+Total: **70 cartões**, organizados em 35 sessões. É o tamanho do acervo, não uma obrigação de completar todas as sessões agora. Os 26 cartões novos de Inglês/Lógica incluem testes relâmpago autorais, além das questões reais; os 12 de Legislação misturam 8 questões reais da FGV (LGPD e Marco Civil) com 4 testes autorais (LAI e Lei 12.737).
 
 ## Rotina curta
 
