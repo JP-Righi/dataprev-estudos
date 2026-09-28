@@ -264,12 +264,26 @@
     var prev = idx>0 ? subject.cards[idx-1] : null;
     var next = idx<subject.cards.length-1 ? subject.cards[idx+1] : null;
 
+    var questionBoxHtml = "";
+    if(card.sourceUrl){
+      questionBoxHtml =
+        '<div class="question-box">'+
+          '<div class="q-label">Questão real'+(card.sourceLabel ? ' · '+escapeHtml(card.sourceLabel) : '')+'</div>'+
+          (card.sourceNote ? '<div class="q-note">'+escapeHtml(card.sourceNote)+'</div>' : '')+
+          '<div class="pdf-frame-wrap"><iframe src="'+escapeHtml(card.sourceUrl)+'" loading="lazy" title="Questão oficial"></iframe></div>'+
+          '<a class="open-pdf-link" href="'+escapeHtml(card.sourceUrl)+'" target="_blank" rel="noopener">Abrir em nova aba &#8599;</a>'+
+          (card.answerLetter ? renderLetterPicker() : '')+
+          '<div class="answer-feedback" id="answerFeedback"></div>'+
+        '</div>';
+    }
+
     app.innerHTML =
       '<a class="back-link" href="#/subject/'+subject.id+'">&larr; '+escapeHtml(subject.name)+'</a>'+
       '<div class="card-view">'+
         '<div class="kicker">Sessão '+sess+' · cartão '+card.n+' de '+subject.cards.length+'</div>'+
         '<h1>'+escapeHtml(card.title)+'</h1>'+
         '<div class="card-body">'+mdLite(card.guia)+'</div>'+
+        questionBoxHtml+
         '<div class="gabarito-box hidden" id="gabaritoBox">'+
           '<button class="reveal-btn" id="revealBtn">Mostrar gabarito</button>'+
           '<div class="gabarito-content card-body" style="margin-top:12px">'+mdLite(card.gabarito)+'</div>'+
@@ -284,6 +298,8 @@
           (next ? '<a href="#/subject/'+subject.id+'/card/'+next.n+'">próximo &rarr;</a>' : '<a href="#/subject/'+subject.id+'">voltar à matéria</a>')+
         '</div>'+
       '</div>';
+
+    wireLetterPicker(card);
 
     var revealBtn = document.getElementById("revealBtn");
     revealBtn.addEventListener("click", function(){
@@ -304,6 +320,42 @@
   function statusButton(status, entry){
     var active = entry && entry.status===status ? " active" : "";
     return '<button class="status-btn '+status+active+'" data-status="'+status+'">'+STATUS_LABEL[status]+'</button>';
+  }
+  function renderLetterPicker(){
+    var letters = ["A","B","C","D","E"];
+    return '<div class="letter-picker">'+letters.map(function(l){
+      return '<button class="letter-btn" data-letter="'+l+'">'+l+'</button>';
+    }).join("")+'</div>';
+  }
+  function wireLetterPicker(card){
+    var btns = document.querySelectorAll(".letter-btn");
+    if(!btns.length) return;
+    Array.prototype.forEach.call(btns, function(btn){
+      btn.addEventListener("click", function(){
+        var picked = btn.dataset.letter;
+        var correct = picked === card.answerLetter;
+        Array.prototype.forEach.call(document.querySelectorAll(".letter-btn"), function(b){
+          b.classList.remove("correct","incorrect","selected");
+        });
+        btn.classList.add("selected", correct ? "correct" : "incorrect");
+        if(!correct){
+          var correctBtn = document.querySelector('.letter-btn[data-letter="'+card.answerLetter+'"]');
+          if(correctBtn) correctBtn.classList.add("correct");
+        }
+        var fb = document.getElementById("answerFeedback");
+        if(fb){
+          fb.innerHTML = correct
+            ? '<span class="fb ok">Isso! Resposta: '+card.answerLetter+'. Confira a explicação abaixo e marque como entendi ou chutei.</span>'
+            : '<span class="fb bad">Não foi essa — a certa é '+card.answerLetter+'. Veja a explicação abaixo.</span>';
+        }
+        var box = document.getElementById("gabaritoBox");
+        if(box){
+          box.classList.remove("hidden");
+          var rb = document.getElementById("revealBtn");
+          if(rb) rb.textContent = "Esconder gabarito";
+        }
+      });
+    });
   }
 
   function render(){

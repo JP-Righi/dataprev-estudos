@@ -1,6 +1,14 @@
 #!/usr/bin/env python3
 """Regera docs/data.js a partir de material-*/01-GUIA.md + 02-GABARITO.md.
 Rode da raiz do repositório: python3 scripts/gerar_data.py
+
+Além do texto de cada cartão, extrai (quando existir):
+  - sourceUrl / sourceLabel / extraNote: o link da questão real oficial, tirado
+    do primeiro link markdown no corpo do GUIA (e removido do texto exibido,
+    pra não duplicar).
+  - answerLetter: a letra correta (A-E), tirada do texto do GABARITO. Isso
+    NUNCA reproduz o enunciado/alternativas da prova — só a letra, pra dar
+    feedback certo/errado no site sem copiar conteúdo da banca.
 """
 import os, re, json
 
@@ -20,8 +28,15 @@ STRIP_LINE_RES = [
     re.compile(r'^<a id="[^"]*"></a>\s*$'),
     re.compile(r'^\[Voltar ao cart[aã]o\].*$'),
     re.compile(r'^\[Voltar ao guia\].*$'),
+    re.compile(r'^\[Conferir depois\].*$'),
     re.compile(r'^Resposta FGV:\s*_+.*$'),
+    re.compile(r'^Minha alternativa:.*Resultado:.*$'),
     re.compile(r'^---\s*$'),
+]
+LINK_RE = re.compile(r'\[([^\]]+)\]\((https?://[^\s)]+)\)')
+ANSWER_RES = [
+    re.compile(r'\*\*[^*]*?([A-E])\.\s*\*\*'),   # "**D5 — A.**" / "**D, questão 14: B.**"
+    re.compile(r'\*\*[^*]*?:\s*([A-E])\*\*'),     # "**Gabarito oficial (questão 02): A**"
 ]
 
 
@@ -66,9 +81,39 @@ def parse_cards(path):
     return cards
 
 
+def extract_source(guia_body):
+    """Acha o paragrafo com o primeiro link markdown (a questao real oficial),
+    tira o link dele pra fora, e devolve (corpo_sem_esse_paragrafo, url, label, nota_extra)."""
+    paras = guia_body.split("\n\n")
+    for i, p in enumerate(paras):
+        m = LINK_RE.search(p)
+        if not m:
+            continue
+        label, url = m.group(1), m.group(2)
+        rest = p[:m.start()] + p[m.end():]
+        # tira um prefixo em negrito tipo "**Questão real:** " ou "**Uma questão real:** "
+        rest = re.sub(r'^\*\*[^*]+\*\*[:.]?\s*', '', rest).strip()
+        rest = rest.lstrip(",.:;").strip()
+        rest = rest.replace("**", "")
+        rest = rest.strip(" .")
+        remaining = paras[:i] + paras[i+1:]
+        new_body = "\n\n".join(remaining).strip()
+        return new_body, url, label, rest
+    return guia_body, None, None, None
+
+
+def extract_answer(gabarito_body):
+    for rx in ANSWER_RES:
+        m = rx.search(gabarito_body)
+        if m:
+            return m.group(1)
+    return None
+
+
 def main():
     data = {"subjects": [], "generatedFrom": "material-*/01-GUIA.md + 02-GABARITO.md", "examDate": EXAM_DATE}
     total = 0
+    total_checkable = 0
     for s in SUBJECTS:
         guia_path = os.path.join(BASE, s["dir"], "01-GUIA.md")
         gab_path = os.path.join(BASE, s["dir"], "02-GABARITO.md")
@@ -82,10 +127,21 @@ def main():
         for n in nums:
             g = guia_cards[n]
             a = gab_cards.get(n, {"title": g["title"], "body": "(gabarito nao encontrado)"})
-            cards_out.append({"n": n, "title": g["title"], "guia": g["body"], "gabarito": a["body"]})
+            new_guia_body, url, label, extra = extract_source(g["body"])
+            answer_letter = extract_answer(a["body"]) if url else None
+            card = {
+                "n": n, "title": g["title"],
+                "guia": new_guia_body,
+                "gabarito": a["body"],
+                "sourceUrl": url, "sourceLabel": label, "sourceNote": extra or None,
+                "answerLetter": answer_letter,
+            }
+            cards_out.append(card)
+            if answer_letter:
+                total_checkable += 1
         data["subjects"].append({"id": s["id"], "name": s["name"], "cards": cards_out})
         total += len(cards_out)
-        print(f"{s['name']}: {len(cards_out)} cartoes")
+        print(f"{s['name']}: {len(cards_out)} cartoes, {sum(1 for c in cards_out if c['answerLetter'])} com gabarito checavel")
 
     out_path = os.path.join(BASE, "docs", "data.js")
     with open(out_path, "w", encoding="utf-8") as f:
@@ -93,7 +149,7 @@ def main():
         f.write("window.STUDY_DATA = ")
         json.dump(data, f, ensure_ascii=False, indent=1)
         f.write(";\n")
-    print(f"TOTAL: {total} cartoes -> {out_path}")
+    print(f"TOTAL: {total} cartoes, {total_checkable} com resposta checavel automaticamente -> {out_path}")
 
 
 if __name__ == "__main__":
