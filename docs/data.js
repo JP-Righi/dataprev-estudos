@@ -1596,6 +1596,210 @@ window.STUDY_DATA = {
      "alts": null
     }
    ]
+  },
+  {
+   "id": "especificos",
+   "name": "Conhecimentos Específicos",
+   "cards": [
+    {
+     "n": 1,
+     "title": "Requisito funcional × não funcional",
+     "guia": "**Resumo:** Requisito funcional diz o que o sistema faz: funções, regras, comportamentos (\"consultar saldo\", \"emitir extrato\"). Requisito não funcional diz como ele deve fazer ou sob quais restrições: desempenho, segurança, usabilidade, disponibilidade, confiabilidade, portabilidade. Um mesmo recurso costuma gerar os dois: \"consultar saldo\" é funcional; \"o saldo deve aparecer em tempo real\" é uma exigência de qualidade sobre essa função, ou seja, não funcional.\n\n**Exemplo autoral:** \"O sistema deve permitir transferir dinheiro entre contas\" é funcional. \"A transferência deve terminar em até 2 segundos, mesmo com 10 mil usuários ao mesmo tempo\" é não funcional (desempenho e escala).\n\n**Como atacar:** Pergunte ao enunciado: o que foi pedido é uma função nova ou uma qualidade (rapidez, segurança, facilidade, disponibilidade) de uma função que já existe? \"Em tempo real\", \"em até\", \"sempre disponível\" e \"criptografado\" apontam para não funcional.",
+     "gabarito": "**D54 — B.** \"Em tempo real\" é uma exigência de desempenho sobre uma função que já existia (consultar saldo), então o requisito é não funcional.",
+     "sourceUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/ati-desenvolvimento-de-software-cns003-tipo-01.pdf#page=12",
+     "sourceLabel": "D · questão 54 · página 12",
+     "sourceNote": null,
+     "answerLetter": "B",
+     "asks": "correta",
+     "alts": {
+      "A": "Erra a classificação. A função \"consultar saldo\" já existe; o que se pediu foi que ela fosse feita em tempo real, que é uma qualidade (desempenho), e não uma funcionalidade nova.",
+      "B": "Certa. O requisito descreve como a função deve se comportar (tempo real), ou seja, desempenho: é não funcional. A função em si (mostrar o saldo) seria o requisito funcional.",
+      "C": "A entrevista é uma conversa dirigida para levantar necessidades. Prototipação é construir um modelo (uma tela, um esboço) para o usuário reagir; entrevista e protótipo são técnicas diferentes.",
+      "D": "O brainstorming é uma técnica válida de elicitação, boa para gerar ideias em grupo. O \"apenas entrevistas formais com usuários finais\" é exagero absoluto e falso.",
+      "E": "A engenharia de requisitos acontece no começo e de forma iterativa. Esperar o software pronto para descobrir o que o usuário precisa seria tarde e caro."
+     }
+    },
+    {
+     "n": 2,
+     "title": "Elicitação de requisitos: técnicas e processo",
+     "guia": "**Resumo:** Elicitar é descobrir o que os interessados precisam. Técnicas comuns: entrevista (conversa dirigida), questionário (muitas pessoas, respostas padronizadas), brainstorming (ideias em grupo, sem crítica no início), observação (ver o trabalho acontecer), workshop ou JAD (reunião estruturada), análise de documentos, cenários e casos de uso, e prototipação (um modelo para o usuário reagir e validar). O processo passa por elicitação, análise, especificação, validação e gestão de mudanças; acontece no começo e de forma iterativa, não \"depois da implementação\".\n\n**Exemplo autoral:** Para entender o trabalho de um caixa de agência, observá-lo mostra passos que uma entrevista não revelaria. Mostrar uma tela desenhada e pedir correções é prototipação.\n\n**Como atacar:** Palavras absolutas (\"apenas\", \"somente\", \"geralmente depois do código\") tendem a ser falsas. Ligue a técnica ao verbo: perguntar é entrevista, ver é observação, desenhar um modelo é protótipo, gerar ideias em grupo é brainstorming.\n\n**Teste relâmpago (autoral, não é questão FGV):** Uma equipe levanta os requisitos de um sistema de atendimento ao cidadão.\nJulgue os itens:\nI. Observar os atendentes no balcão é uma técnica de elicitação e pode revelar necessidades que não aparecem em entrevistas.\nII. A engenharia de requisitos ocorre uma única vez, antes de qualquer outra atividade, e os requisitos não devem ser revistos depois.\nIII. Mostrar telas desenhadas aos usuários e colher correções é uma forma de prototipação.\nEstá correto o que se afirma em\n(A) I, apenas.\n(B) II, apenas.\n(C) III, apenas.\n(D) I e II, apenas.\n(E) I e III, apenas.",
+     "gabarito": "**Resposta comentada (autoral).** Gabarito: E (I e III, apenas). A I está certa: observar o trabalho real é uma técnica de elicitação e mostra o que as pessoas fazem e não pensam em dizer na entrevista. A II está errada: a engenharia de requisitos é iterativa; os requisitos são validados e mudam ao longo do projeto, então \"uma única vez\" e \"não devem ser revistos\" são falsos. A III está certa: mostrar telas desenhadas e colher correções é prototipação.",
+     "sourceUrl": null,
+     "sourceLabel": null,
+     "sourceNote": null,
+     "answerLetter": null,
+     "asks": null,
+     "alts": null
+    },
+    {
+     "n": 3,
+     "title": "Blockchain: o que fica dentro de um bloco",
+     "guia": "**Resumo:** Um bloco tem cabeçalho e corpo. No cabeçalho ficam o hash do bloco anterior (é ele que forma a \"corrente\"), o carimbo de tempo (timestamp), o nonce e a raiz de Merkle das transações. No corpo ficam as transações, cada uma com sua assinatura digital. O saldo das carteiras não é gravado no bloco: no Bitcoin ele é deduzido do histórico de transações (saídas não gastas, UTXO); no Ethereum, o bloco guarda apenas hashes (raízes) do estado, não os saldos.\n\n**Exemplo autoral:** Se Ana paga 1 moeda a Beto, o bloco registra a transação assinada por Ana. A informação \"Ana agora tem 4\" não está escrita no bloco: é uma conta feita a partir do histórico.\n\n**Como atacar:** Em \"o que NÃO é armazenado\", procure a opção que é resultado de cálculo (saldo, total, estado atual). Hash anterior, timestamp, transações e assinaturas são dados que entram no bloco.",
+     "gabarito": "**D56 — C.** A questão pede o que NÃO é armazenado: o saldo das carteiras não vai no bloco; ele é calculado a partir do histórico de transações.",
+     "sourceUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/ati-desenvolvimento-de-software-cns003-tipo-01.pdf#page=12",
+     "sourceLabel": "D · questão 56 · página 12",
+     "sourceNote": null,
+     "answerLetter": "C",
+     "asks": "incorreta",
+     "alts": {
+      "A": "Está no bloco. O hash do bloco anterior fica no cabeçalho e é ele que encadeia os blocos; como a questão pede o que NÃO é armazenado, esta não é a resposta.",
+      "B": "Está no bloco. Cada transação carrega a assinatura digital de quem a enviou, o que prova a autoria e permite a validação pela rede.",
+      "C": "É a que NÃO é armazenada diretamente. No Bitcoin, o saldo é deduzido do histórico de transações (saídas não gastas, UTXO); no Ethereum, o bloco guarda só hashes (raízes) do estado, e não os saldos. É a resposta.",
+      "D": "Está no bloco. O carimbo de tempo fica no cabeçalho e registra quando o bloco foi criado, ajudando a ordenar a cadeia.",
+      "E": "Está no bloco. Os dados das transações compõem o corpo do bloco, que é justamente a informação que a cadeia existe para registrar."
+     }
+    },
+    {
+     "n": 4,
+     "title": "Blockchain: consenso, imutabilidade e contratos inteligentes",
+     "guia": "**Resumo:** A rede é distribuída: cada nó guarda uma cópia do livro-razão e um mecanismo de consenso decide qual bloco entra. Na prova de trabalho (PoW, Bitcoin), mineradores gastam poder computacional para achar um nonce válido; na prova de participação (PoS, Ethereum desde 2022), validadores colocam moedas em garantia. A imutabilidade vem do encadeamento: alterar um bloco muda seu hash e quebra os seguintes, e refazer a cadeia mais rápido que a rede honesta exige poder enorme (ataque de 51%). Contratos inteligentes são programas gravados na blockchain e executados automaticamente.\n\n**Exemplo autoral:** Mudar o valor de uma transação antiga muda o hash daquele bloco; o bloco seguinte guardava o hash antigo, então a cadeia deixa de \"fechar\".\n\n**Como atacar:** Cuidado com \"impossível alterar\" (é impraticável, não impossível) e com \"uma autoridade central valida os blocos\" (o consenso distribuído substitui a autoridade). PoW é gasto de poder computacional; PoS é valor em garantia.\n\n**Teste relâmpago (autoral, não é questão FGV):** Um órgão público avalia usar blockchain para registrar certificados.\nJulgue os itens:\nI. Na prova de trabalho, mineradores competem para achar um nonce válido, e o primeiro que consegue propõe o bloco.\nII. Contratos inteligentes são programas armazenados na blockchain que executam automaticamente quando as condições programadas são cumpridas.\nIII. Alterar uma transação em um bloco antigo afeta apenas aquele bloco, sem invalidar os seguintes.\nEstá correto o que se afirma em\n(A) I, apenas.\n(B) II, apenas.\n(C) III, apenas.\n(D) I e II, apenas.\n(E) I e III, apenas.",
+     "gabarito": "**Resposta comentada (autoral).** Gabarito: D (I e II, apenas). A I está certa: na prova de trabalho os mineradores competem para achar um nonce válido, e quem consegue primeiro propõe o bloco. A II está certa: contratos inteligentes são programas gravados na blockchain que executam sozinhos quando as condições programadas se cumprem. A III está errada: cada bloco guarda o hash do anterior; ao alterar uma transação antiga, o hash daquele bloco muda e os blocos seguintes deixam de \"fechar\", ou seja, ficam inválidos. É assim que a cadeia detecta adulteração.",
+     "sourceUrl": null,
+     "sourceLabel": null,
+     "sourceNote": null,
+     "answerLetter": null,
+     "asks": null,
+     "alts": null
+    },
+    {
+     "n": 5,
+     "title": "Arquitetura hexagonal, microsserviços e monolito",
+     "guia": "**Resumo:** Hexagonal (Portas e Adaptadores, de Alistair Cockburn): o núcleo de negócio fica isolado; as portas são as interfaces que ele oferece ou exige, e os adaptadores ligam as portas ao mundo externo (web, banco, filas, testes). Trocar o banco ou a API não mexe na regra de negócio. Monólito: tudo é implantado como uma unidade só, ainda que dividido em módulos. Microsserviços: serviços pequenos, cada um com sua responsabilidade, implantação independente e, em regra, seu próprio banco, com baixo acoplamento.\n\n**Exemplo autoral:** Num sistema de pedidos hexagonal, o cálculo do frete não sabe se o pedido veio por REST ou por fila: um adaptador converte. Em microsserviços, \"pedidos\" e \"pagamentos\" são implantados e escalados separadamente.\n\n**Como atacar:** Em microsserviços, desconfie de \"compartilham o mesmo banco\" e \"maior acoplamento\": a ideia é banco por serviço e baixo acoplamento. Hexagonal separa negócio de infraestrutura; monólito é implantação conjunta.",
+     "gabarito": "**D57 — E.** I e III estão certas; a II é falsa porque microsserviços buscam baixo acoplamento e, em regra, cada serviço tem o seu banco.",
+     "sourceUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/ati-desenvolvimento-de-software-cns003-tipo-01.pdf#page=13",
+     "sourceLabel": "D · questão 57 · página 13",
+     "sourceNote": null,
+     "answerLetter": "E",
+     "asks": "correta",
+     "alts": {
+      "A": "A I está certa (hexagonal separa o negócio das interfaces externas), mas a III, sobre monólito × microsserviços, também está certa e ficou de fora.",
+      "B": "É a pior escolha: só a II, justamente a falsa. Microsserviços não compartilham o mesmo banco para ganhar acoplamento; fazem o contrário, para manter os serviços independentes.",
+      "C": "A III está certa (monólito é implantado como um conjunto; microsserviços, de forma independente), mas a I, sobre a arquitetura hexagonal, também está certa.",
+      "D": "Inclui a II, que é falsa (banco compartilhado e \"maior acoplamento\" contradizem a ideia de microsserviços), e deixa de fora a III, que é verdadeira.",
+      "E": "I e III estão certas. A I descreve a arquitetura hexagonal (portas e adaptadores separando o negócio das interfaces externas); a III contrasta o monólito, implantado em conjunto, com os microsserviços, de implantação independente."
+     }
+    },
+    {
+     "n": 6,
+     "title": "Design × arquitetura de software",
+     "guia": "**Resumo:** Arquitetura trata das decisões amplas e estruturais: como o sistema se divide em componentes (camadas, módulos, serviços), como eles se comunicam e quais qualidades (desempenho, segurança, escalabilidade) a estrutura precisa garantir. Design detalha as decisões dentro desses componentes: classes, métodos, interfaces, algoritmos. Alto nível é a planta da casa (arquitetura); baixo nível é o detalhe de cada cômodo (design detalhado). Todo sistema tem arquitetura, inclusive o pequeno.\n\n**Exemplo autoral:** Dividir o sistema em API, serviço de pagamentos e banco é arquitetura. Decidir quais classes e métodos o serviço de pagamentos terá é design.\n\n**Como atacar:** Desconfie de definições que trocam alto e baixo nível, que reduzem design a \"codificação\" e de \"só para grandes projetos\".",
+     "gabarito": "**D43 — D.** Arquitetura trata das decisões amplas e estruturais; design trata das decisões detalhadas e específicas dentro dos componentes.",
+     "sourceUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/ati-desenvolvimento-de-software-cns003-tipo-01.pdf#page=10",
+     "sourceLabel": "D · questão 43 · página 10",
+     "sourceNote": null,
+     "answerLetter": "D",
+     "asks": "correta",
+     "alts": {
+      "A": "Reduz o design a \"codificação\" e diz que ele não envolve abstrações ou estruturas maiores. Design de software lida com abstrações, estruturas e interfaces; programar é outra atividade.",
+      "B": "Troca os níveis. Definir a estrutura geral do sistema, com módulos e sua interação, é arquitetura (alto nível), não design de baixo nível.",
+      "C": "Também troca os níveis. Decidir funções e métodos dentro dos componentes é o design detalhado (baixo nível); o alto nível trata da estrutura geral.",
+      "D": "Certa. A arquitetura define a estrutura ampla (componentes, comunicação, qualidades do sistema); o design detalha o interior de cada componente (classes, métodos, algoritmos).",
+      "E": "Falsa por \"apenas\" e \"irrelevante\": todo sistema tem arquitetura, inclusive o pequeno. O que muda com o porte é o quanto se formaliza."
+     }
+    },
+    {
+     "n": 7,
+     "title": "Microsserviços na prática: banco por serviço, containers e transações distribuídas",
+     "guia": "**Resumo:** Em microsserviços cada serviço é dono dos seus dados (banco por serviço) e os outros o acessam por API ou mensagem, não direto no banco. Containers (Docker) empacotam o serviço com suas dependências e rodam igual em qualquer ambiente, compartilhando o kernel do host (por isso são mais leves que máquinas virtuais); um orquestrador (Kubernetes) cuida de escala e reinício. Sem uma transação ACID única entre vários bancos, usa-se o padrão Saga: uma sequência de transações locais, cada uma com uma ação de compensação caso algo falhe adiante. O commit em duas fases (2PC) existe, mas é pesado. O resultado típico é consistência eventual.\n\n**Exemplo autoral:** Um pedido reserva estoque e depois cobra o cartão. Se o pagamento falha, a Saga executa a compensação \"liberar o estoque\".\n\n**Como atacar:** \"Transação ACID global entre todos os serviços\" e \"todos compartilham um único banco\" descrevem monólito. Container não carrega um sistema operacional completo, como faz a máquina virtual.\n\n**Teste relâmpago (autoral, não é questão FGV):** Uma plataforma de pedidos foi dividida em microsserviços.\nJulgue os itens:\nI. Para garantir consistência imediata, todos os serviços devem compartilhar um único banco de dados.\nII. Cada container carrega um sistema operacional completo, como uma máquina virtual, e por isso é tão pesado quanto ela.\nIII. No padrão Saga, quando um passo falha, ações de compensação desfazem os passos já concluídos.\nEstá correto o que se afirma em\n(A) I, apenas.\n(B) II, apenas.\n(C) III, apenas.\n(D) I e II, apenas.\n(E) I e III, apenas.",
+     "gabarito": "**Resposta comentada (autoral).** Gabarito: C (III, apenas). A I está errada: compartilhar um único banco amarra os serviços entre si e contradiz a independência dos microsserviços; o normal é cada serviço ter seus dados e aceitar consistência eventual. A II está errada: o container compartilha o kernel do sistema operacional do host e empacota só a aplicação e suas dependências, por isso é bem mais leve que a máquina virtual, que carrega um sistema operacional completo. A III está certa: no padrão Saga, cada passo é uma transação local e, se um passo falha, ações de compensação desfazem os passos já concluídos (por exemplo, liberar o estoque reservado).",
+     "sourceUrl": null,
+     "sourceLabel": null,
+     "sourceNote": null,
+     "answerLetter": null,
+     "asks": null,
+     "alts": null
+    },
+    {
+     "n": 8,
+     "title": "DevOps: integração, entrega e implantação contínuas",
+     "guia": "**Resumo:** DevOps junta desenvolvimento e operações para entregar software mais rápido e com segurança. Integração Contínua (CI): o código é integrado várias vezes ao dia e cada integração dispara build e testes automáticos. Entrega Contínua (CD, continuous delivery): o pipeline deixa cada versão aprovada pronta para ir à produção a qualquer momento, com baixo risco e poucas interrupções (a liberação final pode depender de decisão humana). Implantação Contínua (continuous deployment): vai à produção automaticamente, sem aprovação manual. Gestão de configuração controla versões e ambientes; monitoramento contínuo observa a aplicação em produção.\n\n**Exemplo autoral:** Cada push roda build e testes (CI). Se passam, o pipeline gera a versão pronta, e a empresa libera com um clique (entrega contínua) ou sem clique algum (implantação contínua).\n\n**Como atacar:** \"Integrar e testar a cada alteração\" é CI. \"Levar rapidamente uma nova versão à produção com poucas interrupções\" é entrega ou implantação contínua. \"Histórico do código\" é controle de versão. \"Observar a aplicação rodando\" é monitoramento.",
+     "gabarito": "**D55 — B.** Levar rapidamente uma nova versão à produção com o mínimo de interrupções é a Entrega Contínua (CD).",
+     "sourceUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/ati-desenvolvimento-de-software-cns003-tipo-01.pdf#page=12",
+     "sourceLabel": "D · questão 55 · página 12",
+     "sourceNote": null,
+     "answerLetter": "B",
+     "asks": "correta",
+     "alts": {
+      "A": "Integração Contínua (CI) é integrar o código várias vezes ao dia, com build e testes automáticos a cada integração. Ela vem antes da entrega, mas não é a prática de levar a versão à produção.",
+      "B": "Certa. A Entrega Contínua mantém cada versão aprovada pronta para ir à produção com baixo risco e poucas interrupções para os usuários, que é o que o enunciado descreve.",
+      "C": "Gerenciamento de configuração controla versões, parâmetros e ambientes, para que eles sejam reproduzíveis. Ajuda a entrega, mas não é a prática de entregar a versão à produção.",
+      "D": "Monitoramento contínuo observa a aplicação em produção (desempenho, erros, disponibilidade). Acontece depois da entrega e não a realiza.",
+      "E": "Controle de versão guarda o histórico do código e permite trabalhar em paralelo (como o Git). É base do pipeline, mas não implanta nada."
+     }
+    },
+    {
+     "n": 9,
+     "title": "Controle de acesso: DAC, MAC e RBAC",
+     "guia": "**Resumo:** DAC (discricionário): o dono do recurso decide quem acessa, normalmente por listas de controle de acesso (ACL); é o modelo das permissões de arquivos comuns. MAC (mandatório): uma política central, que o usuário não pode alterar, compara o rótulo de segurança do recurso (ex.: secreto, confidencial) com a autorização do sujeito; é o modelo de ambientes militares e governamentais. RBAC (por papéis): as permissões pertencem a papéis (gerente, caixa) e os usuários recebem papéis. Privilégio mínimo é um princípio (dar só o necessário), não um tipo de política.\n\n**Exemplo autoral:** Um documento \"secreto\" só pode ser lido por quem tem autorização \"secreto\" ou superior, mesmo que o dono queira compartilhar: MAC. O dono compartilhando uma planilha com um colega é DAC. O perfil \"auditor\" que libera certos relatórios é RBAC.\n\n**Como atacar:** Procure a pista: dono decide é discricionário; rótulos comparados com autorizações é mandatório; papéis é RBAC. \"Por privilégio mínimo\" é princípio, não política.",
+     "gabarito": "**D62 — B.** Comparar rótulos de segurança do recurso com autorizações das entidades é o controle de acesso mandatório (MAC).",
+     "sourceUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/ati-desenvolvimento-de-software-cns003-tipo-01.pdf#page=13",
+     "sourceLabel": "D · questão 62 · página 13",
+     "sourceNote": null,
+     "answerLetter": "B",
+     "asks": "correta",
+     "alts": {
+      "A": "No discricionário (DAC), é o dono do recurso quem decide quem acessa, normalmente por listas de controle de acesso. Não há comparação obrigatória de rótulos com autorizações.",
+      "B": "Certa. No mandatório (MAC), uma política central, que o usuário não altera, compara o rótulo de segurança do recurso (secreto, confidencial) com a autorização do sujeito.",
+      "C": "\"Por entrada confiável\" não é um dos modelos clássicos (DAC, MAC, RBAC). É um nome que soa técnico, usado como distrator.",
+      "D": "Por papéis (RBAC) liga as permissões a papéis, como gerente ou auditor, e os usuários recebem papéis. O critério é o papel, não o rótulo.",
+      "E": "Privilégio mínimo é um princípio de segurança (dar só o acesso necessário), e não um tipo de política de controle de acesso."
+     }
+    },
+    {
+     "n": 10,
+     "title": "X.800: serviços e mecanismos de segurança",
+     "guia": "**Resumo:** A X.800 (arquitetura de segurança do modelo OSI) define cinco serviços: autenticação, controle de acesso, confidencialidade dos dados, integridade dos dados e irretratabilidade (não repúdio). Para entregá-los, define oito mecanismos específicos, ligados a uma camada ou serviço: cifragem, assinatura digital, controle de acesso, integridade de dados, troca de autenticação, preenchimento de tráfego, controle de roteamento e notarização. E cinco mecanismos disseminados, que não são específicos de camada: funcionalidade confiável, rótulo de segurança, detecção de eventos, trilha de auditoria de segurança e recuperação de segurança.\n\n**Exemplo autoral:** Preencher o tráfego com dados falsos para esconder o volume real de comunicação protege uma conexão em particular: é mecanismo específico. A trilha de auditoria registra o que acontece no sistema todo: é disseminado.\n\n**Como atacar:** Decore os cinco disseminados (confiável, rótulo, evento, auditoria, recuperação). O que sobrar nas alternativas é específico. Preenchimento de tráfego é específico.",
+     "gabarito": "**D64 — C.** Preenchimento de tráfego é mecanismo específico da X.800; os outros quatro são mecanismos disseminados.",
+     "sourceUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/ati-desenvolvimento-de-software-cns003-tipo-01.pdf#page=14",
+     "sourceLabel": "D · questão 64 · página 14",
+     "sourceNote": null,
+     "answerLetter": "C",
+     "asks": "correta",
+     "alts": {
+      "A": "Detecção de evento é mecanismo disseminado: serve ao sistema todo e não é específico de uma camada ou serviço.",
+      "B": "Funcionalidade confiável é mecanismo disseminado. Os cinco disseminados são funcionalidade confiável, rótulo de segurança, detecção de eventos, trilha de auditoria e recuperação de segurança.",
+      "C": "Certa. O preenchimento de tráfego está entre os oito mecanismos específicos (cifragem, assinatura digital, controle de acesso, integridade de dados, troca de autenticação, preenchimento de tráfego, controle de roteamento e notarização).",
+      "D": "Rótulo de segurança é mecanismo disseminado, associado a um recurso para indicar seu nível de proteção; não é ligado a uma camada.",
+      "E": "Trilha de auditoria de segurança é mecanismo disseminado: registra o que acontece no sistema inteiro, sem ser específica de uma camada."
+     }
+    },
+    {
+     "n": 11,
+     "title": "OWASP Top 10:2021",
+     "guia": "**Resumo:** O OWASP Top 10 lista as categorias de risco mais críticas em aplicações web. Edição 2021: A01 controle de acesso quebrado, A02 falhas criptográficas, A03 injeção, A04 design inseguro, A05 configuração incorreta de segurança, A06 componentes vulneráveis e desatualizados, A07 falhas de identificação e autenticação, A08 falhas de integridade de software e dados, A09 falhas de log e monitoramento, A10 falsificação de solicitação do lado do servidor (SSRF). Atenção à versão: a edição 2025 mudou (SSRF foi incorporada ao controle de acesso quebrado e entrou \"falhas na cadeia de suprimentos de software\").\n\n**Exemplo autoral:** Na SSRF, o atacante faz o servidor da aplicação buscar uma URL interna (como um serviço de metadados) que ele não alcançaria de fora.\n\n**Como atacar:** A pergunta cita o ano. Em 2021, as categorias novas eram design inseguro, integridade de software e dados e SSRF. \"Cadeia de suprimentos\" como categoria própria só aparece em 2025.",
+     "gabarito": "**D63 — A.** Em 2021, uma das categorias novas do Top 10 foi a falsificação de solicitação do lado do servidor (SSRF, A10).",
+     "sourceUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/ati-desenvolvimento-de-software-cns003-tipo-01.pdf#page=14",
+     "sourceLabel": "D · questão 63 · página 14",
+     "sourceNote": "A lista de 2025 está em [owasp.org](https://owasp.org/Top10/)",
+     "answerLetter": "A",
+     "asks": "correta",
+     "alts": {
+      "A": "Certa. SSRF (A10:2021) é a falha em que o atacante faz o servidor da aplicação enviar requisições a destinos que ele não alcançaria diretamente, como serviços internos.",
+      "B": "\"Falhas na cadeia de suprimentos de software\" como categoria própria aparece na edição 2025. Em 2021 o tema aparecia diluído em componentes vulneráveis (A06) e falhas de integridade de software e dados (A08).",
+      "C": "\"Proteção do ambiente de engenharia\" não é categoria de vulnerabilidade do Top 10. As categorias descrevem tipos de falha, como injeção ou controle de acesso quebrado.",
+      "D": "\"Treinamento operacional\" é uma prática organizacional, não uma categoria de vulnerabilidade da lista.",
+      "E": "\"Uso de recursos de linguagens e frameworks\" é conselho de desenvolvimento seguro, não uma categoria de vulnerabilidade do OWASP Top 10:2021."
+     }
+    },
+    {
+     "n": 12,
+     "title": "HTTPS, SSL e TLS",
+     "guia": "**Resumo:** HTTPS é o HTTP dentro de um canal protegido por TLS (antes chamado SSL). O canal dá confidencialidade (criptografia dos dados), integridade (detecta alteração) e autenticação do servidor por certificado digital. Na abertura da conexão acontece o handshake: negocia versão e algoritmos, autentica o servidor e combina as chaves. Depois, os dados trafegam cifrados com chave simétrica (rápida), e a criptografia assimétrica serve à troca de chaves e à autenticação. SSL é o protocolo antigo (versões 2.0 e 3.0, abandonadas por vulnerabilidades); TLS é o sucessor padronizado, e hoje se usam o TLS 1.2 e o 1.3.\n\n**Exemplo autoral:** O cadeado no navegador indica que a conexão usa TLS e que o certificado do site foi validado por uma autoridade certificadora.\n\n**Como atacar:** Em \"SSL × TLS\", a resposta certa quase sempre diz que o TLS é o sucessor, com correções de segurança. Desconfie de \"SSL mais seguro\", \"intercambiáveis\" e \"papéis divididos entre os dois\".",
+     "gabarito": "**D46 — B.** O TLS é o sucessor do SSL e corrige as vulnerabilidades das versões anteriores, com melhorias de segurança.",
+     "sourceUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/ati-desenvolvimento-de-software-cns003-tipo-01.pdf#page=11",
+     "sourceLabel": "D · questão 46 · página 11",
+     "sourceNote": null,
+     "answerLetter": "B",
+     "asks": "correta",
+     "alts": {
+      "A": "Inverte a relação. O SSL (versões 2.0 e 3.0) foi abandonado por falhas de segurança; o TLS é o mais seguro e é o que se usa hoje.",
+      "B": "Certa. O TLS substitui o SSL, corrigindo as vulnerabilidades encontradas nas versões anteriores e trazendo melhorias. Hoje o padrão é o TLS 1.2 e o 1.3.",
+      "C": "Não são intercambiáveis: o SSL é inseguro e está obsoleto. A diferença não se limita à compatibilidade de navegadores.",
+      "D": "Falso. O HTTPS funciona com TLS; o SSL foi abandonado, e ter sido o primeiro protocolo não significa que seja o único possível.",
+      "E": "SSL e TLS não se somam com papéis divididos. São gerações do mesmo tipo de protocolo; o TLS faz sozinho a autenticação e a criptografia dos dados."
+     }
+    }
+   ]
   }
  ],
  "generatedFrom": "material-*/01-GUIA.md + 02-GABARITO.md",

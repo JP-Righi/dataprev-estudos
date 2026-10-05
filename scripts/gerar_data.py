@@ -25,6 +25,7 @@ SUBJECTS = [
     {"id": "logica", "name": "Raciocínio Lógico", "dir": "material-logica"},
     {"id": "legislacao", "name": "Legislação", "dir": "material-legislacao"},
     {"id": "atualidades", "name": "Atualidades e IA", "dir": "material-atualidades"},
+    {"id": "especificos", "name": "Conhecimentos Específicos", "dir": "material-especificos"},
 ]
 
 EXAM_DATE = "2026-10-11"

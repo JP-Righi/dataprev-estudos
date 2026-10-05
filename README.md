@@ -21,8 +21,9 @@ Se quiser manter o foco em Português, continue da sessão em que parou. Não é
 | Raciocínio Lógico | 16 | 8 | [Comece aqui](material-logica/00-COMECE-AQUI.md) |
 | Legislação | 12 | 6 | [Comece aqui](material-legislacao/00-COMECE-AQUI.md) |
 | Atualidades e IA | 24 | 12 | [Comece aqui](material-atualidades/00-COMECE-AQUI.md) |
+| Conhecimentos Específicos (bloco 1) | 12 | 6 | [Comece aqui](material-especificos/00-COMECE-AQUI.md) |
 
-Total: **94 cartões**, organizados em 47 sessões. É o tamanho do acervo, não uma obrigação de completar todas as sessões agora. Os 26 cartões novos de Inglês/Lógica incluem testes relâmpago autorais, além das questões reais; os 12 de Legislação misturam 8 questões reais da FGV (LGPD e Marco Civil) com 4 testes autorais (LAI e Lei 12.737). Os 24 de Atualidades e IA têm 7 questões reais (5 da DATAPREV 2024 e 2 da Polícia Civil do Piauí 2026) e o restante com testes relâmpago autorais e fatos de 2025 e 2026 checados em out/2026.
+Total: **106 cartões**, organizados em 53 sessões. É o tamanho do acervo, não uma obrigação de completar todas as sessões agora. Os 26 cartões novos de Inglês/Lógica incluem testes relâmpago autorais, além das questões reais; os 12 de Legislação misturam 8 questões reais da FGV (LGPD e Marco Civil) com 4 testes autorais (LAI e Lei 12.737). Os 24 de Atualidades e IA têm 7 questões reais (5 da DATAPREV 2024 e 2 da Polícia Civil do Piauí 2026) e o restante com testes relâmpago autorais e fatos de 2025 e 2026 checados em out/2026. Os 12 de Conhecimentos Específicos (primeiro bloco) têm 9 questões reais da DATAPREV 2024 e 3 testes autorais; cobrem os temas das questões 54, 56, 57, 62 e 64 e vizinhos, e ainda não esgotam o programa da matéria.
 
 ## Rotina curta
 
