@@ -24,6 +24,7 @@ SUBJECTS = [
     {"id": "ingles", "name": "Inglês", "dir": "material-ingles"},
     {"id": "logica", "name": "Raciocínio Lógico", "dir": "material-logica"},
     {"id": "legislacao", "name": "Legislação", "dir": "material-legislacao"},
+    {"id": "atualidades", "name": "Atualidades e IA", "dir": "material-atualidades"},
 ]
 
 EXAM_DATE = "2026-10-11"
@@ -38,6 +39,7 @@ STRIP_LINE_RES = [
     re.compile(r'^Minha alternativa:.*Resultado:.*$'),
     re.compile(r'^---\s*$'),
 ]
+QREAL_RE = re.compile(r'^\*\*(?:uma\s+)?quest[aã]o real', re.I)
 LINK_RE = re.compile(r'\[([^\]]+)\]\((https?://[^\s)]+)\)')
 ANSWER_RES = [
     re.compile(r'\*\*[^*]*?([A-E])\.\s*\*\*'),   # "**D5 — A.**" / "**D, questão 14: B.**"
@@ -117,6 +119,10 @@ def extract_source(guia_body):
     tira o link dele pra fora, e devolve (corpo_sem_esse_paragrafo, url, label, nota_extra)."""
     paras = guia_body.split("\n\n")
     for i, p in enumerate(paras):
+        # so o paragrafo "**Questao real:**" / "**Uma questao real:**" vale como fonte;
+        # outros links (ex.: "Fontes" de um fato) ficam no texto normal.
+        if not QREAL_RE.match(p.strip()):
+            continue
         m = LINK_RE.search(p)
         if not m:
             continue
