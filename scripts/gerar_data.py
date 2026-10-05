@@ -9,6 +9,11 @@ Além do texto de cada cartão, extrai (quando existir):
   - answerLetter: a letra correta (A-E), tirada do texto do GABARITO. Isso
     NUNCA reproduz o enunciado/alternativas da prova — só a letra, pra dar
     feedback certo/errado no site sem copiar conteúdo da banca.
+  - asks / alts: explicação por alternativa, escrita à mão no GABARITO, em linhas
+        - pede: correta|incorreta
+        - A: por que essa alternativa é certa/errada (palavras próprias)
+        - B: ...
+    Essas linhas saem do texto do gabarito exibido e viram card["alts"].
 """
 import os, re, json
 
@@ -38,6 +43,32 @@ ANSWER_RES = [
     re.compile(r'\*\*[^*]*?([A-E])\.\s*\*\*'),   # "**D5 — A.**" / "**D, questão 14: B.**"
     re.compile(r'\*\*[^*]*?:\s*([A-E])\*\*'),     # "**Gabarito oficial (questão 02): A**"
 ]
+
+
+ASKS_RE = re.compile(r'^-\s*pede:\s*(correta|incorreta)\s*$', re.I)
+ALT_RE = re.compile(r'^-\s*([A-E]):\s*(.+?)\s*$')
+
+
+def extract_explanations(gab_body):
+    """Separa as linhas '- pede:' e '- X:' do corpo do gabarito.
+    Devolve (corpo_sem_elas, asks, alts_dict_ou_None)."""
+    asks = None
+    alts = {}
+    kept = []
+    for ln in gab_body.split("\n"):
+        t = ln.strip()
+        m = ASKS_RE.match(t)
+        if m:
+            asks = m.group(1).lower()
+            continue
+        m = ALT_RE.match(t)
+        if m:
+            alts[m.group(1)] = m.group(2)
+            continue
+        kept.append(ln)
+    body = "\n".join(kept)
+    body = re.sub(r"\n{3,}", "\n\n", body).strip()
+    return body, asks, (alts or None)
 
 
 def clean_lines(lines):
@@ -129,19 +160,31 @@ def main():
             a = gab_cards.get(n, {"title": g["title"], "body": "(gabarito nao encontrado)"})
             new_guia_body, url, label, extra = extract_source(g["body"])
             answer_letter = extract_answer(a["body"]) if url else None
+            gab_text, asks, alts = extract_explanations(a["body"])
+            if alts:
+                if set(alts) != set("ABCDE"):
+                    print(f"AVISO {s['id']}#{n}: explicacao incompleta, faltam {sorted(set('ABCDE') - set(alts))}")
+                if answer_letter and answer_letter not in alts:
+                    print(f"AVISO {s['id']}#{n}: sem explicacao da letra do gabarito ({answer_letter})")
+                if asks is None:
+                    print(f"AVISO {s['id']}#{n}: falta a linha '- pede: correta|incorreta'")
             card = {
                 "n": n, "title": g["title"],
                 "guia": new_guia_body,
-                "gabarito": a["body"],
+                "gabarito": gab_text,
                 "sourceUrl": url, "sourceLabel": label, "sourceNote": extra or None,
                 "answerLetter": answer_letter,
+                "asks": asks if alts else None,
+                "alts": alts,
             }
             cards_out.append(card)
             if answer_letter:
                 total_checkable += 1
         data["subjects"].append({"id": s["id"], "name": s["name"], "cards": cards_out})
         total += len(cards_out)
-        print(f"{s['name']}: {len(cards_out)} cartoes, {sum(1 for c in cards_out if c['answerLetter'])} com gabarito checavel")
+        com_expl = sum(1 for c in cards_out if c["alts"])
+        sem_expl = [c["n"] for c in cards_out if c["answerLetter"] and not c["alts"]]
+        print(f"{s['name']}: {len(cards_out)} cartoes, {sum(1 for c in cards_out if c['answerLetter'])} com gabarito checavel, {com_expl} com explicacao por alternativa" + (f" (faltam: {sem_expl})" if sem_expl else ""))
 
     out_path = os.path.join(BASE, "docs", "data.js")
     with open(out_path, "w", encoding="utf-8") as f:

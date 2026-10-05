@@ -286,7 +286,9 @@
         questionBoxHtml+
         '<div class="gabarito-box hidden" id="gabaritoBox">'+
           '<button class="reveal-btn" id="revealBtn">Mostrar gabarito</button>'+
-          '<div class="gabarito-content card-body" style="margin-top:12px">'+mdLite(card.gabarito)+'</div>'+
+          '<div class="gabarito-content card-body" style="margin-top:12px">'+mdLite(card.gabarito)+
+            '<div class="explain" id="explain">'+explanationHtml(card, null)+'</div>'+
+          '</div>'+
         '</div>'+
         '<div class="status-buttons">'+
           statusButton("entendi", entry)+
@@ -321,6 +323,34 @@
     var active = entry && entry.status===status ? " active" : "";
     return '<button class="status-btn '+status+active+'" data-status="'+status+'">'+STATUS_LABEL[status]+'</button>';
   }
+  function explanationHtml(card, picked){
+    if(!card.alts || !card.answerLetter) return "";
+    var ans = card.answerLetter;
+    var asksInc = card.asks === "incorreta";
+    var html = "";
+    if(asksInc){
+      html += '<div class="ex-note">A questão pede a <strong>incorreta</strong> (a exceção): o gabarito é a alternativa que foge do padrão. Nas outras quatro, o que se afirma vale.</div>';
+    }
+    if(picked && picked !== ans && card.alts[picked]){
+      html += '<div class="ex ex-mine"><div class="ex-head">Você marcou '+picked+
+        (asksInc ? ' — essa não era a pedida (a pedida é a incorreta)' : ' — não é a resposta')+
+        '</div>'+mdLite(card.alts[picked])+'</div>';
+    }
+    if(card.alts[ans]){
+      var head = asksInc ? 'Por que '+ans+' é a incorreta'
+        : (picked === ans ? 'Por que '+ans+' está certa' : 'Por que '+ans+' é o gabarito');
+      html += '<div class="ex ex-ans"><div class="ex-head">'+head+'</div>'+mdLite(card.alts[ans])+'</div>';
+    }
+    var rows = ["A","B","C","D","E"].filter(function(l){
+      return l !== ans && l !== picked && card.alts[l];
+    }).map(function(l){
+      return '<div class="ex-row"><span class="ex-letter">'+l+'</span><div>'+mdLite(card.alts[l])+'</div></div>';
+    }).join("");
+    if(rows){
+      html += '<details class="ex-more"><summary>Ver '+(picked ? 'as outras alternativas' : 'as demais alternativas')+'</summary>'+rows+'</details>';
+    }
+    return html;
+  }
   function renderLetterPicker(){
     var letters = ["A","B","C","D","E"];
     return '<div class="letter-picker">'+letters.map(function(l){
@@ -348,6 +378,8 @@
             ? '<span class="fb ok">Isso! Resposta: '+card.answerLetter+'. Confira a explicação abaixo e marque como entendi ou chutei.</span>'
             : '<span class="fb bad">Não foi essa — a certa é '+card.answerLetter+'. Veja a explicação abaixo.</span>';
         }
+        var ex = document.getElementById("explain");
+        if(ex) ex.innerHTML = explanationHtml(card, picked);
         var box = document.getElementById("gabaritoBox");
         if(box){
           box.classList.remove("hidden");

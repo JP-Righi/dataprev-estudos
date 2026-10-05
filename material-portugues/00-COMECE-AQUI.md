@@ -19,7 +19,7 @@ Se faltar tempo, faça só um cartão. Se um texto for longo ou o assunto for di
 ## Sequência pronta
 
 - [ ] Sessão 1: **01 e 02** — Regência verbal + Vírgula com oração adverbial antecipada.
-- [ ] Sessão 2: **03 e 04** — Oração que funciona como sujeito + Adjunto adnominal × predicativo.
+- [ ] Sessão 2: **03 e 04** — Oração que funciona como sujeito + Adjunto adnominal × complemento nominal.
 - [ ] Sessão 3: **05 e 06** — Locução adjetiva e equivalência de sentido + Discurso direto × indireto.
 - [ ] Sessão 4: **07 e 08** — Concordância nominal + Verbo de ligação e estado.
 - [ ] Sessão 5: **09 e 10** — Conector de consequência + Interpretação sem extrapolação.

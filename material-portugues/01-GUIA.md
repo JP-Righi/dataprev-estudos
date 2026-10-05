@@ -15,7 +15,7 @@ Este é um primeiro ciclo de microtemas, não uma cobertura exaustiva de cada re
 01. [Regência verbal](#microtema-01)
 02. [Vírgula com oração adverbial antecipada](#microtema-02)
 03. [Oração que funciona como sujeito](#microtema-03)
-04. [Adjunto adnominal × predicativo](#microtema-04)
+04. [Adjunto adnominal × complemento nominal](#microtema-04)
 05. [Locução adjetiva e equivalência de sentido](#microtema-05)
 06. [Discurso direto × indireto](#microtema-06)
 07. [Concordância nominal](#microtema-07)
@@ -95,13 +95,13 @@ Minha alternativa: ____  |  Resultado: ☐ entendi ☐ chutei ☐ errei
 
 <a id="microtema-04"></a>
 
-## 04 · Adjunto adnominal × predicativo
+## 04 · Adjunto adnominal × complemento nominal
 
-**Resumo:** O adjunto adnominal acompanha um substantivo, caracterizando-o ou delimitando-o. O predicativo atribui uma característica ao sujeito ou objeto por meio da predicação; pode aparecer mesmo sem verbo de ligação explícito.
+**Resumo:** O adjunto adnominal acompanha um substantivo, caracterizando-o ou delimitando-o (casa de Sofia, alguns instantes). O complemento nominal completa o sentido de um nome que fica incompleto sozinho (substantivo, adjetivo ou advérbio): livre de um sócio, medo de fantasmas. O predicativo atribui uma característica ao sujeito ou ao objeto por meio da predicação.
 
-**Exemplo autoral:** A aluna tranquila saiu. / A aluna saiu tranquila.
+**Exemplo autoral:** A aluna tranquila saiu (adjunto). A aluna saiu tranquila (predicativo). Ela tem medo de provas (complemento nominal: medo de quê?).
 
-**Como atacar:** Na segunda frase, a característica informa como a aluna estava ao sair.
+**Como atacar:** Pergunte ao termo: ele caracteriza ou delimita um substantivo (adjunto)? Completa um nome que pede complemento, como "livre de quê?" (complemento nominal)? Ou diz como o sujeito está depois do verbo (predicativo)?
 
 **Questão real:** [D · questão 2 · página 3](https://conhecimento.fgv.br/sites/default/files/concursos/ati-desenvolvimento-de-software-cns003-tipo-01.pdf#page=3)
 
