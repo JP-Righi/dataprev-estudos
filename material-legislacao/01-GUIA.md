@@ -143,3 +143,98 @@ B) Pena do caput aumentada de 1/3 a 2/3, só pelo prejuízo econômico.
 C) Qualificadora do §3º (reclusão de 2 a 5 anos), aumentada de 1 a 2/3 pela comercialização a terceiro.
 D) Qualificadora do §3º (reclusão de 2 a 5 anos), sem aumento, porque a venda já está dentro da qualificadora.
 E) Detenção de 3 meses a 1 ano, aumentada de metade a 2/3.
+
+---
+
+## Cartão 13 — LAI: classificação de sigilo e direitos humanos
+
+**Regra.** Graus de sigilo e prazos máximos (art. 24): **ultrassecreta 25 anos**, **secreta 15 anos**, **reservada 5 anos**. A classificação segue critérios da lei (gravidade do risco, prazo máximo ou evento que defina o fim). Terminado o prazo ou ocorrido o evento, a informação vira pública **automaticamente** (art. 24, §4º). A reavaliação pode levar à **desclassificação ou à redução do prazo** (art. 29). E informações sobre **violação de direitos humanos** praticada por agentes públicos ou a mando de autoridades **não podem sofrer qualquer restrição de acesso** (art. 21, parágrafo único).
+
+**Exemplo.** Um documento reservado de 2020 vira público sozinho em 2025, sem precisar de novo pedido nem de decisão.
+
+**Questão real:** [D · questão 36 · página 8](https://conhecimento.fgv.br/sites/default/files/concursos/ati-desenvolvimento-de-software-cns003-tipo-01.pdf#page=8), da própria prova DATAPREV 2024 (Desenvolvimento de Software).
+
+---
+
+## Cartão 14 — Lei 12.737: ação penal e aumento de pena por autoridade
+
+**Regra.** No crime do art. 154-A, a ação penal é **pública condicionada à representação** (art. 154-B): quem propõe a ação é o **Ministério Público**, depois que a vítima representa; não é queixa-crime da vítima. Vira **incondicionada** se o crime é contra a administração pública ou concessionária de serviço público. O §5º aumenta a pena de **1/3 à metade** se a vítima é **Presidente** da República, governador, prefeito, **presidente** do STF, da Câmara, do Senado, de Assembleia ou Câmara Legislativa/Municipal, ou dirigente máximo da administração. O crime **não exige** que os dados sejam efetivamente alterados ("com o fim de") nem que o aparelho esteja em rede.
+
+**Exemplo.** Invadir o celular do **vice**-presidente da Câmara não entra no §5º: a lista é só de presidentes e chefes.
+
+**Questão real:** [D · questão 37 · página 9](https://conhecimento.fgv.br/sites/default/files/concursos/ati-desenvolvimento-de-software-cns003-tipo-01.pdf#page=9), da própria prova DATAPREV 2024 (Desenvolvimento de Software).
+
+---
+
+## Cartão 15 — Marco Civil: sanções por violar registros e dados (art. 12)
+
+**Regra.** Quem descumpre as regras de guarda de registros, dados pessoais e comunicações privadas (arts. 10 e 11) sofre, de forma **isolada ou cumulativa**: (I) **advertência, com prazo para medidas corretivas**; (II) **multa de até 10% do faturamento do grupo econômico no Brasil no último exercício**, excluídos os tributos; (III) suspensão temporária das atividades; (IV) proibição de exercer as atividades. Se a empresa é estrangeira, a **filial, sucursal ou escritório no Brasil responde solidariamente** pela multa.
+
+**Exemplo.** Não existe "censura" nem "média dos três últimos anos" no art. 12. Se aparecer, é invenção da banca.
+
+**Questão real:** [D · questão 38 · página 9](https://conhecimento.fgv.br/sites/default/files/concursos/ati-desenvolvimento-de-software-cns003-tipo-01.pdf#page=9), da própria prova DATAPREV 2024 (Desenvolvimento de Software).
+
+---
+
+## Cartão 16 — LGPD: como a ANPD aplica sanções (art. 52)
+
+**Regra.** Sanções só depois de **processo administrativo com ampla defesa**, considerando critérios como gravidade, boa-fé, vantagem obtida, condição econômica, reincidência, dano, cooperação e boas práticas (§1º). **Órgãos públicos não levam multa**: só advertência, publicização, bloqueio, eliminação e suspensões/proibições (§3º). O dinheiro das multas vai para o **Fundo de Defesa de Direitos Difusos** (§5º), não para o titular. **Vazamento individual** pode ter **conciliação direta** entre controlador e titular; sem acordo, aplicam-se as sanções (§7º).
+
+**Exemplo.** Um app vaza os dados de um único cliente: os dois podem fazer acordo direto. Não deu certo? A ANPD pode punir.
+
+**Questão real:** [D · questão 39 · página 9](https://conhecimento.fgv.br/sites/default/files/concursos/ati-desenvolvimento-de-software-cns003-tipo-01.pdf#page=9), da própria prova DATAPREV 2024 (Desenvolvimento de Software).
+
+---
+
+## Cartão 17 — LGPD: ANPD e CNPD
+
+**Regra.** A **ANPD** é **autarquia de natureza especial** (art. 55-A), com autonomia técnica e decisória; seu **Conselho Diretor** tem 5 diretores nomeados pelo Presidente da República após aprovação do Senado, e eles só perdem o cargo por **renúncia, condenação transitada em julgado ou demissão em PAD** (art. 55-E). O **CNPD** (Conselho Nacional de Proteção de Dados Pessoais e da Privacidade) é **consultivo**, com representantes do Executivo, Senado, Câmara, CNJ, CNMP, CGI.br, sociedade civil, academia e setor produtivo. Ele **sugere ações à ANPD**, propõe diretrizes, faz estudos e audiências e **dissemina o conhecimento sobre proteção de dados à população** (art. 58-B).
+
+**Exemplo.** Pegadinha típica: pegar uma regra do Conselho Diretor da ANPD (perda do cargo) e atribuir ao CNPD.
+
+**Questão real:** [D · questão 40 · página 9](https://conhecimento.fgv.br/sites/default/files/concursos/ati-desenvolvimento-de-software-cns003-tipo-01.pdf#page=9), da própria prova DATAPREV 2024 (Desenvolvimento de Software).
+
+---
+
+## Cartão 18 — LGPD: bases legais para tratar dados (art. 7º)
+
+**Regra.** O consentimento é **só uma** das **10 bases legais** do art. 7º: consentimento; cumprimento de obrigação legal ou regulatória; execução de políticas públicas pela administração; estudos por órgão de pesquisa; execução de contrato; exercício regular de direitos em processo; proteção da vida; tutela da saúde; **legítimo interesse**; e **proteção do crédito**.
+
+**Exemplo.** O RH guarda dados do empregado para recolher FGTS sem pedir consentimento: a base é obrigação legal.
+
+**Teste relâmpago (autoral, não é questão FGV).** Um órgão público trata dados pessoais de cidadãos para executar um programa social previsto em lei, sem colher consentimento. Pela LGPD:
+A) O tratamento é ilegal, pois o consentimento é a única base legal válida.
+B) O tratamento é ilegal, pois a administração pública não pode tratar dados pessoais.
+C) O tratamento pode ser legal, pois a execução de políticas públicas pela administração é uma base legal própria, que dispensa consentimento.
+D) O tratamento só é legal se o titular assinar termo de consentimento por escrito.
+E) O tratamento só é legal se houver autorização prévia da ANPD para cada caso.
+
+---
+
+## Cartão 19 — LGPD: encarregado (DPO)
+
+**Regra.** O **controlador** deve indicar um **encarregado** (art. 41). Sua identidade e contato devem ser **divulgados publicamente**, de preferência no site. Ele **aceita reclamações dos titulares**, **recebe comunicações da ANPD**, **orienta funcionários e contratados** sobre proteção de dados e cumpre outras atribuições. A ANPD pode **dispensar** a indicação conforme o porte ou volume de dados.
+
+**Exemplo.** O e-mail "dpo@empresa.com.br" no rodapé do site é a divulgação pública do encarregado.
+
+**Teste relâmpago (autoral, não é questão FGV).** Sobre o encarregado pelo tratamento de dados pessoais na LGPD, é correto afirmar que:
+A) Ele é indicado pela ANPD para fiscalizar cada empresa.
+B) Sua identidade e contato devem ser mantidos em sigilo para evitar assédio.
+C) Ele responde pessoalmente pelas multas aplicadas ao controlador.
+D) Ele aceita reclamações dos titulares, recebe comunicações da ANPD e orienta os funcionários sobre proteção de dados.
+E) A indicação é obrigatória para todos os agentes, sem qualquer possibilidade de dispensa.
+
+---
+
+## Cartão 20 — LGPD: transferência internacional de dados (art. 33)
+
+**Regra.** Só pode transferir dados pessoais para outro país em hipóteses da lei, entre elas: país ou organismo com **nível adequado de proteção**; garantias do controlador por **cláusulas contratuais** (específicas ou padrão), **normas corporativas globais**, selos e certificados; cooperação jurídica internacional; proteção da vida; **autorização da ANPD**; compromisso em acordo de cooperação; execução de política pública; e **consentimento específico e em destaque** do titular, informado do caráter internacional.
+
+**Exemplo.** Uma empresa brasileira que usa servidor nos EUA pode se apoiar em cláusulas-padrão contratuais; não basta "ter um contrato qualquer".
+
+**Teste relâmpago (autoral, não é questão FGV).** Uma empresa quer armazenar dados de clientes brasileiros em servidores no exterior. Pela LGPD, a transferência internacional:
+A) É proibida em qualquer caso.
+B) É livre, pois a LGPD só vale para dados armazenados no Brasil.
+C) Pode ocorrer, entre outras hipóteses, com cláusulas contratuais padrão, para país com nível adequado de proteção ou com consentimento específico e em destaque do titular.
+D) Só pode ocorrer com autorização prévia do Congresso Nacional.
+E) Pode ocorrer com consentimento genérico, aceito nos termos de uso, sem informar o caráter internacional.

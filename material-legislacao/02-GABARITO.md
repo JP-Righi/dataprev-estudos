@@ -121,3 +121,83 @@ Confira só depois de tentar responder. Para as questões reais, a fonte é o ga
 - C: Obter segredos comerciais qualifica o crime (§3º: reclusão de 2 a 5 anos, e multa). Vender ao concorrente é comercialização a terceiro, que no caso do §3º aumenta a pena de 1 a 2/3 (§4º).
 - D: A qualificadora fala em obter os dados; divulgar, comercializar ou transmitir a terceiro é aumento separado, previsto no §4º. Por isso a venda ainda aumenta a pena.
 - E: Detenção de 3 meses a 1 ano é a pena antiga do caput, e "metade a 2/3" não existe no artigo. O aumento do §4º é de 1 a 2/3.
+
+## Cartão 13 — LAI: classificação de sigilo e direitos humanos
+**Gabarito oficial (questão 36): D** — informação sobre violação de direitos humanos por agentes públicos não pode sofrer restrição de acesso (art. 21, parágrafo único). [Gabarito definitivo, p. 5](https://conhecimento.fgv.br/sites/default/files/concursos/dataprev_gabarito_definitivo-1.pdf#page=5).
+
+- pede: correta
+- A: A classificação não é livre: o art. 24 fixa os graus, os prazos máximos (25, 15 e 5 anos) e os critérios, como a gravidade do risco e o prazo ou evento que encerra o sigilo.
+- B: A decisão de classificar não abre a informação sigilosa a qualquer pessoa. A própria decisão fica sob o mesmo grau de sigilo da informação classificada (art. 28).
+- C: Inverte o §4º do art. 24: vencido o prazo ou ocorrido o evento, a informação se torna pública automaticamente, sem procedimento nem decisão nova.
+- D: Pelo art. 21, parágrafo único, informações sobre condutas que violem direitos humanos, praticadas por agentes públicos ou a mando de autoridades, não podem ser objeto de qualquer restrição de acesso. É a única afirmação fiel à lei.
+- E: A reavaliação do art. 29 serve para desclassificar ou para reduzir o prazo de sigilo. Dizer que a lei não permite reduzir o prazo está errado.
+
+## Cartão 14 — Lei 12.737: ação penal e aumento de pena por autoridade
+**Gabarito oficial (questão 37): A** — o crime do art. 154-A é de ação penal pública condicionada à representação: quem propõe é o Ministério Público, não a vítima por queixa-crime. [Gabarito definitivo, p. 5](https://conhecimento.fgv.br/sites/default/files/concursos/dataprev_gabarito_definitivo-1.pdf#page=5).
+
+- pede: correta
+- A: Pelo art. 154-B, nesse crime só se procede mediante representação, ou seja, a ação é pública condicionada: a vítima representa e o Ministério Público oferece a denúncia. Por isso a queixa-crime do parlamentar foi o caminho errado.
+- B: Prejuízo político não é causa de aumento. O §2º trata de prejuízo econômico (aumento de 1/3 a 2/3), e não há aumento de metade por "prejuízo político".
+- C: O tipo diz expressamente "conectado ou não à rede de computadores". O tablet não precisa estar em rede.
+- D: O §5º só alcança presidentes e chefes (Presidente da República, governadores, prefeitos, presidentes do STF, da Câmara, do Senado, de Assembleias e Câmaras, dirigentes máximos). O vice-presidente da Câmara não está na lista, e o aumento ali é de 1/3 à metade, não de 2/3.
+- E: O crime se consuma com a invasão feita "com o fim de" obter, adulterar ou destruir dados. Não é preciso que a alteração aconteça de fato.
+
+## Cartão 15 — Marco Civil: sanções por violar registros e dados (art. 12)
+**Gabarito oficial (questão 38): B** — a advertência vem com indicação de prazo para adoção de medidas corretivas. [Gabarito definitivo, p. 5](https://conhecimento.fgv.br/sites/default/files/concursos/dataprev_gabarito_definitivo-1.pdf#page=5).
+
+- pede: correta
+- A: O art. 12 diz que as sanções são aplicadas "de forma isolada ou cumulativa", sem a ressalva de que só a mais grave poderia ser cumulada.
+- B: Pelo art. 12, I, a advertência vem "com indicação de prazo para adoção de medidas corretivas": ela pune e, ao mesmo tempo, manda corrigir. Por isso tem caráter repressivo e corretivo.
+- C: "Censura" não está entre as sanções do art. 12 (advertência, multa, suspensão temporária e proibição das atividades).
+- D: A multa é de até 10% do faturamento do grupo econômico no Brasil no último exercício, excluídos os tributos. Não é média dos três últimos exercícios.
+- E: Não há vácuo para estrangeiras: o parágrafo único do art. 12 faz a filial, sucursal, escritório ou estabelecimento no país responder solidariamente pela multa.
+
+## Cartão 16 — LGPD: como a ANPD aplica sanções (art. 52)
+**Gabarito oficial (questão 39): E** — vazamentos individuais podem ter conciliação direta entre controlador e titular; sem acordo, aplicam-se as sanções (art. 52, §7º). [Gabarito definitivo, p. 5](https://conhecimento.fgv.br/sites/default/files/concursos/dataprev_gabarito_definitivo-1.pdf#page=5).
+
+- pede: correta
+- A: O §1º do art. 52 exige procedimento administrativo com ampla defesa antes de qualquer sanção. Ser "contumaz" não dispensa o processo.
+- B: Gravidade e boa-fé estão entre os critérios do §1º, mas "nacionalidade estrangeira do infrator" não está. Basta um critério inventado para a alternativa cair.
+- C: Órgãos públicos não sofrem multa na LGPD: o §3º só permite aplicar a eles advertência, publicização, bloqueio, eliminação e suspensões ou proibições.
+- D: O produto das multas vai para o Fundo de Defesa de Direitos Difusos (§5º), não diretamente para os titulares. Indenização ao titular é outra via (responsabilidade civil).
+- E: Pelo art. 52, §7º, vazamentos individuais ou acessos não autorizados podem ser resolvidos por conciliação direta entre controlador e titular; se não houver acordo, o controlador fica sujeito às sanções do artigo.
+
+## Cartão 17 — LGPD: ANPD e CNPD
+**Gabarito oficial (questão 40): C** — o CNPD sugere ações à ANPD e dissemina o conhecimento sobre proteção de dados e privacidade à população (art. 58-B). [Gabarito definitivo, p. 5](https://conhecimento.fgv.br/sites/default/files/concursos/dataprev_gabarito_definitivo-1.pdf#page=5).
+
+- pede: correta
+- A: O CNPD não é empresa pública: é órgão consultivo dentro da estrutura da ANPD. E a ANPD é autarquia de natureza especial (art. 55-A), não um simples órgão da administração direta.
+- B: Mistura as coisas: o Conselho Diretor da ANPD tem 5 diretores nomeados pelo Presidente da República após aprovação do Senado. Representantes de Câmara, Senado, CNJ, CNMP e CGI.br compõem o CNPD, não o Conselho Diretor.
+- C: Pelo art. 58-B, cabe ao CNPD, entre outras coisas, sugerir ações a serem realizadas pela ANPD e disseminar o conhecimento sobre proteção de dados pessoais e privacidade à população.
+- D: Renúncia, condenação transitada em julgado e demissão em PAD são as hipóteses de perda do cargo dos membros do Conselho Diretor da ANPD (art. 55-E), não do CNPD.
+- E: A ANPD não preside o CNPD por nomeação do Presidente da República. O CNPD tem representantes de vários setores, e "conselheira-presidente" é invenção da alternativa.
+
+## Cartão 18 — LGPD: bases legais para tratar dados (art. 7º)
+**Gabarito (autoral): C** — execução de políticas públicas pela administração é base legal própria (art. 7º, III), sem depender de consentimento.
+
+- pede: correta
+- A: O consentimento é só uma das 10 bases legais do art. 7º. Há várias que dispensam consentimento, como obrigação legal, contrato e políticas públicas.
+- B: A LGPD tem um capítulo inteiro sobre tratamento de dados pelo poder público (arts. 23 a 32). A administração pode tratar dados para cumprir suas atribuições legais.
+- C: O art. 7º, III, autoriza a administração pública a tratar dados necessários à execução de políticas públicas previstas em lei ou regulamento. Essa base dispensa consentimento.
+- D: Nem consentimento é exigido nesse caso, muito menos por escrito. Quando o consentimento é a base, ele pode ser por escrito ou por outro meio que demonstre a vontade do titular.
+- E: A LGPD não exige autorização prévia da ANPD para cada tratamento. A ANPD fiscaliza e regulamenta, mas não autoriza caso a caso.
+
+## Cartão 19 — LGPD: encarregado (DPO)
+**Gabarito (autoral): D** — essas são as atividades do encarregado listadas no art. 41, §2º.
+
+- pede: correta
+- A: Quem indica o encarregado é o próprio controlador (art. 41), não a ANPD.
+- B: É o contrário: a identidade e as informações de contato do encarregado devem ser divulgadas publicamente, de preferência no site do controlador.
+- C: As sanções da LGPD recaem sobre os agentes de tratamento (controlador e operador). O encarregado é o canal de comunicação, não o responsável pessoal pelas multas.
+- D: Pelo art. 41, §2º, o encarregado aceita reclamações e comunicações dos titulares, recebe comunicações da ANPD, orienta funcionários e contratados sobre proteção de dados e executa outras atribuições do controlador.
+- E: O §3º do art. 41 permite que a ANPD estabeleça hipóteses de dispensa da indicação, conforme a natureza, o porte da entidade ou o volume de dados.
+
+## Cartão 20 — LGPD: transferência internacional de dados (art. 33)
+**Gabarito (autoral): C** — cláusulas-padrão, país com nível adequado e consentimento específico e em destaque estão entre as hipóteses do art. 33.
+
+- pede: correta
+- A: A transferência não é proibida: o art. 33 lista as hipóteses em que ela é permitida.
+- B: A LGPD vale para tratamento feito no Brasil ou de dados coletados no Brasil, mesmo que o armazenamento fique no exterior (art. 3º). Por isso a transferência precisa se encaixar no art. 33.
+- C: O art. 33 permite a transferência, entre outros casos, para país com nível adequado de proteção (I), com garantias como cláusulas contratuais padrão (II, b) e com consentimento específico e em destaque do titular, informado do caráter internacional (VIII).
+- D: Não existe exigência de autorização do Congresso. Uma das hipóteses é a autorização da ANPD (art. 33, V), não do Legislativo.
+- E: O consentimento para transferência internacional precisa ser específico e em destaque, com informação prévia do caráter internacional. Aceite genérico nos termos de uso não basta.
