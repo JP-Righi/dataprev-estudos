@@ -1,6 +1,6 @@
 # Legislação — gabarito separado
 
-Confira só depois de tentar responder. Para as questões reais, a fonte é o gabarito definitivo oficial da FGV; para os testes relâmpago (autorais), a resposta é comentada aqui mesmo.
+Confira só depois de tentar responder. Para as questões reais, a fonte é o gabarito definitivo oficial da FGV; para os testes relâmpago (autorais), o gabarito e a explicação de cada alternativa estão aqui mesmo.
 
 ## Cartão 01 — LGPD: prazo de resposta ao titular
 **Gabarito oficial (questão 02): A** — 15 dias (para resposta clara e completa; a confirmação simplificada pode ser imediata). [Gabarito definitivo](https://conhecimento.fgv.br/sites/default/files/concursos/camara-dos-deputados-gabaritos-definitivo-para-publicacao-edital-4-reaplicacao.pdf) (Área XIV).
@@ -83,13 +83,41 @@ Confira só depois de tentar responder. Para as questões reais, a fonte é o ga
 - E: Inclui um requisito falso, "dados sensíveis de todas as partes". Os requisitos exigidos são indícios do ilícito, justificativa motivada de utilidade e período dos registros.
 
 ## Cartão 09 — LAI: publicidade como regra, sigilo como exceção
-**Resposta comentada (autoral).** Errado. A LAI inverte a lógica antiga: publicidade é a regra geral, e o acesso não depende de "praxe" ou de pedido anterior — informações de interesse público coletivo ou geral devem ser divulgadas de ofício, independentemente de solicitação, sempre que possível. Negar só por "não ser praxe" contraria o art. 3º.
+**Gabarito (autoral): C** — a negativa está errada: pela LAI, publicidade é a regra e sigilo é a exceção (art. 3º).
+
+- pede: correta
+- A: Inverte a lógica da LAI. Informações de interesse público devem ser divulgadas de ofício, independentemente de pedido; não é preciso alguém pedir antes.
+- B: Não existe "praxe" que justifique negar acesso. O sigilo só cabe nas hipóteses que a lei prevê (informação classificada, pessoal, sigilo legal), não por costume do órgão.
+- C: Pelo art. 3º, a LAI adota a publicidade como preceito geral e o sigilo como exceção, e manda divulgar de ofício o que for de interesse público. Negar só porque "não foi pedido antes" ou "não é praxe" contraria a lei.
+- D: A negativa de acesso é decisão administrativa do próprio órgão, com recurso administrativo previsto na LAI. Não precisa de juiz; o problema da negativa é o motivo, não quem decide.
+- E: Responder em até 20 dias não torna válida uma negativa sem fundamento legal. O prazo regula a resposta; o motivo "não é praxe" continua inválido.
 
 ## Cartão 10 — LAI: prazo de resposta ao pedido de acesso
-**Resposta comentada (autoral).** No limite, até o dia 30 (20 dias do prazo padrão + 10 dias da prorrogação), desde que o órgão justifique expressamente a prorrogação antes de esgotar o prazo original.
+**Gabarito (autoral): D** — até 20 dias, prorrogáveis por mais 10 com justificativa expressa (art. 11), ou seja, 30 dias no limite.
+
+- pede: correta
+- A: 10 dias é só a prorrogação, não o prazo total. O prazo-base é de 20 dias.
+- B: 15 dias é o prazo da LGPD para a resposta completa ao titular (art. 19), não o da LAI. É a troca mais comum entre as duas leis.
+- C: Os 20 dias podem ser prorrogados por mais 10, desde que haja justificativa expressa (art. 11, §2º). Como o órgão justificou, cabe a prorrogação.
+- D: Pelo art. 11, se a informação não está disponível de imediato, o órgão tem até 20 dias, prorrogáveis por mais 10 mediante justificativa expressa, cientificado o requerente. No limite, 30 dias.
+- E: 45 dias não aparece na LAI. O teto é 20 + 10 = 30 dias.
 
 ## Cartão 11 — Lei 12.737: invasão de dispositivo informático
-**Resposta comentada (autoral).** Não configura o crime do art. 154-A, pois o tipo exige violação indevida de mecanismo de segurança. Sem mecanismo de segurança a ser violado (dispositivo sem senha, por exemplo), falta um elemento do tipo — pode haver outra consequência jurídica (cível, disciplinar), mas não esse crime específico.
+**Gabarito (autoral): B** — desde a Lei 14.155/2021, o art. 154-A não exige mais violação de mecanismo de segurança.
 
-## Cartão 12 — Lei 12.737: majorantes da pena
-**Resposta comentada (autoral).** Sim, muda: a obtenção de segredos comerciais já eleva a pena para reclusão de 6 meses a 2 anos e multa (em vez da detenção de 3 meses a 1 ano do caput). Além disso, a venda a terceiro configura divulgação/comercialização dos dados obtidos, o que aumenta a pena de metade a 2/3 sobre essa nova base.
+- pede: correta
+- A: Esse era o raciocínio da redação original de 2012, que exigia "violação indevida de mecanismo de segurança". A Lei 14.155/2021 tirou essa exigência do texto.
+- B: Na redação atual, o crime é invadir dispositivo informático de uso alheio com o fim de obter, adulterar ou destruir dados sem autorização expressa ou tácita do usuário. Não é mais preciso burlar senha; copiar arquivos alheios sem autorização se encaixa.
+- C: O próprio artigo diz "conectado ou não à rede de computadores". Estar offline não afasta o crime.
+- D: Prejuízo econômico não é requisito: ele só aumenta a pena (§2º, de 1/3 a 2/3).
+- E: Detenção de 3 meses a 1 ano é a pena da redação original de 2012. Hoje a pena é reclusão de 1 a 4 anos, e multa.
+
+## Cartão 12 — Lei 12.737: majorantes e qualificadora
+**Gabarito (autoral): C** — segredo comercial obtido leva à qualificadora do §3º, e a venda a terceiro aumenta a pena pelo §4º.
+
+- pede: correta
+- A: Obter segredos comerciais não fica no caput: é hipótese expressa da qualificadora do §3º, com pena própria.
+- B: O §2º (prejuízo econômico) é outra hipótese. Aqui o que define a pena é a obtenção de segredo comercial (§3º) e a comercialização (§4º).
+- C: Obter segredos comerciais qualifica o crime (§3º: reclusão de 2 a 5 anos, e multa). Vender ao concorrente é comercialização a terceiro, que no caso do §3º aumenta a pena de 1 a 2/3 (§4º).
+- D: A qualificadora fala em obter os dados; divulgar, comercializar ou transmitir a terceiro é aumento separado, previsto no §4º. Por isso a venda ainda aumenta a pena.
+- E: Detenção de 3 meses a 1 ano é a pena antiga do caput, e "metade a 2/3" não existe no artigo. O aumento do §4º é de 1 a 2/3.

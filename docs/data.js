@@ -13,6 +13,7 @@ window.STUDY_DATA = {
      "sourceUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/ati-desenvolvimento-de-software-cns003-tipo-01.pdf#page=3",
      "sourceLabel": "D · questão 5 · página 3",
      "sourceNote": null,
+     "quiz": null,
      "answerLetter": "A",
      "asks": "correta",
      "alts": {
@@ -31,6 +32,7 @@ window.STUDY_DATA = {
      "sourceUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/ati-desenvolvimento-de-software-cns003-tipo-01.pdf#page=3",
      "sourceLabel": "D · questão 7 · página 3",
      "sourceNote": null,
+     "quiz": null,
      "answerLetter": "C",
      "asks": "correta",
      "alts": {
@@ -49,6 +51,7 @@ window.STUDY_DATA = {
      "sourceUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/ati-desenvolvimento-de-software-cns003-tipo-01.pdf#page=3",
      "sourceLabel": "D · questão 1 · página 3",
      "sourceNote": null,
+     "quiz": null,
      "answerLetter": "E",
      "asks": "incorreta",
      "alts": {
@@ -67,6 +70,7 @@ window.STUDY_DATA = {
      "sourceUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/ati-desenvolvimento-de-software-cns003-tipo-01.pdf#page=3",
      "sourceLabel": "D · questão 2 · página 3",
      "sourceNote": null,
+     "quiz": null,
      "answerLetter": "D",
      "asks": "incorreta",
      "alts": {
@@ -85,6 +89,7 @@ window.STUDY_DATA = {
      "sourceUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/ati-desenvolvimento-de-software-cns003-tipo-01.pdf#page=3",
      "sourceLabel": "D · questão 6 · página 3",
      "sourceNote": null,
+     "quiz": null,
      "answerLetter": "D",
      "asks": "incorreta",
      "alts": {
@@ -103,6 +108,7 @@ window.STUDY_DATA = {
      "sourceUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/ati-desenvolvimento-de-software-cns003-tipo-01.pdf#page=3",
      "sourceLabel": "D · questão 8 · página 3",
      "sourceNote": null,
+     "quiz": null,
      "answerLetter": "D",
      "asks": "incorreta",
      "alts": {
@@ -121,6 +127,7 @@ window.STUDY_DATA = {
      "sourceUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/ati-desenvolvimento-de-software-cns003-tipo-01.pdf#page=4",
      "sourceLabel": "D · questão 11 · página 4",
      "sourceNote": null,
+     "quiz": null,
      "answerLetter": "E",
      "asks": "correta",
      "alts": {
@@ -139,6 +146,7 @@ window.STUDY_DATA = {
      "sourceUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/ati-desenvolvimento-de-software-cns003-tipo-01.pdf#page=4",
      "sourceLabel": "D · questão 10 · página 4",
      "sourceNote": null,
+     "quiz": null,
      "answerLetter": "D",
      "asks": "correta",
      "alts": {
@@ -157,6 +165,7 @@ window.STUDY_DATA = {
      "sourceUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/ati-desenvolvimento-de-software-cns003-tipo-01.pdf#page=4",
      "sourceLabel": "D · questão 9 · página 4",
      "sourceNote": null,
+     "quiz": null,
      "answerLetter": "A",
      "asks": "correta",
      "alts": {
@@ -175,6 +184,7 @@ window.STUDY_DATA = {
      "sourceUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/ati-desenvolvimento-de-software-cns003-tipo-01.pdf#page=3",
      "sourceLabel": "D · questão 3 · página 3",
      "sourceNote": null,
+     "quiz": null,
      "answerLetter": "C",
      "asks": "correta",
      "alts": {
@@ -193,6 +203,7 @@ window.STUDY_DATA = {
      "sourceUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/ati-desenvolvimento-de-software-cns003-tipo-01.pdf#page=3",
      "sourceLabel": "D · questão 4 · página 3",
      "sourceNote": null,
+     "quiz": null,
      "answerLetter": "C",
      "asks": "correta",
      "alts": {
@@ -211,6 +222,7 @@ window.STUDY_DATA = {
      "sourceUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/ati-desenvolvimento-de-software-cns003-tipo-01.pdf#page=4",
      "sourceLabel": "D · questão 12 · página 4",
      "sourceNote": null,
+     "quiz": null,
      "answerLetter": "A",
      "asks": "correta",
      "alts": {
@@ -229,6 +241,7 @@ window.STUDY_DATA = {
      "sourceUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/tecnico-de-seguranca-do-trabalho-cnm002-tipo-01.pdf#page=3",
      "sourceLabel": "T · questão 2 · página 3",
      "sourceNote": null,
+     "quiz": null,
      "answerLetter": "B",
      "asks": "incorreta",
      "alts": {
@@ -247,6 +260,7 @@ window.STUDY_DATA = {
      "sourceUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/tecnico-de-seguranca-do-trabalho-cnm002-tipo-01.pdf#page=3",
      "sourceLabel": "T · questão 3 · página 3",
      "sourceNote": null,
+     "quiz": null,
      "answerLetter": "E",
      "asks": "incorreta",
      "alts": {
@@ -265,6 +279,7 @@ window.STUDY_DATA = {
      "sourceUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/tecnico-de-seguranca-do-trabalho-cnm002-tipo-01.pdf#page=3",
      "sourceLabel": "T · questão 4 · página 3",
      "sourceNote": null,
+     "quiz": null,
      "answerLetter": "B",
      "asks": "correta",
      "alts": {
@@ -283,6 +298,7 @@ window.STUDY_DATA = {
      "sourceUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/tecnico-de-seguranca-do-trabalho-cnm002-tipo-01.pdf#page=3",
      "sourceLabel": "T · questão 5 · página 3",
      "sourceNote": null,
+     "quiz": null,
      "answerLetter": "B",
      "asks": "incorreta",
      "alts": {
@@ -301,6 +317,7 @@ window.STUDY_DATA = {
      "sourceUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/tecnico-de-seguranca-do-trabalho-cnm002-tipo-01.pdf#page=3",
      "sourceLabel": "T · questão 6 · página 3",
      "sourceNote": null,
+     "quiz": null,
      "answerLetter": "A",
      "asks": "correta",
      "alts": {
@@ -319,6 +336,7 @@ window.STUDY_DATA = {
      "sourceUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/tecnico-de-seguranca-do-trabalho-cnm002-tipo-01.pdf#page=3",
      "sourceLabel": "T · questão 7 · página 3",
      "sourceNote": null,
+     "quiz": null,
      "answerLetter": "C",
      "asks": "correta",
      "alts": {
@@ -337,6 +355,7 @@ window.STUDY_DATA = {
      "sourceUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/tecnico-de-seguranca-do-trabalho-cnm002-tipo-01.pdf#page=3",
      "sourceLabel": "T · questão 8 · página 3",
      "sourceNote": null,
+     "quiz": null,
      "answerLetter": "E",
      "asks": "correta",
      "alts": {
@@ -355,6 +374,7 @@ window.STUDY_DATA = {
      "sourceUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/tecnico-de-seguranca-do-trabalho-cnm002-tipo-01.pdf#page=3",
      "sourceLabel": "T · questão 9 · página 3",
      "sourceNote": null,
+     "quiz": null,
      "answerLetter": "D",
      "asks": "correta",
      "alts": {
@@ -373,6 +393,7 @@ window.STUDY_DATA = {
      "sourceUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/tecnico-de-seguranca-do-trabalho-cnm002-tipo-01.pdf#page=4",
      "sourceLabel": "T · questão 11 · página 4",
      "sourceNote": null,
+     "quiz": null,
      "answerLetter": "C",
      "asks": "incorreta",
      "alts": {
@@ -391,6 +412,7 @@ window.STUDY_DATA = {
      "sourceUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/tecnico-do-poder-judiciario-area-administrativo-judiciaria-cns200-tipo-2.pdf#page=3",
      "sourceLabel": "R · questão 4 · página 3",
      "sourceNote": null,
+     "quiz": null,
      "answerLetter": "B",
      "asks": "correta",
      "alts": {
@@ -409,6 +431,7 @@ window.STUDY_DATA = {
      "sourceUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/tecnico-do-poder-judiciario-area-administrativo-judiciaria-cns200-tipo-2.pdf#page=4",
      "sourceLabel": "R · questão 7 · página 4",
      "sourceNote": null,
+     "quiz": null,
      "answerLetter": "A",
      "asks": "correta",
      "alts": {
@@ -427,6 +450,7 @@ window.STUDY_DATA = {
      "sourceUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/tecnico-do-poder-judiciario-area-administrativo-judiciaria-cns200-tipo-2.pdf#page=4",
      "sourceLabel": "R · questão 8 · página 4",
      "sourceNote": null,
+     "quiz": null,
      "answerLetter": "A",
      "asks": "correta",
      "alts": {
@@ -445,6 +469,7 @@ window.STUDY_DATA = {
      "sourceUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/tecnico-do-poder-judiciario-area-administrativo-judiciaria-cns200-tipo-2.pdf#page=4",
      "sourceLabel": "R · questão 9 · página 4",
      "sourceNote": null,
+     "quiz": null,
      "answerLetter": "C",
      "asks": "correta",
      "alts": {
@@ -463,6 +488,7 @@ window.STUDY_DATA = {
      "sourceUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/tecnico-do-poder-judiciario-area-administrativo-judiciaria-cns200-tipo-2.pdf#page=5",
      "sourceLabel": "R · questão 14 · página 5",
      "sourceNote": null,
+     "quiz": null,
      "answerLetter": "E",
      "asks": "correta",
      "alts": {
@@ -481,6 +507,7 @@ window.STUDY_DATA = {
      "sourceUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/tecnico-do-poder-judiciario-area-administrativo-judiciaria-cns200-tipo-2.pdf#page=5",
      "sourceLabel": "R · questão 16 · página 5",
      "sourceNote": null,
+     "quiz": null,
      "answerLetter": "B",
      "asks": "correta",
      "alts": {
@@ -499,6 +526,7 @@ window.STUDY_DATA = {
      "sourceUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/tecnico-do-poder-judiciario-area-administrativo-judiciaria-cns200-tipo-2.pdf#page=6",
      "sourceLabel": "R · questão 18 · página 6",
      "sourceNote": null,
+     "quiz": null,
      "answerLetter": "D",
      "asks": "incorreta",
      "alts": {
@@ -517,6 +545,7 @@ window.STUDY_DATA = {
      "sourceUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/tecnico-do-poder-judiciario-area-administrativo-judiciaria-cns200-tipo-2.pdf#page=6",
      "sourceLabel": "R · questão 22 · página 6",
      "sourceNote": null,
+     "quiz": null,
      "answerLetter": "C",
      "asks": "correta",
      "alts": {
@@ -535,6 +564,7 @@ window.STUDY_DATA = {
      "sourceUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/tecnico-do-poder-judiciario-area-administrativo-judiciaria-cns200-tipo-2.pdf#page=7",
      "sourceLabel": "R · questão 23 · página 7",
      "sourceNote": null,
+     "quiz": null,
      "answerLetter": "B",
      "asks": "correta",
      "alts": {
@@ -553,6 +583,7 @@ window.STUDY_DATA = {
      "sourceUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/tecnico-do-poder-judiciario-area-administrativo-judiciaria-cns200-tipo-2.pdf#page=7",
      "sourceLabel": "R · questão 26 · página 7",
      "sourceNote": null,
+     "quiz": null,
      "answerLetter": "A",
      "asks": "correta",
      "alts": {
@@ -571,6 +602,7 @@ window.STUDY_DATA = {
      "sourceUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/tecnico-do-poder-judiciario-area-administrativo-judiciaria-cns200-tipo-2.pdf#page=7",
      "sourceLabel": "R · questão 27 · página 7",
      "sourceNote": null,
+     "quiz": null,
      "answerLetter": "E",
      "asks": "correta",
      "alts": {
@@ -595,6 +627,7 @@ window.STUDY_DATA = {
      "sourceUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/ati-desenvolvimento-de-software-cns003-tipo-01.pdf#page=5",
      "sourceLabel": "D, questão 14, página 5",
      "sourceNote": "Leia também o texto da página 4",
+     "quiz": null,
      "answerLetter": "B",
      "asks": "correta",
      "alts": {
@@ -613,6 +646,7 @@ window.STUDY_DATA = {
      "sourceUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/ati-desenvolvimento-de-software-cns003-tipo-01.pdf#page=5",
      "sourceLabel": "D, questão 15, página 5",
      "sourceNote": "Use o trecho reproduzido na questão",
+     "quiz": null,
      "answerLetter": "E",
      "asks": "correta",
      "alts": {
@@ -631,6 +665,7 @@ window.STUDY_DATA = {
      "sourceUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/ati-desenvolvimento-de-software-cns003-tipo-01.pdf#page=5",
      "sourceLabel": "D, questão 16, página 5",
      "sourceNote": "Use o trecho da questão",
+     "quiz": null,
      "answerLetter": "C",
      "asks": "correta",
      "alts": {
@@ -649,6 +684,7 @@ window.STUDY_DATA = {
      "sourceUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/ati-desenvolvimento-de-software-cns003-tipo-01.pdf#page=5",
      "sourceLabel": "D, questão 17, página 5",
      "sourceNote": "Use o trecho da questão",
+     "quiz": null,
      "answerLetter": "D",
      "asks": "correta",
      "alts": {
@@ -667,6 +703,7 @@ window.STUDY_DATA = {
      "sourceUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/ati-desenvolvimento-de-software-cns003-tipo-01.pdf#page=5",
      "sourceLabel": "D, questão 18, página 5",
      "sourceNote": "Depoimentos na página 4; pergunta na 5",
+     "quiz": null,
      "answerLetter": "E",
      "asks": "correta",
      "alts": {
@@ -685,6 +722,7 @@ window.STUDY_DATA = {
      "sourceUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/ati-desenvolvimento-de-software-cns003-tipo-01.pdf#page=5",
      "sourceLabel": "D, questão 20, página 5",
      "sourceNote": "Texto e pergunta na página 5",
+     "quiz": null,
      "answerLetter": "A",
      "asks": "correta",
      "alts": {
@@ -703,6 +741,7 @@ window.STUDY_DATA = {
      "sourceUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/ati-desenvolvimento-de-software-cns003-tipo-01.pdf#page=6",
      "sourceLabel": "D, questão 21, página 6",
      "sourceNote": "Leia o texto da página 6",
+     "quiz": null,
      "answerLetter": "B",
      "asks": "correta",
      "alts": {
@@ -721,6 +760,7 @@ window.STUDY_DATA = {
      "sourceUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/ati-desenvolvimento-de-software-cns003-tipo-01.pdf#page=6",
      "sourceLabel": "D, questão 22, página 6",
      "sourceNote": "Use a frase destacada na questão",
+     "quiz": null,
      "answerLetter": "E",
      "asks": "correta",
      "alts": {
@@ -739,6 +779,7 @@ window.STUDY_DATA = {
      "sourceUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/ati-desenvolvimento-de-software-cns003-tipo-01.pdf#page=6",
      "sourceLabel": "D, questão 23, página 6",
      "sourceNote": "Use o trecho da questão",
+     "quiz": null,
      "answerLetter": "B",
      "asks": "correta",
      "alts": {
@@ -757,6 +798,7 @@ window.STUDY_DATA = {
      "sourceUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/ati-desenvolvimento-de-software-cns003-tipo-01.pdf#page=6",
      "sourceLabel": "D, questão 24, página 6",
      "sourceNote": "Resolva as cinco lacunas mentalmente",
+     "quiz": null,
      "answerLetter": "C",
      "asks": "correta",
      "alts": {
@@ -781,6 +823,7 @@ window.STUDY_DATA = {
      "sourceUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/ati-desenvolvimento-de-software-cns003-tipo-01.pdf#page=7",
      "sourceLabel": "D, questão 30, página 7",
      "sourceNote": null,
+     "quiz": null,
      "answerLetter": "A",
      "asks": "correta",
      "alts": {
@@ -799,6 +842,7 @@ window.STUDY_DATA = {
      "sourceUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/tecnico-do-poder-judiciario-area-administrativo-judiciaria-cns200-tipo-2.pdf#page=8",
      "sourceLabel": "R, questão 31, página 8",
      "sourceNote": null,
+     "quiz": null,
      "answerLetter": "E",
      "asks": "correta",
      "alts": {
@@ -817,6 +861,7 @@ window.STUDY_DATA = {
      "sourceUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/ati-desenvolvimento-de-software-cns003-tipo-01.pdf#page=6",
      "sourceLabel": "D, questão 25, página 6",
      "sourceNote": null,
+     "quiz": null,
      "answerLetter": "C",
      "asks": "correta",
      "alts": {
@@ -835,6 +880,7 @@ window.STUDY_DATA = {
      "sourceUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/ati-desenvolvimento-de-software-cns003-tipo-01.pdf#page=6",
      "sourceLabel": "D, questão 26, página 6",
      "sourceNote": null,
+     "quiz": null,
      "answerLetter": "B",
      "asks": "correta",
      "alts": {
@@ -853,6 +899,7 @@ window.STUDY_DATA = {
      "sourceUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/ati-desenvolvimento-de-software-cns003-tipo-01.pdf#page=7",
      "sourceLabel": "D, questão 28, página 7",
      "sourceNote": null,
+     "quiz": null,
      "answerLetter": "D",
      "asks": "correta",
      "alts": {
@@ -871,6 +918,7 @@ window.STUDY_DATA = {
      "sourceUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/tecnico-do-poder-judiciario-area-administrativo-judiciaria-cns200-tipo-2.pdf#page=9",
      "sourceLabel": "R, questão 38, página 9",
      "sourceNote": null,
+     "quiz": null,
      "answerLetter": "C",
      "asks": "correta",
      "alts": {
@@ -889,6 +937,7 @@ window.STUDY_DATA = {
      "sourceUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/tecnico-do-poder-judiciario-area-administrativo-judiciaria-cns200-tipo-2.pdf#page=8",
      "sourceLabel": "R, questão 33, página 8",
      "sourceNote": null,
+     "quiz": null,
      "answerLetter": "D",
      "asks": "correta",
      "alts": {
@@ -907,6 +956,7 @@ window.STUDY_DATA = {
      "sourceUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/tecnico-do-poder-judiciario-area-administrativo-judiciaria-cns200-tipo-2.pdf#page=8",
      "sourceLabel": "R, questão 30, página 8",
      "sourceNote": null,
+     "quiz": null,
      "answerLetter": "B",
      "asks": "correta",
      "alts": {
@@ -925,6 +975,7 @@ window.STUDY_DATA = {
      "sourceUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/ati-desenvolvimento-de-software-cns003-tipo-01.pdf#page=6",
      "sourceLabel": "D, questão 27, página 6",
      "sourceNote": null,
+     "quiz": null,
      "answerLetter": "B",
      "asks": "correta",
      "alts": {
@@ -943,6 +994,7 @@ window.STUDY_DATA = {
      "sourceUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/ati-desenvolvimento-de-software-cns003-tipo-01.pdf#page=7",
      "sourceLabel": "D, questão 29, página 7",
      "sourceNote": null,
+     "quiz": null,
      "answerLetter": "C",
      "asks": "correta",
      "alts": {
@@ -961,6 +1013,7 @@ window.STUDY_DATA = {
      "sourceUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/tecnico-do-poder-judiciario-area-administrativo-judiciaria-cns200-tipo-2.pdf#page=8",
      "sourceLabel": "R, questão 29, página 8",
      "sourceNote": null,
+     "quiz": null,
      "answerLetter": "C",
      "asks": "correta",
      "alts": {
@@ -979,6 +1032,7 @@ window.STUDY_DATA = {
      "sourceUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/tecnico-do-poder-judiciario-area-administrativo-judiciaria-cns200-tipo-2.pdf#page=8",
      "sourceLabel": "R, questão 34, página 8",
      "sourceNote": null,
+     "quiz": null,
      "answerLetter": "C",
      "asks": "correta",
      "alts": {
@@ -997,6 +1051,7 @@ window.STUDY_DATA = {
      "sourceUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/tecnico-do-poder-judiciario-area-administrativo-judiciaria-cns200-tipo-2.pdf#page=9",
      "sourceLabel": "R, questão 36, página 9",
      "sourceNote": null,
+     "quiz": null,
      "answerLetter": "B",
      "asks": "correta",
      "alts": {
@@ -1015,6 +1070,7 @@ window.STUDY_DATA = {
      "sourceUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/tecnico-do-poder-judiciario-area-administrativo-judiciaria-cns200-tipo-2.pdf#page=9",
      "sourceLabel": "R, questão 37, página 9",
      "sourceNote": null,
+     "quiz": null,
      "answerLetter": "E",
      "asks": "correta",
      "alts": {
@@ -1033,6 +1089,7 @@ window.STUDY_DATA = {
      "sourceUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/tecnico-do-poder-judiciario-area-administrativo-judiciaria-cns200-tipo-2.pdf#page=9",
      "sourceLabel": "R, questão 39, página 9",
      "sourceNote": null,
+     "quiz": null,
      "answerLetter": "B",
      "asks": "correta",
      "alts": {
@@ -1051,6 +1108,7 @@ window.STUDY_DATA = {
      "sourceUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/tecnico-do-poder-judiciario-area-administrativo-judiciaria-cns200-tipo-2.pdf#page=9",
      "sourceLabel": "R, questão 40, página 9",
      "sourceNote": null,
+     "quiz": null,
      "answerLetter": "C",
      "asks": "correta",
      "alts": {
@@ -1075,6 +1133,7 @@ window.STUDY_DATA = {
      "sourceUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/cns413-area-14.pdf",
      "sourceLabel": "Caderno de prova",
      "sourceNote": "questão 02",
+     "quiz": null,
      "answerLetter": "A",
      "asks": "correta",
      "alts": {
@@ -1093,6 +1152,7 @@ window.STUDY_DATA = {
      "sourceUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/cns413-area-14.pdf",
      "sourceLabel": "Caderno de prova",
      "sourceNote": "questão 03",
+     "quiz": null,
      "answerLetter": "B",
      "asks": "correta",
      "alts": {
@@ -1111,6 +1171,7 @@ window.STUDY_DATA = {
      "sourceUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/cns413-area-14.pdf",
      "sourceLabel": "Caderno de prova",
      "sourceNote": "questão 06",
+     "quiz": null,
      "answerLetter": "C",
      "asks": "correta",
      "alts": {
@@ -1129,6 +1190,7 @@ window.STUDY_DATA = {
      "sourceUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/cns413-area-14.pdf",
      "sourceLabel": "Caderno de prova",
      "sourceNote": "questão 09",
+     "quiz": null,
      "answerLetter": "D",
      "asks": "correta",
      "alts": {
@@ -1147,6 +1209,7 @@ window.STUDY_DATA = {
      "sourceUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/cns413-area-14.pdf",
      "sourceLabel": "Caderno de prova",
      "sourceNote": "questão 12",
+     "quiz": null,
      "answerLetter": "A",
      "asks": "correta",
      "alts": {
@@ -1165,6 +1228,7 @@ window.STUDY_DATA = {
      "sourceUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/cns413-area-14.pdf",
      "sourceLabel": "Caderno de prova",
      "sourceNote": "questão 13",
+     "quiz": null,
      "answerLetter": "A",
      "asks": "correta",
      "alts": {
@@ -1183,6 +1247,7 @@ window.STUDY_DATA = {
      "sourceUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/cns413-area-14.pdf",
      "sourceLabel": "Caderno de prova",
      "sourceNote": "questão 11",
+     "quiz": null,
      "answerLetter": "D",
      "asks": "correta",
      "alts": {
@@ -1201,6 +1266,7 @@ window.STUDY_DATA = {
      "sourceUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/cns413-area-14.pdf",
      "sourceLabel": "Caderno de prova",
      "sourceNote": "questão 16",
+     "quiz": null,
      "answerLetter": "B",
      "asks": "correta",
      "alts": {
@@ -1214,50 +1280,114 @@ window.STUDY_DATA = {
     {
      "n": 9,
      "title": "LAI: publicidade como regra, sigilo como exceção",
-     "guia": "**Regra.** A LAI (Lei 12.527/2011) consagra a **publicidade** como preceito geral e o **sigilo** como exceção (art. 3º). Informações de interesse público devem ser divulgadas de ofício, independentemente de pedido, sempre que possível.\n\n**Teste relâmpago (autoral, não é questão FGV).** Um órgão público nega acesso a um dado só porque \"não foi pedido antes\" e \"não é praxe divulgar\". Isso está certo ou errado à luz da LAI, e por quê?",
-     "gabarito": "**Resposta comentada (autoral).** Errado. A LAI inverte a lógica antiga: publicidade é a regra geral, e o acesso não depende de \"praxe\" ou de pedido anterior — informações de interesse público coletivo ou geral devem ser divulgadas de ofício, independentemente de solicitação, sempre que possível. Negar só por \"não ser praxe\" contraria o art. 3º.",
+     "guia": "**Regra.** A LAI (Lei 12.527/2011) consagra a **publicidade** como preceito geral e o **sigilo** como exceção (art. 3º). Informações de interesse público devem ser divulgadas de ofício, independentemente de pedido, sempre que possível.",
+     "gabarito": "**Gabarito (autoral): C** — a negativa está errada: pela LAI, publicidade é a regra e sigilo é a exceção (art. 3º).",
      "sourceUrl": null,
      "sourceLabel": null,
      "sourceNote": null,
-     "answerLetter": null,
-     "asks": null,
-     "alts": null
+     "quiz": {
+      "stem": "Um órgão público nega acesso a um dado só porque \"não foi pedido antes\" e \"não é praxe divulgar\". À luz da LAI, essa negativa é:",
+      "options": {
+       "A": "Correta, porque a divulgação só passa a ser obrigatória depois do primeiro pedido.",
+       "B": "Correta, porque o órgão tem discricionariedade para seguir sua praxe de divulgação.",
+       "C": "Incorreta, porque a publicidade é a regra e o sigilo a exceção; falta de pedido anterior ou de praxe não justifica negar.",
+       "D": "Incorreta, mas só porque a negativa de acesso precisa ser decidida por um juiz.",
+       "E": "Correta, desde que o órgão comunique o motivo por escrito em até 20 dias."
+      }
+     },
+     "answerLetter": "C",
+     "asks": "correta",
+     "alts": {
+      "A": "Inverte a lógica da LAI. Informações de interesse público devem ser divulgadas de ofício, independentemente de pedido; não é preciso alguém pedir antes.",
+      "B": "Não existe \"praxe\" que justifique negar acesso. O sigilo só cabe nas hipóteses que a lei prevê (informação classificada, pessoal, sigilo legal), não por costume do órgão.",
+      "C": "Pelo art. 3º, a LAI adota a publicidade como preceito geral e o sigilo como exceção, e manda divulgar de ofício o que for de interesse público. Negar só porque \"não foi pedido antes\" ou \"não é praxe\" contraria a lei.",
+      "D": "A negativa de acesso é decisão administrativa do próprio órgão, com recurso administrativo previsto na LAI. Não precisa de juiz; o problema da negativa é o motivo, não quem decide.",
+      "E": "Responder em até 20 dias não torna válida uma negativa sem fundamento legal. O prazo regula a resposta; o motivo \"não é praxe\" continua inválido."
+     }
     },
     {
      "n": 10,
      "title": "LAI: prazo de resposta ao pedido de acesso",
-     "guia": "**Regra.** O órgão deve conceder acesso imediato, se a informação estiver disponível. Se não for possível, o prazo é de até **20 dias**, prorrogável por mais **10 dias** mediante justificativa expressa (art. 11).\n\n**Teste relâmpago (autoral, não é questão FGV).** Um pedido de acesso é feito no dia 1º. O órgão não tem a informação pronta e justifica a demora. Até que dia ele pode responder, no limite?",
-     "gabarito": "**Resposta comentada (autoral).** No limite, até o dia 30 (20 dias do prazo padrão + 10 dias da prorrogação), desde que o órgão justifique expressamente a prorrogação antes de esgotar o prazo original.",
+     "guia": "**Regra.** O órgão deve conceder acesso imediato, se a informação estiver disponível. Se não for possível, o prazo é de até **20 dias**, prorrogável por mais **10 dias** mediante justificativa expressa (art. 11).",
+     "gabarito": "**Gabarito (autoral): D** — até 20 dias, prorrogáveis por mais 10 com justificativa expressa (art. 11), ou seja, 30 dias no limite.",
      "sourceUrl": null,
      "sourceLabel": null,
      "sourceNote": null,
-     "answerLetter": null,
-     "asks": null,
-     "alts": null
+     "quiz": {
+      "stem": "Um pedido de acesso à informação é feito. O órgão não tem a informação pronta e justifica expressamente a demora. No limite, em quantos dias ele pode responder?",
+      "options": {
+       "A": "10 dias.",
+       "B": "15 dias.",
+       "C": "20 dias, improrrogáveis.",
+       "D": "30 dias (20 dias + 10 de prorrogação justificada).",
+       "E": "45 dias."
+      }
+     },
+     "answerLetter": "D",
+     "asks": "correta",
+     "alts": {
+      "A": "10 dias é só a prorrogação, não o prazo total. O prazo-base é de 20 dias.",
+      "B": "15 dias é o prazo da LGPD para a resposta completa ao titular (art. 19), não o da LAI. É a troca mais comum entre as duas leis.",
+      "C": "Os 20 dias podem ser prorrogados por mais 10, desde que haja justificativa expressa (art. 11, §2º). Como o órgão justificou, cabe a prorrogação.",
+      "D": "Pelo art. 11, se a informação não está disponível de imediato, o órgão tem até 20 dias, prorrogáveis por mais 10 mediante justificativa expressa, cientificado o requerente. No limite, 30 dias.",
+      "E": "45 dias não aparece na LAI. O teto é 20 + 10 = 30 dias."
+     }
     },
     {
      "n": 11,
      "title": "Lei 12.737: invasão de dispositivo informático (art. 154-A do CP)",
-     "guia": "**Regra.** É crime invadir dispositivo informático alheio, conectado ou não à rede, mediante violação indevida de mecanismo de segurança, com o fim de obter, adulterar ou destruir dados/informações sem autorização do titular, ou instalar vulnerabilidade para obter vantagem ilícita. Pena: detenção de 3 meses a 1 ano, e multa.\n\n**Teste relâmpago (autoral, não é questão FGV).** Alguém acessa um computador que ficou sem senha, sem burlar nenhum mecanismo de segurança, e olha arquivos alheios. Isso configura o crime do art. 154-A? Por quê?",
-     "gabarito": "**Resposta comentada (autoral).** Não configura o crime do art. 154-A, pois o tipo exige violação indevida de mecanismo de segurança. Sem mecanismo de segurança a ser violado (dispositivo sem senha, por exemplo), falta um elemento do tipo — pode haver outra consequência jurídica (cível, disciplinar), mas não esse crime específico.",
+     "guia": "**Regra.** É crime invadir dispositivo informático **de uso alheio**, conectado ou não à rede, com o fim de obter, adulterar ou destruir dados ou informações sem autorização expressa ou tácita do usuário, ou de instalar vulnerabilidades para obter vantagem ilícita. Pena: **reclusão de 1 a 4 anos**, e multa. Essa é a redação dada pela **Lei 14.155/2021**, que alterou o artigo criado pela Lei 12.737/2012 (\"Lei Carolina Dieckmann\").\n\n**Pegadinha.** A redação original de 2012 exigia \"violação indevida de mecanismo de segurança\" e punia com detenção de 3 meses a 1 ano. Desde 2021 a lei **não exige mais** burlar senha ou mecanismo de segurança, e a pena virou reclusão.",
+     "gabarito": "**Gabarito (autoral): B** — desde a Lei 14.155/2021, o art. 154-A não exige mais violação de mecanismo de segurança.",
      "sourceUrl": null,
      "sourceLabel": null,
      "sourceNote": null,
-     "answerLetter": null,
-     "asks": null,
-     "alts": null
+     "quiz": {
+      "stem": "Alguém acessa o computador de um colega que ficou sem senha e copia arquivos dele sem autorização. Pela redação atual do art. 154-A:",
+      "options": {
+       "A": "Não é crime, porque não houve violação de mecanismo de segurança.",
+       "B": "Pode ser crime, porque desde 2021 o tipo não exige mais violar mecanismo de segurança: basta invadir dispositivo de uso alheio para obter dados sem autorização.",
+       "C": "Só é crime se o computador estiver conectado à internet.",
+       "D": "Só é crime se a invasão causar prejuízo econômico.",
+       "E": "É crime, com pena de detenção de 3 meses a 1 ano."
+      }
+     },
+     "answerLetter": "B",
+     "asks": "correta",
+     "alts": {
+      "A": "Esse era o raciocínio da redação original de 2012, que exigia \"violação indevida de mecanismo de segurança\". A Lei 14.155/2021 tirou essa exigência do texto.",
+      "B": "Na redação atual, o crime é invadir dispositivo informático de uso alheio com o fim de obter, adulterar ou destruir dados sem autorização expressa ou tácita do usuário. Não é mais preciso burlar senha; copiar arquivos alheios sem autorização se encaixa.",
+      "C": "O próprio artigo diz \"conectado ou não à rede de computadores\". Estar offline não afasta o crime.",
+      "D": "Prejuízo econômico não é requisito: ele só aumenta a pena (§2º, de 1/3 a 2/3).",
+      "E": "Detenção de 3 meses a 1 ano é a pena da redação original de 2012. Hoje a pena é reclusão de 1 a 4 anos, e multa."
+     }
     },
     {
      "n": 12,
-     "title": "Lei 12.737: majorantes da pena",
-     "guia": "**Regra.** A pena aumenta de 1/6 a 1/3 se da invasão resulta prejuízo econômico. Se resulta obtenção de conteúdo de comunicações eletrônicas privadas, segredos comerciais/industriais, informações sigilosas, ou controle remoto não autorizado do dispositivo, a pena passa a ser de reclusão de 6 meses a 2 anos e multa (se o fato não constituir crime mais grave). Há aumento de metade a 2/3 se há divulgação, comercialização ou transmissão a terceiro dos dados obtidos.\n\n**Teste relâmpago (autoral, não é questão FGV).** Uma invasão resulta na obtenção de segredos comerciais de uma empresa, que depois são vendidos a um concorrente. Isso muda a pena-base de detenção para reclusão, e ainda pode aumentar mais? Por quê?",
-     "gabarito": "**Resposta comentada (autoral).** Sim, muda: a obtenção de segredos comerciais já eleva a pena para reclusão de 6 meses a 2 anos e multa (em vez da detenção de 3 meses a 1 ano do caput). Além disso, a venda a terceiro configura divulgação/comercialização dos dados obtidos, o que aumenta a pena de metade a 2/3 sobre essa nova base.",
+     "title": "Lei 12.737: majorantes e qualificadora",
+     "guia": "**Regra.** Pela redação atual do art. 154-A:\n- §2º: a pena **aumenta de 1/3 a 2/3** se da invasão resulta **prejuízo econômico**.\n- §3º (qualificadora): se resulta obtenção de conteúdo de comunicações eletrônicas privadas, segredos comerciais ou industriais, informações sigilosas, ou controle remoto não autorizado do dispositivo, a pena passa a ser **reclusão de 2 a 5 anos**, e multa (se a conduta não constitui crime mais grave).\n- §4º: no caso do §3º, a pena **aumenta de 1 a 2/3** se houver **divulgação, comercialização ou transmissão a terceiro** dos dados obtidos.\n- §5º: aumenta de 1/3 à metade se o crime for contra Presidente da República, governadores, prefeitos, presidentes do Congresso, da Câmara, do Senado, de Assembleias e Câmaras, e do STF, ou dirigente máximo da administração direta e indireta.\n\n**Exemplo.** Antes de 2021 o §2º era de 1/6 a 1/3 e o §3º era reclusão de 6 meses a 2 anos. Se aparecerem esses números, é a redação antiga.",
+     "gabarito": "**Gabarito (autoral): C** — segredo comercial obtido leva à qualificadora do §3º, e a venda a terceiro aumenta a pena pelo §4º.",
      "sourceUrl": null,
      "sourceLabel": null,
      "sourceNote": null,
-     "answerLetter": null,
-     "asks": null,
-     "alts": null
+     "quiz": {
+      "stem": "Uma invasão resulta na obtenção de segredos comerciais de uma empresa, que depois são vendidos a um concorrente. Qual é o enquadramento da pena?",
+      "options": {
+       "A": "Pena do caput (reclusão de 1 a 4 anos), sem aumento.",
+       "B": "Pena do caput aumentada de 1/3 a 2/3, só pelo prejuízo econômico.",
+       "C": "Qualificadora do §3º (reclusão de 2 a 5 anos), aumentada de 1 a 2/3 pela comercialização a terceiro.",
+       "D": "Qualificadora do §3º (reclusão de 2 a 5 anos), sem aumento, porque a venda já está dentro da qualificadora.",
+       "E": "Detenção de 3 meses a 1 ano, aumentada de metade a 2/3."
+      }
+     },
+     "answerLetter": "C",
+     "asks": "correta",
+     "alts": {
+      "A": "Obter segredos comerciais não fica no caput: é hipótese expressa da qualificadora do §3º, com pena própria.",
+      "B": "O §2º (prejuízo econômico) é outra hipótese. Aqui o que define a pena é a obtenção de segredo comercial (§3º) e a comercialização (§4º).",
+      "C": "Obter segredos comerciais qualifica o crime (§3º: reclusão de 2 a 5 anos, e multa). Vender ao concorrente é comercialização a terceiro, que no caso do §3º aumenta a pena de 1 a 2/3 (§4º).",
+      "D": "A qualificadora fala em obter os dados; divulgar, comercializar ou transmitir a terceiro é aumento separado, previsto no §4º. Por isso a venda ainda aumenta a pena.",
+      "E": "Detenção de 3 meses a 1 ano é a pena antiga do caput, e \"metade a 2/3\" não existe no artigo. O aumento do §4º é de 1 a 2/3."
+     }
     }
    ]
   },
@@ -1273,6 +1403,7 @@ window.STUDY_DATA = {
      "sourceUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/ati-desenvolvimento-de-software-cns003-tipo-01.pdf#page=7",
      "sourceLabel": "D · questão 31 · página 7",
      "sourceNote": null,
+     "quiz": null,
      "answerLetter": "B",
      "asks": "correta",
      "alts": {
@@ -1291,6 +1422,7 @@ window.STUDY_DATA = {
      "sourceUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/ati-desenvolvimento-de-software-cns003-tipo-01.pdf#page=7",
      "sourceLabel": "D · questão 32 · página 7",
      "sourceNote": null,
+     "quiz": null,
      "answerLetter": "A",
      "asks": "correta",
      "alts": {
@@ -1309,6 +1441,7 @@ window.STUDY_DATA = {
      "sourceUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/ati-desenvolvimento-de-software-cns003-tipo-01.pdf#page=8",
      "sourceLabel": "D · questão 33 · página 8",
      "sourceNote": null,
+     "quiz": null,
      "answerLetter": "D",
      "asks": "correta",
      "alts": {
@@ -1327,6 +1460,7 @@ window.STUDY_DATA = {
      "sourceUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/ati-desenvolvimento-de-software-cns003-tipo-01.pdf#page=8",
      "sourceLabel": "D · questão 34 · página 8",
      "sourceNote": null,
+     "quiz": null,
      "answerLetter": "C",
      "asks": "correta",
      "alts": {
@@ -1345,6 +1479,7 @@ window.STUDY_DATA = {
      "sourceUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/ati-desenvolvimento-de-software-cns003-tipo-01.pdf#page=8",
      "sourceLabel": "D · questão 35 · página 8",
      "sourceNote": null,
+     "quiz": null,
      "answerLetter": "E",
      "asks": "correta",
      "alts": {
@@ -1358,12 +1493,22 @@ window.STUDY_DATA = {
     {
      "n": 6,
      "title": "IA, aprendizado de máquina e aprendizado profundo",
-     "guia": "**Resumo:** Inteligência artificial (IA) é o campo amplo de sistemas que executam tarefas associadas à inteligência humana, como perceber, raciocinar, decidir e usar linguagem. Aprendizado de máquina (machine learning) é uma parte da IA: o sistema aprende padrões a partir de dados, em vez de seguir só regras escritas à mão. Aprendizado profundo (deep learning) é uma parte do aprendizado de máquina que usa redes neurais com muitas camadas. O aninhamento é IA, depois aprendizado de máquina, depois aprendizado profundo; existe IA sem aprendizado, como sistemas de regras.\n\n**Exemplo autoral:** Um filtro de spam com a regra \"se tem 'prêmio grátis', é spam\" é IA baseada em regras; o que aprende com milhões de e-mails já marcados é aprendizado de máquina; o que lê o texto com uma rede neural profunda é aprendizado profundo. Em código: o if/else você escreve; os parâmetros aprendidos saem do treino com dados.\n\n**Como atacar:** A banca inverte a hierarquia (\"a IA é um subconjunto do aprendizado de máquina\") ou generaliza (\"toda IA aprende com dados\"). Desenhe três círculos concêntricos: IA por fora, aprendizado de máquina no meio, aprendizado profundo por dentro.\n\n**Teste relâmpago (autoral, não é questão FGV):** Uma equipe organiza um glossário para um relatório sobre tecnologias de IA.\nJulgue os itens:\nI. O aprendizado profundo é um subconjunto do aprendizado de máquina, que por sua vez é um subconjunto da inteligência artificial.\nII. Todo sistema de inteligência artificial é, necessariamente, um sistema de aprendizado de máquina.\nIII. No aprendizado de máquina, o sistema extrai padrões dos dados, em vez de depender apenas de regras escritas explicitamente por programadores.\nEstá correto o que se afirma em\n(A) I, apenas.\n(B) II, apenas.\n(C) I e II, apenas.\n(D) I e III, apenas.\n(E) I, II e III.",
+     "guia": "**Resumo:** Inteligência artificial (IA) é o campo amplo de sistemas que executam tarefas associadas à inteligência humana, como perceber, raciocinar, decidir e usar linguagem. Aprendizado de máquina (machine learning) é uma parte da IA: o sistema aprende padrões a partir de dados, em vez de seguir só regras escritas à mão. Aprendizado profundo (deep learning) é uma parte do aprendizado de máquina que usa redes neurais com muitas camadas. O aninhamento é IA, depois aprendizado de máquina, depois aprendizado profundo; existe IA sem aprendizado, como sistemas de regras.\n\n**Exemplo autoral:** Um filtro de spam com a regra \"se tem 'prêmio grátis', é spam\" é IA baseada em regras; o que aprende com milhões de e-mails já marcados é aprendizado de máquina; o que lê o texto com uma rede neural profunda é aprendizado profundo. Em código: o if/else você escreve; os parâmetros aprendidos saem do treino com dados.\n\n**Como atacar:** A banca inverte a hierarquia (\"a IA é um subconjunto do aprendizado de máquina\") ou generaliza (\"toda IA aprende com dados\"). Desenhe três círculos concêntricos: IA por fora, aprendizado de máquina no meio, aprendizado profundo por dentro.",
      "gabarito": "**Resposta comentada (autoral).** Gabarito: D (I e III, apenas). A I está certa: o aprendizado profundo está dentro do aprendizado de máquina, que está dentro da IA. A II está errada: existe IA sem aprendizado de máquina, como os sistemas especialistas baseados em regras, então \"todo\" e \"necessariamente\" falham. A III está certa: aprender padrões a partir de dados é justamente o que distingue o aprendizado de máquina de programar só regras explícitas.",
      "sourceUrl": null,
      "sourceLabel": null,
      "sourceNote": null,
-     "answerLetter": null,
+     "quiz": {
+      "stem": "Uma equipe organiza um glossário para um relatório sobre tecnologias de IA.\nJulgue os itens:\nI. O aprendizado profundo é um subconjunto do aprendizado de máquina, que por sua vez é um subconjunto da inteligência artificial.\nII. Todo sistema de inteligência artificial é, necessariamente, um sistema de aprendizado de máquina.\nIII. No aprendizado de máquina, o sistema extrai padrões dos dados, em vez de depender apenas de regras escritas explicitamente por programadores.\nEstá correto o que se afirma em",
+      "options": {
+       "A": "I, apenas.",
+       "B": "II, apenas.",
+       "C": "I e II, apenas.",
+       "D": "I e III, apenas.",
+       "E": "I, II e III."
+      }
+     },
+     "answerLetter": "D",
      "asks": null,
      "alts": null
     },
@@ -1375,6 +1520,7 @@ window.STUDY_DATA = {
      "sourceUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/perito-criminal-informatica-forense-cns202-tipo-1.pdf#page=16",
      "sourceLabel": "PC-PI 2026 · questão 73 · página 16",
      "sourceNote": "Cargo diferente (Perito Criminal, Informática Forense), mesma banca",
+     "quiz": null,
      "answerLetter": "D",
      "asks": "correta",
      "alts": {
@@ -1388,36 +1534,66 @@ window.STUDY_DATA = {
     {
      "n": 8,
      "title": "Treino, validação e teste; overfitting e underfitting",
-     "guia": "**Resumo:** Os dados são separados em três partes. O treino ajusta os parâmetros do modelo; a validação serve para comparar modelos e escolher hiperparâmetros; o teste, usado só no fim, dá a nota final com dados que o modelo nunca viu. Overfitting (sobreajuste) é decorar o treino: erro baixo no treino e alto em dados novos, comum com modelo complexo demais ou poucos dados. Underfitting (subajuste) é o modelo simples demais, que vai mal até no treino. Contra o sobreajuste ajudam mais dados, modelo mais simples, regularização e parada antecipada.\n\n**Exemplo autoral:** Um aluno que decora o gabarito das provas dos anos anteriores tira 10 nelas e vai mal na prova nova: sobreajuste. Em código, é como o programa que passa nos testes só porque os valores esperados foram fixados na mão.\n\n**Como atacar:** Memorize: overfitting é bom no treino e ruim fora dele; underfitting é ruim em tudo. Desconfie de \"avaliar o modelo com os mesmos dados do treino\": isso infla a nota e esconde o sobreajuste.\n\n**Teste relâmpago (autoral, não é questão FGV):** Uma equipe de dados treina um modelo e compara seu desempenho em diferentes conjuntos.\nJulgue os itens:\nI. Um modelo com ótimo desempenho nos dados de treino e desempenho ruim em dados novos apresenta sobreajuste (overfitting).\nII. O conjunto de teste deve ser usado repetidamente durante o treinamento para ajustar o modelo, pois assim ele aprende melhor.\nIII. O subajuste (underfitting) ocorre quando o modelo é complexo demais e memoriza os dados de treino.\nEstá correto o que se afirma em\n(A) I, apenas.\n(B) II, apenas.\n(C) I e II, apenas.\n(D) I e III, apenas.\n(E) I, II e III.",
+     "guia": "**Resumo:** Os dados são separados em três partes. O treino ajusta os parâmetros do modelo; a validação serve para comparar modelos e escolher hiperparâmetros; o teste, usado só no fim, dá a nota final com dados que o modelo nunca viu. Overfitting (sobreajuste) é decorar o treino: erro baixo no treino e alto em dados novos, comum com modelo complexo demais ou poucos dados. Underfitting (subajuste) é o modelo simples demais, que vai mal até no treino. Contra o sobreajuste ajudam mais dados, modelo mais simples, regularização e parada antecipada.\n\n**Exemplo autoral:** Um aluno que decora o gabarito das provas dos anos anteriores tira 10 nelas e vai mal na prova nova: sobreajuste. Em código, é como o programa que passa nos testes só porque os valores esperados foram fixados na mão.\n\n**Como atacar:** Memorize: overfitting é bom no treino e ruim fora dele; underfitting é ruim em tudo. Desconfie de \"avaliar o modelo com os mesmos dados do treino\": isso infla a nota e esconde o sobreajuste.",
      "gabarito": "**Resposta comentada (autoral).** Gabarito: A (I, apenas). A I está certa: ir muito bem no treino e mal em dados novos é a definição de sobreajuste. A II está errada: o teste serve para a avaliação final, com dados que o modelo nunca viu; usá-lo repetidamente para ajustar o modelo o contamina, e o ajuste deve usar a validação. A III está errada: memorizar o treino por excesso de complexidade é sobreajuste; o subajuste é o modelo simples demais, que vai mal até no treino.",
      "sourceUrl": null,
      "sourceLabel": null,
      "sourceNote": null,
-     "answerLetter": null,
+     "quiz": {
+      "stem": "Uma equipe de dados treina um modelo e compara seu desempenho em diferentes conjuntos.\nJulgue os itens:\nI. Um modelo com ótimo desempenho nos dados de treino e desempenho ruim em dados novos apresenta sobreajuste (overfitting).\nII. O conjunto de teste deve ser usado repetidamente durante o treinamento para ajustar o modelo, pois assim ele aprende melhor.\nIII. O subajuste (underfitting) ocorre quando o modelo é complexo demais e memoriza os dados de treino.\nEstá correto o que se afirma em",
+      "options": {
+       "A": "I, apenas.",
+       "B": "II, apenas.",
+       "C": "I e II, apenas.",
+       "D": "I e III, apenas.",
+       "E": "I, II e III."
+      }
+     },
+     "answerLetter": "A",
      "asks": null,
      "alts": null
     },
     {
      "n": 9,
      "title": "Avaliar um classificador: acurácia, precisão, recall e matriz de confusão",
-     "guia": "**Resumo:** A matriz de confusão cruza o real com o previsto: verdadeiro positivo (VP), falso positivo (FP), verdadeiro negativo (VN) e falso negativo (FN). Acurácia é a fração de acertos totais, (VP+VN) sobre o total. Precisão é VP/(VP+FP): dos casos que o modelo apontou como positivos, quantos eram mesmo. Recall (sensibilidade) é VP/(VP+FN): dos positivos reais, quantos o modelo encontrou. Com classes desbalanceadas a acurácia engana: o modelo que sempre diz \"negativo\" acerta 99% quando só 1% é positivo, com recall zero. Nesses casos use precisão, recall e F1 (média harmônica das duas).\n\n**Exemplo autoral:** Em 1.000 transações há 10 fraudes. Um modelo que nunca acusa fraude tem acurácia de 99%, mas recall de 0%: não pega nenhuma.\n\n**Como atacar:** Não troque precisão e recall: precisão olha para os alarmes do modelo (falsos positivos); recall olha para os casos reais que escaparam (falsos negativos). \"Acurácia alta, logo modelo bom\" é a armadilha clássica do desbalanceamento.\n\n**Teste relâmpago (autoral, não é questão FGV):** Um banco usa um modelo para detectar fraudes, que representam 1% das transações.\nJulgue os itens:\nI. Um modelo que classifica todas as transações como legítimas teria acurácia de 99% e, ainda assim, não detectaria nenhuma fraude.\nII. O recall é a proporção de transações apontadas como fraude pelo modelo que realmente eram fraude.\nIII. Com classes muito desbalanceadas, precisão e recall informam melhor o desempenho do que a acurácia isolada.\nEstá correto o que se afirma em\n(A) I, apenas.\n(B) II, apenas.\n(C) I e II, apenas.\n(D) I e III, apenas.\n(E) I, II e III.",
+     "guia": "**Resumo:** A matriz de confusão cruza o real com o previsto: verdadeiro positivo (VP), falso positivo (FP), verdadeiro negativo (VN) e falso negativo (FN). Acurácia é a fração de acertos totais, (VP+VN) sobre o total. Precisão é VP/(VP+FP): dos casos que o modelo apontou como positivos, quantos eram mesmo. Recall (sensibilidade) é VP/(VP+FN): dos positivos reais, quantos o modelo encontrou. Com classes desbalanceadas a acurácia engana: o modelo que sempre diz \"negativo\" acerta 99% quando só 1% é positivo, com recall zero. Nesses casos use precisão, recall e F1 (média harmônica das duas).\n\n**Exemplo autoral:** Em 1.000 transações há 10 fraudes. Um modelo que nunca acusa fraude tem acurácia de 99%, mas recall de 0%: não pega nenhuma.\n\n**Como atacar:** Não troque precisão e recall: precisão olha para os alarmes do modelo (falsos positivos); recall olha para os casos reais que escaparam (falsos negativos). \"Acurácia alta, logo modelo bom\" é a armadilha clássica do desbalanceamento.",
      "gabarito": "**Resposta comentada (autoral).** Gabarito: D (I e III, apenas). A I está certa: com 99% de transações legítimas, dizer sempre \"legítima\" dá 99% de acurácia e recall zero para fraudes. A II está errada: o que ela descreve (entre os casos apontados como fraude, quantos eram fraude) é a precisão; recall é a proporção dos casos reais de fraude que o modelo encontrou. A III está certa: com classes muito desbalanceadas, a acurácia sozinha engana e precisão e recall mostram melhor o desempenho.",
      "sourceUrl": null,
      "sourceLabel": null,
      "sourceNote": null,
-     "answerLetter": null,
+     "quiz": {
+      "stem": "Um banco usa um modelo para detectar fraudes, que representam 1% das transações.\nJulgue os itens:\nI. Um modelo que classifica todas as transações como legítimas teria acurácia de 99% e, ainda assim, não detectaria nenhuma fraude.\nII. O recall é a proporção de transações apontadas como fraude pelo modelo que realmente eram fraude.\nIII. Com classes muito desbalanceadas, precisão e recall informam melhor o desempenho do que a acurácia isolada.\nEstá correto o que se afirma em",
+      "options": {
+       "A": "I, apenas.",
+       "B": "II, apenas.",
+       "C": "I e II, apenas.",
+       "D": "I e III, apenas.",
+       "E": "I, II e III."
+      }
+     },
+     "answerLetter": "D",
      "asks": null,
      "alts": null
     },
     {
      "n": 10,
      "title": "Redes neurais e aprendizado profundo",
-     "guia": "**Resumo:** O neurônio artificial multiplica cada entrada por um peso, soma tudo, adiciona um viés e passa o resultado por uma função de ativação, que introduz não linearidade. Neurônios formam camadas (entrada, ocultas e saída); aprendizado profundo é usar redes com várias camadas ocultas. \"Aprender\" é ajustar pesos e vieses para reduzir uma função de perda, que mede o erro, por meio de retropropagação e gradiente descendente. Pesos são parâmetros aprendidos; hiperparâmetros (taxa de aprendizado, número de camadas) são escolhidos por quem projeta o modelo.\n\n**Exemplo autoral:** Numa rede que reconhece dígitos manuscritos, os pixels entram, as camadas ocultas combinam traços em formas e a saída dá a probabilidade de cada dígito; a cada erro, os pesos são corrigidos um pouco. Em código, os pesos são os números da função, que o treino ajusta em vez de você escrevê-los.\n\n**Como atacar:** \"Aprender\" não é o programador escrever regras: é ajustar pesos para reduzir o erro. Cuidado com a troca entre parâmetros (aprendidos no treino) e hiperparâmetros (definidos antes do treino).\n\n**Teste relâmpago (autoral, não é questão FGV):** Um curso introdutório apresenta o funcionamento de uma rede neural artificial.\nJulgue os itens:\nI. Em uma rede neural, aprender significa ajustar os pesos para reduzir o erro medido por uma função de perda.\nII. O aprendizado profundo usa redes neurais com várias camadas ocultas.\nIII. Hiperparâmetros, como a taxa de aprendizado, são ajustados automaticamente pela retropropagação, do mesmo modo que os pesos.\nEstá correto o que se afirma em\n(A) I, apenas.\n(B) II, apenas.\n(C) I e II, apenas.\n(D) I e III, apenas.\n(E) I, II e III.",
+     "guia": "**Resumo:** O neurônio artificial multiplica cada entrada por um peso, soma tudo, adiciona um viés e passa o resultado por uma função de ativação, que introduz não linearidade. Neurônios formam camadas (entrada, ocultas e saída); aprendizado profundo é usar redes com várias camadas ocultas. \"Aprender\" é ajustar pesos e vieses para reduzir uma função de perda, que mede o erro, por meio de retropropagação e gradiente descendente. Pesos são parâmetros aprendidos; hiperparâmetros (taxa de aprendizado, número de camadas) são escolhidos por quem projeta o modelo.\n\n**Exemplo autoral:** Numa rede que reconhece dígitos manuscritos, os pixels entram, as camadas ocultas combinam traços em formas e a saída dá a probabilidade de cada dígito; a cada erro, os pesos são corrigidos um pouco. Em código, os pesos são os números da função, que o treino ajusta em vez de você escrevê-los.\n\n**Como atacar:** \"Aprender\" não é o programador escrever regras: é ajustar pesos para reduzir o erro. Cuidado com a troca entre parâmetros (aprendidos no treino) e hiperparâmetros (definidos antes do treino).",
      "gabarito": "**Resposta comentada (autoral).** Gabarito: C (I e II, apenas). A I está certa: aprender é ajustar pesos para reduzir o erro medido pela função de perda. A II está certa: \"profundo\" se refere a redes com várias camadas ocultas. A III está errada: a retropropagação calcula como corrigir os pesos; hiperparâmetros, como a taxa de aprendizado, são definidos por quem projeta o modelo antes do treino.",
      "sourceUrl": null,
      "sourceLabel": null,
      "sourceNote": null,
-     "answerLetter": null,
+     "quiz": {
+      "stem": "Um curso introdutório apresenta o funcionamento de uma rede neural artificial.\nJulgue os itens:\nI. Em uma rede neural, aprender significa ajustar os pesos para reduzir o erro medido por uma função de perda.\nII. O aprendizado profundo usa redes neurais com várias camadas ocultas.\nIII. Hiperparâmetros, como a taxa de aprendizado, são ajustados automaticamente pela retropropagação, do mesmo modo que os pesos.\nEstá correto o que se afirma em",
+      "options": {
+       "A": "I, apenas.",
+       "B": "II, apenas.",
+       "C": "I e II, apenas.",
+       "D": "I e III, apenas.",
+       "E": "I, II e III."
+      }
+     },
+     "answerLetter": "C",
      "asks": null,
      "alts": null
     },
@@ -1429,6 +1605,7 @@ window.STUDY_DATA = {
      "sourceUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/perito-criminal-informatica-forense-cns202-tipo-1.pdf#page=16",
      "sourceLabel": "PC-PI 2026 · questão 72 · página 16",
      "sourceNote": "Cargo diferente (Perito Criminal, Informática Forense), mesma banca",
+     "quiz": null,
      "answerLetter": "E",
      "asks": "correta",
      "alts": {
@@ -1442,156 +1619,286 @@ window.STUDY_DATA = {
     {
      "n": 12,
      "title": "IA generativa: o que gera e como falha",
-     "guia": "**Resumo:** IA generativa cria conteúdo novo (texto, imagem, áudio, vídeo, código) a partir dos padrões que aprendeu. Nos LLMs a geração é probabilística: o modelo sorteia o próximo token e a temperatura regula a aleatoriedade (baixa: respostas mais previsíveis; alta: mais variadas e mais sujeitas a erro). Alucinação é a resposta fluente e confiante, mas falsa ou inventada (fatos, citações, referências inexistentes), porque o modelo produz o texto mais plausível, sem verificar a verdade. Em uma linha: GAN são duas redes que competem, gerador e discriminador; modelos de difusão geram imagens removendo ruído passo a passo.\n\n**Exemplo autoral:** Você pede \"cite três artigos sobre o tema\" e o chatbot devolve títulos e autores convincentes, mas um deles não existe: alucinação.\n\n**Como atacar:** Temperatura zero reduz a variação, mas não faz o modelo checar fatos, então não elimina alucinação. Desconfie também de \"tom seguro significa resposta correta\".\n\n**Teste relâmpago (autoral, não é questão FGV):** Uma empresa testa um assistente generativo para redigir pareceres internos.\nJulgue os itens:\nI. A alucinação ocorre apenas quando o modelo demonstra insegurança; respostas escritas em tom confiante são necessariamente corretas.\nII. Em modelos de linguagem, uma temperatura mais alta aumenta a variedade, ou aleatoriedade, das respostas, enquanto uma temperatura baixa as torna mais previsíveis.\nIII. Ajustar a temperatura para zero elimina as alucinações, pois o modelo passa a consultar apenas fatos verificados.\nEstá correto o que se afirma em\n(A) I, apenas.\n(B) II, apenas.\n(C) I e II, apenas.\n(D) I e III, apenas.\n(E) I, II e III.",
+     "guia": "**Resumo:** IA generativa cria conteúdo novo (texto, imagem, áudio, vídeo, código) a partir dos padrões que aprendeu. Nos LLMs a geração é probabilística: o modelo sorteia o próximo token e a temperatura regula a aleatoriedade (baixa: respostas mais previsíveis; alta: mais variadas e mais sujeitas a erro). Alucinação é a resposta fluente e confiante, mas falsa ou inventada (fatos, citações, referências inexistentes), porque o modelo produz o texto mais plausível, sem verificar a verdade. Em uma linha: GAN são duas redes que competem, gerador e discriminador; modelos de difusão geram imagens removendo ruído passo a passo.\n\n**Exemplo autoral:** Você pede \"cite três artigos sobre o tema\" e o chatbot devolve títulos e autores convincentes, mas um deles não existe: alucinação.\n\n**Como atacar:** Temperatura zero reduz a variação, mas não faz o modelo checar fatos, então não elimina alucinação. Desconfie também de \"tom seguro significa resposta correta\".",
      "gabarito": "**Resposta comentada (autoral).** Gabarito: B (II, apenas). A I está errada: a alucinação costuma vir em tom fluente e confiante, então o tom seguro não garante que a resposta esteja correta. A II está certa: a temperatura regula a aleatoriedade, e valores mais altos geram respostas mais variadas e menos previsíveis. A III está errada: temperatura zero reduz a variação, mas o modelo não passa a consultar fatos verificados e continua podendo alucinar.",
      "sourceUrl": null,
      "sourceLabel": null,
      "sourceNote": null,
-     "answerLetter": null,
+     "quiz": {
+      "stem": "Uma empresa testa um assistente generativo para redigir pareceres internos.\nJulgue os itens:\nI. A alucinação ocorre apenas quando o modelo demonstra insegurança; respostas escritas em tom confiante são necessariamente corretas.\nII. Em modelos de linguagem, uma temperatura mais alta aumenta a variedade, ou aleatoriedade, das respostas, enquanto uma temperatura baixa as torna mais previsíveis.\nIII. Ajustar a temperatura para zero elimina as alucinações, pois o modelo passa a consultar apenas fatos verificados.\nEstá correto o que se afirma em",
+      "options": {
+       "A": "I, apenas.",
+       "B": "II, apenas.",
+       "C": "I e II, apenas.",
+       "D": "I e III, apenas.",
+       "E": "I, II e III."
+      }
+     },
+     "answerLetter": "B",
      "asks": null,
      "alts": null
     },
     {
      "n": 13,
      "title": "Usar bem um LLM: prompt, RAG e fine-tuning",
-     "guia": "**Resumo:** São três alavancas, da mais barata à mais cara. Prompt: instruções claras, contexto, exemplos e formato de saída, sem mexer no modelo. RAG (geração aumentada por recuperação): busca trechos relevantes em uma base externa, como documentos da empresa, e os coloca no contexto da pergunta; traz conhecimento atual e específico, permite citar a fonte e reduz (sem eliminar) a alucinação, sem retreinar. Fine-tuning: continua o treino com exemplos próprios e altera os pesos; serve para estilo, formato ou tarefa específica, não para manter fatos que mudam. Faltou conhecimento: RAG. Faltou comportamento: prompt e, se não bastar, fine-tuning.\n\n**Exemplo autoral:** Um chatbot de RH que responde sobre o regulamento vigente usa RAG, buscando o trecho atual; fazer o bot sempre responder em JSON e com tom formal é questão de prompt e, se não bastar, de fine-tuning. Em código, RAG é consultar a documentação antes de responder.\n\n**Como atacar:** Cuidado com \"para atualizar o conhecimento do modelo é obrigatório retreiná-lo\" (o RAG resolve sem retreino) e com \"o RAG elimina alucinações\" (reduz, não elimina).\n\n**Teste relâmpago (autoral, não é questão FGV):** Uma empresa quer que um assistente responda com base nas normas internas, que mudam com frequência.\nJulgue os itens:\nI. No RAG, trechos recuperados de uma base externa são incluídos no contexto do modelo, o que permite respostas com informações atualizadas sem retreinar o modelo.\nII. Para que o modelo responda com informações que mudam todo dia, como preços e normas, o mais indicado é refazer o fine-tuning a cada atualização, e não usar RAG.\nIII. Um prompt com instruções claras, contexto e exemplos pode melhorar o formato e o tom da resposta sem alterar os pesos do modelo.\nEstá correto o que se afirma em\n(A) I, apenas.\n(B) II, apenas.\n(C) I e II, apenas.\n(D) I e III, apenas.\n(E) I, II e III.",
+     "guia": "**Resumo:** São três alavancas, da mais barata à mais cara. Prompt: instruções claras, contexto, exemplos e formato de saída, sem mexer no modelo. RAG (geração aumentada por recuperação): busca trechos relevantes em uma base externa, como documentos da empresa, e os coloca no contexto da pergunta; traz conhecimento atual e específico, permite citar a fonte e reduz (sem eliminar) a alucinação, sem retreinar. Fine-tuning: continua o treino com exemplos próprios e altera os pesos; serve para estilo, formato ou tarefa específica, não para manter fatos que mudam. Faltou conhecimento: RAG. Faltou comportamento: prompt e, se não bastar, fine-tuning.\n\n**Exemplo autoral:** Um chatbot de RH que responde sobre o regulamento vigente usa RAG, buscando o trecho atual; fazer o bot sempre responder em JSON e com tom formal é questão de prompt e, se não bastar, de fine-tuning. Em código, RAG é consultar a documentação antes de responder.\n\n**Como atacar:** Cuidado com \"para atualizar o conhecimento do modelo é obrigatório retreiná-lo\" (o RAG resolve sem retreino) e com \"o RAG elimina alucinações\" (reduz, não elimina).",
      "gabarito": "**Resposta comentada (autoral).** Gabarito: D (I e III, apenas). A I está certa: o RAG recupera trechos de uma base externa e os coloca no contexto, trazendo informação atual sem retreinar. A II está errada: refazer o fine-tuning a cada mudança é caro e lento, e o ajuste de pesos não é a forma indicada de manter fatos que mudam; para isso o RAG é a solução. A III está certa: um bom prompt pode mudar formato, tom e qualidade da resposta sem alterar o modelo.",
      "sourceUrl": null,
      "sourceLabel": null,
      "sourceNote": null,
-     "answerLetter": null,
+     "quiz": {
+      "stem": "Uma empresa quer que um assistente responda com base nas normas internas, que mudam com frequência.\nJulgue os itens:\nI. No RAG, trechos recuperados de uma base externa são incluídos no contexto do modelo, o que permite respostas com informações atualizadas sem retreinar o modelo.\nII. Para que o modelo responda com informações que mudam todo dia, como preços e normas, o mais indicado é refazer o fine-tuning a cada atualização, e não usar RAG.\nIII. Um prompt com instruções claras, contexto e exemplos pode melhorar o formato e o tom da resposta sem alterar os pesos do modelo.\nEstá correto o que se afirma em",
+      "options": {
+       "A": "I, apenas.",
+       "B": "II, apenas.",
+       "C": "I e II, apenas.",
+       "D": "I e III, apenas.",
+       "E": "I, II e III."
+      }
+     },
+     "answerLetter": "D",
      "asks": null,
      "alts": null
     },
     {
      "n": 14,
      "title": "Viés, explicabilidade e transparência",
-     "guia": "**Resumo:** Viés algorítmico é um resultado sistematicamente desfavorável a certos grupos. Costuma vir dos dados (amostra pouco representativa, histórico discriminatório, rótulos enviesados), das escolhas de modelagem ou do uso. Retirar o atributo sensível (raça, gênero) não basta, pois variáveis proxy, como o CEP, podem reproduzi-lo. Explicabilidade é poder dizer por que o modelo deu aquela saída: modelos simples (regressão, árvores) são mais interpretáveis, e redes profundas, \"caixas-pretas\", pedem técnicas como importância de variáveis, LIME e SHAP. Transparência é informar que há IA, quais dados e critérios pesam e quais os limites. Mitigação: auditoria, dados representativos e métricas por grupo.\n\n**Exemplo autoral:** Um modelo de crédito treinado com um histórico em que moradores de certos bairros tiveram crédito negado passa a negar por CEP, mesmo sem usar raça como variável.\n\n**Como atacar:** Marque como falsas as frases \"o algoritmo é neutro\" e \"basta remover o atributo sensível\". Falsa também é \"acertar muito dispensa explicar\": sem explicação não há como contestar nem auditar a decisão.\n\n**Teste relâmpago (autoral, não é questão FGV):** Uma financeira discute os riscos de um modelo de análise de crédito.\nJulgue os itens:\nI. O viés de um modelo pode vir dos dados de treinamento, como amostras pouco representativas ou históricos de decisões discriminatórias.\nII. Basta retirar do conjunto de dados atributos sensíveis, como raça e gênero, para garantir que o modelo não discrimine.\nIII. A explicabilidade é dispensável quando o modelo tem alta acurácia, pois acertar muito já justifica a decisão.\nEstá correto o que se afirma em\n(A) I, apenas.\n(B) II, apenas.\n(C) I e II, apenas.\n(D) I e III, apenas.\n(E) I, II e III.",
+     "guia": "**Resumo:** Viés algorítmico é um resultado sistematicamente desfavorável a certos grupos. Costuma vir dos dados (amostra pouco representativa, histórico discriminatório, rótulos enviesados), das escolhas de modelagem ou do uso. Retirar o atributo sensível (raça, gênero) não basta, pois variáveis proxy, como o CEP, podem reproduzi-lo. Explicabilidade é poder dizer por que o modelo deu aquela saída: modelos simples (regressão, árvores) são mais interpretáveis, e redes profundas, \"caixas-pretas\", pedem técnicas como importância de variáveis, LIME e SHAP. Transparência é informar que há IA, quais dados e critérios pesam e quais os limites. Mitigação: auditoria, dados representativos e métricas por grupo.\n\n**Exemplo autoral:** Um modelo de crédito treinado com um histórico em que moradores de certos bairros tiveram crédito negado passa a negar por CEP, mesmo sem usar raça como variável.\n\n**Como atacar:** Marque como falsas as frases \"o algoritmo é neutro\" e \"basta remover o atributo sensível\". Falsa também é \"acertar muito dispensa explicar\": sem explicação não há como contestar nem auditar a decisão.",
      "gabarito": "**Resposta comentada (autoral).** Gabarito: A (I, apenas). A I está certa: amostras pouco representativas e históricos discriminatórios nos dados são fontes típicas de viés. A II está errada: variáveis proxy, como o CEP, podem reproduzir o atributo removido, então retirá-lo não garante ausência de discriminação. A III está errada: mesmo com alta acurácia a explicabilidade importa, porque sem ela não há como contestar, auditar nem detectar viés na decisão.",
      "sourceUrl": null,
      "sourceLabel": null,
      "sourceNote": null,
-     "answerLetter": null,
+     "quiz": {
+      "stem": "Uma financeira discute os riscos de um modelo de análise de crédito.\nJulgue os itens:\nI. O viés de um modelo pode vir dos dados de treinamento, como amostras pouco representativas ou históricos de decisões discriminatórias.\nII. Basta retirar do conjunto de dados atributos sensíveis, como raça e gênero, para garantir que o modelo não discrimine.\nIII. A explicabilidade é dispensável quando o modelo tem alta acurácia, pois acertar muito já justifica a decisão.\nEstá correto o que se afirma em",
+      "options": {
+       "A": "I, apenas.",
+       "B": "II, apenas.",
+       "C": "I e II, apenas.",
+       "D": "I e III, apenas.",
+       "E": "I, II e III."
+      }
+     },
+     "answerLetter": "A",
      "asks": null,
      "alts": null
     },
     {
      "n": 15,
      "title": "Privacidade e LGPD em sistemas de IA",
-     "guia": "**Resumo:** A LGPD (Lei 13.709/2018) vale para IA sempre que houver dados pessoais, no treino e no uso. Pelo art. 20, o titular pode pedir revisão de decisões tomadas unicamente por tratamento automatizado que afetem seus interesses (perfil pessoal, profissional, de consumo e de crédito), e o controlador informa os critérios, respeitado o segredo comercial e industrial; a exigência de revisão por pessoa humana foi vetada em 2019. Dados sensíveis (art. 5º, II: saúde, origem racial ou étnica, religião, opinião política, biometria, entre outros) têm regime mais rígido. Minimização é a necessidade (art. 6º, III): o mínimo para a finalidade. Colar dados pessoais ou segredos em IA de terceiros pode causar vazamento.\n\n**Exemplo autoral:** Um banco nega crédito com base em um score calculado por IA, e o cliente pede revisão e os critérios (art. 20). Já o funcionário que cola a planilha de clientes num chatbot público para \"resumir\" expõe dados pessoais a terceiros sem necessidade.\n\n**Como atacar:** Cuidado com absolutos: coletar \"o máximo por precaução\" contraria a necessidade. Se a afirmativa disser que o art. 20 exige revisão \"por pessoa humana\", lembre que essa exigência foi vetada; se disser apenas \"direito de revisão\", está certa.\n\n**Teste relâmpago (autoral, não é questão FGV):** Um banco usa IA para aprovar crédito e treina o modelo com dados de clientes.\nJulgue os itens:\nI. O titular dos dados pode solicitar a revisão de decisões tomadas unicamente com base em tratamento automatizado que afetem seus interesses, como a definição de seu perfil de crédito.\nII. Dados de saúde e dados biométricos vinculados a uma pessoa são dados pessoais sensíveis e submetidos a regime mais rigoroso de tratamento.\nIII. Coletar o máximo possível de dados pessoais \"por precaução\" é a prática recomendada pela LGPD para treinar modelos, já que mais dados melhoram o desempenho.\nEstá correto o que se afirma em\n(A) I, apenas.\n(B) II, apenas.\n(C) I e II, apenas.\n(D) I e III, apenas.\n(E) I, II e III.\n\n**Fontes (checadas em out/2026):** [serpro.gov.br](https://www.serpro.gov.br/lgpd/noticias/2019/congresso-aprecia-veto-ao-artigo-20-da-lgpd)",
+     "guia": "**Resumo:** A LGPD (Lei 13.709/2018) vale para IA sempre que houver dados pessoais, no treino e no uso. Pelo art. 20, o titular pode pedir revisão de decisões tomadas unicamente por tratamento automatizado que afetem seus interesses (perfil pessoal, profissional, de consumo e de crédito), e o controlador informa os critérios, respeitado o segredo comercial e industrial; a exigência de revisão por pessoa humana foi vetada em 2019. Dados sensíveis (art. 5º, II: saúde, origem racial ou étnica, religião, opinião política, biometria, entre outros) têm regime mais rígido. Minimização é a necessidade (art. 6º, III): o mínimo para a finalidade. Colar dados pessoais ou segredos em IA de terceiros pode causar vazamento.\n\n**Exemplo autoral:** Um banco nega crédito com base em um score calculado por IA, e o cliente pede revisão e os critérios (art. 20). Já o funcionário que cola a planilha de clientes num chatbot público para \"resumir\" expõe dados pessoais a terceiros sem necessidade.\n\n**Como atacar:** Cuidado com absolutos: coletar \"o máximo por precaução\" contraria a necessidade. Se a afirmativa disser que o art. 20 exige revisão \"por pessoa humana\", lembre que essa exigência foi vetada; se disser apenas \"direito de revisão\", está certa.\n\n**Fontes (checadas em out/2026):** [serpro.gov.br](https://www.serpro.gov.br/lgpd/noticias/2019/congresso-aprecia-veto-ao-artigo-20-da-lgpd)",
      "gabarito": "**Resposta comentada (autoral).** Gabarito: C (I e II, apenas). A I está certa: o art. 20 da LGPD dá ao titular o direito de pedir revisão de decisões tomadas unicamente por tratamento automatizado que afetem seus interesses, inclusive de perfil de crédito. A II está certa: saúde e dado biométrico vinculado a pessoa natural são dados pessoais sensíveis (art. 5º, II), com regime mais rígido. A III está errada: o princípio da necessidade (minimização) manda limitar a coleta ao mínimo para a finalidade, e não coletar o máximo por precaução.",
      "sourceUrl": null,
      "sourceLabel": null,
      "sourceNote": null,
-     "answerLetter": null,
+     "quiz": {
+      "stem": "Um banco usa IA para aprovar crédito e treina o modelo com dados de clientes.\nJulgue os itens:\nI. O titular dos dados pode solicitar a revisão de decisões tomadas unicamente com base em tratamento automatizado que afetem seus interesses, como a definição de seu perfil de crédito.\nII. Dados de saúde e dados biométricos vinculados a uma pessoa são dados pessoais sensíveis e submetidos a regime mais rigoroso de tratamento.\nIII. Coletar o máximo possível de dados pessoais \"por precaução\" é a prática recomendada pela LGPD para treinar modelos, já que mais dados melhoram o desempenho.\nEstá correto o que se afirma em",
+      "options": {
+       "A": "I, apenas.",
+       "B": "II, apenas.",
+       "C": "I e II, apenas.",
+       "D": "I e III, apenas.",
+       "E": "I, II e III."
+      }
+     },
+     "answerLetter": "C",
      "asks": null,
      "alts": null
     },
     {
      "n": 16,
      "title": "Governança e regulação de IA: Brasil e União Europeia",
-     "guia": "**Resumo:** Situação em out/2026. Brasil: o PL 2338/2023 foi aprovado pelo Senado em 10/12/2024 e aguarda parecer na comissão especial da Câmara (relator Aguinaldo Ribeiro, que indicou votar só depois das eleições); ainda não é lei. O texto do Senado classifica os sistemas por risco (excessivo, vedado; alto risco, com mais deveres; demais). A EBIA (2021) e o PBIA 2024-2028 (R$ 23 bi até 2028, MCTI) são política pública, não lei. UE: o AI Act (Reg. 2024/1689, em vigor desde 1/8/2024; proibições desde 2/2/2025) tem quatro níveis (inaceitável, alto, limitado, mínimo); em 2026 o pacote \"omnibus\" adiou o alto risco para 2/12/2027 (sistemas autônomos) e 2/8/2028 (embutidos em produtos regulados).\n\n**Exemplo autoral:** Um sistema que ranqueia currículos é de alto risco (emprego), com mais deveres de governança; já a pontuação social de cidadãos (social scoring) é prática proibida, de risco inaceitável, no AI Act.\n\n**Como atacar:** Não trate projeto como lei: o PL 2338 ainda tramita, e EBIA e PBIA são estratégia e plano de investimento, não regulação. No AI Act, ligue nível e consequência: inaceitável é proibido, alto exige conformidade, limitado exige transparência, mínimo não tem obrigação específica.\n\n**Teste relâmpago (autoral, não é questão FGV):** Um jornal compara a regulação de IA no Brasil e na União Europeia em out/2026.\nJulgue os itens:\nI. O AI Act europeu regula os sistemas de IA conforme o nível de risco e proíbe práticas consideradas de risco inaceitável.\nII. O PL 2338/2023, aprovado pelo Senado em dezembro de 2024, ainda tramita na Câmara dos Deputados, de modo que o Brasil não tem, até out/2026, uma lei geral de IA.\nIII. Em 2026, a União Europeia adiou a aplicação das regras para sistemas de alto risco que estavam previstas para agosto de 2026.\nEstá correto o que se afirma em\n(A) I, apenas.\n(B) II, apenas.\n(C) I e II, apenas.\n(D) I e III, apenas.\n(E) I, II e III.\n\n**Fontes (checadas em out/2026):** [camara.leg.br](https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2487262) · [convergenciadigital.com.br](https://convergenciadigital.com.br/governo/marco-legal-de-inteligencia-artificial-so-vota-depois-das-eleicoes/) · [www12.senado.leg.br](https://www12.senado.leg.br/noticias/materias/2024/12/10/senado-aprova-regulamentacao-da-inteligencia-artificial-texto-vai-a-camara) · [www12.senado.leg.br](https://www12.senado.leg.br/radio/1/noticia/2025/10/23/plano-brasileiro-de-ia-preve-investimento-de-r-23-bi) · [consilium.europa.eu](https://www.consilium.europa.eu/en/press/press-releases/2026/06/29/artificial-intelligence-council-gives-final-green-light-to-simplify-and-streamline-rules/)",
+     "guia": "**Resumo:** Situação em out/2026. Brasil: o PL 2338/2023 foi aprovado pelo Senado em 10/12/2024 e aguarda parecer na comissão especial da Câmara (relator Aguinaldo Ribeiro, que indicou votar só depois das eleições); ainda não é lei. O texto do Senado classifica os sistemas por risco (excessivo, vedado; alto risco, com mais deveres; demais). A EBIA (2021) e o PBIA 2024-2028 (R$ 23 bi até 2028, MCTI) são política pública, não lei. UE: o AI Act (Reg. 2024/1689, em vigor desde 1/8/2024; proibições desde 2/2/2025) tem quatro níveis (inaceitável, alto, limitado, mínimo); em 2026 o pacote \"omnibus\" adiou o alto risco para 2/12/2027 (sistemas autônomos) e 2/8/2028 (embutidos em produtos regulados).\n\n**Exemplo autoral:** Um sistema que ranqueia currículos é de alto risco (emprego), com mais deveres de governança; já a pontuação social de cidadãos (social scoring) é prática proibida, de risco inaceitável, no AI Act.\n\n**Como atacar:** Não trate projeto como lei: o PL 2338 ainda tramita, e EBIA e PBIA são estratégia e plano de investimento, não regulação. No AI Act, ligue nível e consequência: inaceitável é proibido, alto exige conformidade, limitado exige transparência, mínimo não tem obrigação específica.\n\n**Fontes (checadas em out/2026):** [camara.leg.br](https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2487262) · [convergenciadigital.com.br](https://convergenciadigital.com.br/governo/marco-legal-de-inteligencia-artificial-so-vota-depois-das-eleicoes/) · [www12.senado.leg.br](https://www12.senado.leg.br/noticias/materias/2024/12/10/senado-aprova-regulamentacao-da-inteligencia-artificial-texto-vai-a-camara) · [www12.senado.leg.br](https://www12.senado.leg.br/radio/1/noticia/2025/10/23/plano-brasileiro-de-ia-preve-investimento-de-r-23-bi) · [consilium.europa.eu](https://www.consilium.europa.eu/en/press/press-releases/2026/06/29/artificial-intelligence-council-gives-final-green-light-to-simplify-and-streamline-rules/)",
      "gabarito": "**Resposta comentada (autoral).** Gabarito: E (I, II e III). A I está certa: o AI Act segue uma lógica de níveis de risco e proíbe as práticas de risco inaceitável. A II está certa: o PL 2338/2023, aprovado pelo Senado em 10/12/2024, ainda aguarda parecer na Câmara, e o Brasil não tem lei geral de IA até o fechamento deste material (out/2026). A III está certa: o pacote \"omnibus\" de 2026 adiou as regras de alto risco, antes previstas para 2/8/2026, para 2/12/2027 (sistemas autônomos) e 2/8/2028 (embutidos em produtos).",
      "sourceUrl": null,
      "sourceLabel": null,
      "sourceNote": null,
-     "answerLetter": null,
+     "quiz": {
+      "stem": "Um jornal compara a regulação de IA no Brasil e na União Europeia em out/2026.\nJulgue os itens:\nI. O AI Act europeu regula os sistemas de IA conforme o nível de risco e proíbe práticas consideradas de risco inaceitável.\nII. O PL 2338/2023, aprovado pelo Senado em dezembro de 2024, ainda tramita na Câmara dos Deputados, de modo que o Brasil não tem, até out/2026, uma lei geral de IA.\nIII. Em 2026, a União Europeia adiou a aplicação das regras para sistemas de alto risco que estavam previstas para agosto de 2026.\nEstá correto o que se afirma em",
+      "options": {
+       "A": "I, apenas.",
+       "B": "II, apenas.",
+       "C": "I e II, apenas.",
+       "D": "I e III, apenas.",
+       "E": "I, II e III."
+      }
+     },
+     "answerLetter": "E",
      "asks": null,
      "alts": null
     },
     {
      "n": 17,
      "title": "Uso responsável: direitos autorais, deepfakes e responsabilidade humana",
-     "guia": "**Resumo:** Quem desenvolve, vende e usa a IA responde pelos danos e decisões dela (accountability): o algoritmo não é responsável. Supervisão humana significativa exige alguém com competência, informação e autoridade para questionar, corrigir e interromper o sistema; apenas carimbar o que a máquina sugere é viés de automação, não supervisão. Deepfake é conteúdo sintético que imita imagem ou voz de pessoa real; o TSE (Res. 23.732/2024) o proíbe na propaganda eleitoral e exige rótulo explícito para conteúdo fabricado ou manipulado. Em direitos autorais, a Lei 9.610/1998 define autor como a pessoa física criadora (art. 11), e o uso de obras protegidas no treino de modelos é tema em disputa.\n\n**Exemplo autoral:** Um hospital usa uma IA que sugere diagnósticos; o profissional que confirma tudo sem examinar os dados não exerce supervisão significativa, e a instituição e o profissional seguem tendo de prestar contas pelo resultado.\n\n**Como atacar:** Frases como \"a culpa é do algoritmo\" ou \"com IA, a responsabilidade passa para a máquina\" são falsas: pessoas e organizações seguem responsáveis. \"Humano no circuito\" só vale se ele puder de fato mudar a decisão.\n\n**Teste relâmpago (autoral, não é questão FGV):** Um curso discute o uso responsável de IA: responsabilidade, deepfakes e direitos autorais.\nJulgue os itens:\nI. Se o sistema de IA causar dano, a responsabilidade recai sobre o algoritmo, e não sobre quem o desenvolveu ou o utilizou.\nII. A Justiça Eleitoral proíbe o uso de deepfake na propaganda eleitoral e exige que o conteúdo fabricado ou manipulado seja identificado de forma explícita.\nIII. Há supervisão humana significativa mesmo quando uma pessoa apenas confirma, sem poder de questionar, as decisões sugeridas pelo sistema.\nEstá correto o que se afirma em\n(A) I, apenas.\n(B) II, apenas.\n(C) I e II, apenas.\n(D) I e III, apenas.\n(E) I, II e III.\n\n**Fontes (checadas em out/2026):** [tse.jus.br](https://www.tse.jus.br/legislacao/compilada/res/2024/resolucao-no-23-732-de-27-de-fevereiro-de-2024)",
+     "guia": "**Resumo:** Quem desenvolve, vende e usa a IA responde pelos danos e decisões dela (accountability): o algoritmo não é responsável. Supervisão humana significativa exige alguém com competência, informação e autoridade para questionar, corrigir e interromper o sistema; apenas carimbar o que a máquina sugere é viés de automação, não supervisão. Deepfake é conteúdo sintético que imita imagem ou voz de pessoa real; o TSE (Res. 23.732/2024) o proíbe na propaganda eleitoral e exige rótulo explícito para conteúdo fabricado ou manipulado. Em direitos autorais, a Lei 9.610/1998 define autor como a pessoa física criadora (art. 11), e o uso de obras protegidas no treino de modelos é tema em disputa.\n\n**Exemplo autoral:** Um hospital usa uma IA que sugere diagnósticos; o profissional que confirma tudo sem examinar os dados não exerce supervisão significativa, e a instituição e o profissional seguem tendo de prestar contas pelo resultado.\n\n**Como atacar:** Frases como \"a culpa é do algoritmo\" ou \"com IA, a responsabilidade passa para a máquina\" são falsas: pessoas e organizações seguem responsáveis. \"Humano no circuito\" só vale se ele puder de fato mudar a decisão.\n\n**Fontes (checadas em out/2026):** [tse.jus.br](https://www.tse.jus.br/legislacao/compilada/res/2024/resolucao-no-23-732-de-27-de-fevereiro-de-2024)",
      "gabarito": "**Resposta comentada (autoral).** Gabarito: B (II, apenas). A I está errada: o algoritmo não responde por nada; a responsabilidade recai sobre as pessoas e organizações que desenvolvem, fornecem e usam o sistema (accountability). A II está certa: a Res. 23.732/2024 do TSE proíbe deepfake na propaganda eleitoral e exige informação explícita de que o conteúdo foi fabricado ou manipulado. A III está errada: supervisão significativa exige competência, informação e poder real de questionar e corrigir; apenas confirmar o que o sistema sugere é viés de automação.",
      "sourceUrl": null,
      "sourceLabel": null,
      "sourceNote": null,
-     "answerLetter": null,
+     "quiz": {
+      "stem": "Um curso discute o uso responsável de IA: responsabilidade, deepfakes e direitos autorais.\nJulgue os itens:\nI. Se o sistema de IA causar dano, a responsabilidade recai sobre o algoritmo, e não sobre quem o desenvolveu ou o utilizou.\nII. A Justiça Eleitoral proíbe o uso de deepfake na propaganda eleitoral e exige que o conteúdo fabricado ou manipulado seja identificado de forma explícita.\nIII. Há supervisão humana significativa mesmo quando uma pessoa apenas confirma, sem poder de questionar, as decisões sugeridas pelo sistema.\nEstá correto o que se afirma em",
+      "options": {
+       "A": "I, apenas.",
+       "B": "II, apenas.",
+       "C": "I e II, apenas.",
+       "D": "I e III, apenas.",
+       "E": "I, II e III."
+      }
+     },
+     "answerLetter": "B",
      "asks": null,
      "alts": null
     },
     {
      "n": 18,
      "title": "COP30 em Belém: o que foi decidido",
-     "guia": "**Resumo:** A COP30, Conferência do Clima da ONU, ocorreu em Belém (10 a 22/11/2025) e aprovou o \"Pacote de Belém\", com 29 decisões, entre elas a do \"mutirão global\". O texto apela para triplicar o financiamento de adaptação até 2035, adota 59 indicadores voluntários de adaptação e cria um mecanismo de transição justa; roteiros sobre combustíveis fósseis e desmatamento ficaram fora das decisões formais. O fundo TFFF, que paga países por floresta em pé, foi lançado em 6/11 com US$ 5,5 bi anunciados (meta: US$ 125 bi).\n\n**Exemplo autoral:** Pelo desenho do TFFF, um país que mantém a floresta em pé recebe pagamentos, com deduções para cada hectare desmatado; já o financiamento de adaptação serve, por exemplo, para sistemas de alerta de enchentes.\n\n**Como atacar:** A FGV costuma atribuir à COP o que ela não decidiu: o texto formal não trouxe um roteiro de abandono dos combustíveis fósseis, que ficou a cargo da presidência brasileira. Desconfie de \"a COP determinou o fim de...\" e de finalidades trocadas para o TFFF.\n\n**Teste relâmpago (autoral, não é questão FGV):** Em novembro de 2025, Belém sediou a conferência anual da ONU sobre mudança do clima.\nJulgue os itens:\nI. A COP30 aprovou o \"Pacote de Belém\", cuja decisão central foi chamada de \"mutirão global\".\nII. O texto formal da decisão do mutirão determinou a eliminação imediata dos combustíveis fósseis em todos os países.\nIII. O TFFF foi lançado na COP30 para financiar a construção de usinas solares em países em desenvolvimento.\nEstá correto o que se afirma em\n(A) I, apenas.\n(B) II, apenas.\n(C) I e II, apenas.\n(D) I e III, apenas.\n(E) I, II e III.\n\n**Fontes (checadas em out/2026):** [cop30.br](https://cop30.br/en/news-about-cop30/cop30-approves-belem-package1) · [carbonbrief.org](https://www.carbonbrief.org/cop30-key-outcomes-agreed-at-the-un-climate-talks-in-belem) · [agenciabrasil.ebc.com.br](https://agenciabrasil.ebc.com.br/meio-ambiente/noticia/2025-11/entenda-como-funciona-o-fundo-florestas-tropicais-para-sempre)",
+     "guia": "**Resumo:** A COP30, Conferência do Clima da ONU, ocorreu em Belém (10 a 22/11/2025) e aprovou o \"Pacote de Belém\", com 29 decisões, entre elas a do \"mutirão global\". O texto apela para triplicar o financiamento de adaptação até 2035, adota 59 indicadores voluntários de adaptação e cria um mecanismo de transição justa; roteiros sobre combustíveis fósseis e desmatamento ficaram fora das decisões formais. O fundo TFFF, que paga países por floresta em pé, foi lançado em 6/11 com US$ 5,5 bi anunciados (meta: US$ 125 bi).\n\n**Exemplo autoral:** Pelo desenho do TFFF, um país que mantém a floresta em pé recebe pagamentos, com deduções para cada hectare desmatado; já o financiamento de adaptação serve, por exemplo, para sistemas de alerta de enchentes.\n\n**Como atacar:** A FGV costuma atribuir à COP o que ela não decidiu: o texto formal não trouxe um roteiro de abandono dos combustíveis fósseis, que ficou a cargo da presidência brasileira. Desconfie de \"a COP determinou o fim de...\" e de finalidades trocadas para o TFFF.\n\n**Fontes (checadas em out/2026):** [cop30.br](https://cop30.br/en/news-about-cop30/cop30-approves-belem-package1) · [carbonbrief.org](https://www.carbonbrief.org/cop30-key-outcomes-agreed-at-the-un-climate-talks-in-belem) · [agenciabrasil.ebc.com.br](https://agenciabrasil.ebc.com.br/meio-ambiente/noticia/2025-11/entenda-como-funciona-o-fundo-florestas-tropicais-para-sempre)",
      "gabarito": "**Resposta comentada (autoral).** Gabarito: A (I, apenas). A afirmativa I está certa: a COP30 aprovou o Pacote de Belém e sua decisão central é a do mutirão global. A II está errada: o texto formal não trouxe a eliminação dos combustíveis fósseis (os roteiros ficaram fora das decisões, a cargo da presidência brasileira), e \"imediata\" e \"todos os países\" são absolutos que denunciam o erro. A III está errada: o TFFF foi concebido para remunerar países que mantêm florestas em pé, não para financiar usinas solares.",
      "sourceUrl": null,
      "sourceLabel": null,
      "sourceNote": null,
-     "answerLetter": null,
+     "quiz": {
+      "stem": "Em novembro de 2025, Belém sediou a conferência anual da ONU sobre mudança do clima.\nJulgue os itens:\nI. A COP30 aprovou o \"Pacote de Belém\", cuja decisão central foi chamada de \"mutirão global\".\nII. O texto formal da decisão do mutirão determinou a eliminação imediata dos combustíveis fósseis em todos os países.\nIII. O TFFF foi lançado na COP30 para financiar a construção de usinas solares em países em desenvolvimento.\nEstá correto o que se afirma em",
+      "options": {
+       "A": "I, apenas.",
+       "B": "II, apenas.",
+       "C": "I e II, apenas.",
+       "D": "I e III, apenas.",
+       "E": "I, II e III."
+      }
+     },
+     "answerLetter": "A",
      "asks": null,
      "alts": null
     },
     {
      "n": 19,
      "title": "BRICS e G20: quem presidiu o quê (2024 a 2026)",
-     "guia": "**Resumo:** O BRICS é um agrupamento de países com presidência rotativa: o Brasil o presidiu em 2025, com a 17ª cúpula no Rio de Janeiro (6 e 7/7/2025), e a Indonésia foi anunciada como novo membro pleno em 6/1/2025. O G20 é um fórum de cooperação econômica de 19 países, União Europeia e União Africana: presidido pelo Brasil em 2024, pela África do Sul em 2025 (Joanesburgo, 22 e 23/11, sem representação dos EUA) e pelos EUA em 2026, com cúpula prevista para 14 e 15/12 em Doral (Flórida).\n\n**Exemplo autoral:** Uma reunião com Estados Unidos, União Europeia e União Africana à mesma mesa é G20; já a que reúne Brasil, Índia, China e Egito, entre outros, sem os EUA, é BRICS.\n\n**Como atacar:** Pegadinha clássica: confundir entidades parecidas. BRICS é um agrupamento (bloco) de países; G20 é um fórum de cooperação econômica que inclui UE e UA. Decore a sequência do G20 (Brasil 2024, África do Sul 2025, EUA 2026) e que o Brasil presidiu o BRICS em 2025.\n\n**Teste relâmpago (autoral, não é questão FGV):** Entre 2024 e 2026, a presidência do G20 passou por Brasil, África do Sul e Estados Unidos, e o Brasil também presidiu o BRICS.\nJulgue os itens:\nI. O G20 é formado pelos mesmos países do BRICS, reunidos em um fórum de cooperação econômica.\nII. O Brasil presidiu o BRICS em 2025 e sediou a cúpula do grupo no Rio de Janeiro.\nIII. O Brasil presidiu o G20 em 2025 e transferiu a presidência à África do Sul em 2026.\nEstá correto o que se afirma em\n(A) I, apenas.\n(B) II, apenas.\n(C) I e II, apenas.\n(D) I e III, apenas.\n(E) I, II e III.\n\n**Fontes (checadas em out/2026):** [agenciabrasil.ebc.com.br](https://agenciabrasil.ebc.com.br/internacional/noticia/2025-07/em-declaracao-sobre-ia-brics-defende-codigo-aberto-para-tecnologia) · [agenciabrasil.ebc.com.br](https://agenciabrasil.ebc.com.br/economia/noticia/2025-01/brasil-anuncia-entrada-da-indonesia-como-membro-pleno-do-brics) · [agenciagov.ebc.com.br](https://agenciagov.ebc.com.br/noticias/202404/g20-o-que-e-e-como-funciona) · [portuguese.news.cn](https://portuguese.news.cn/20251125/ab7e4fe10e0444a48f9c39e32983c175/c.html) · [cbsnews.com](https://www.cbsnews.com/amp/miami/news/trump-g20-summit-2026-doral-resort-florida)",
+     "guia": "**Resumo:** O BRICS é um agrupamento de países com presidência rotativa: o Brasil o presidiu em 2025, com a 17ª cúpula no Rio de Janeiro (6 e 7/7/2025), e a Indonésia foi anunciada como novo membro pleno em 6/1/2025. O G20 é um fórum de cooperação econômica de 19 países, União Europeia e União Africana: presidido pelo Brasil em 2024, pela África do Sul em 2025 (Joanesburgo, 22 e 23/11, sem representação dos EUA) e pelos EUA em 2026, com cúpula prevista para 14 e 15/12 em Doral (Flórida).\n\n**Exemplo autoral:** Uma reunião com Estados Unidos, União Europeia e União Africana à mesma mesa é G20; já a que reúne Brasil, Índia, China e Egito, entre outros, sem os EUA, é BRICS.\n\n**Como atacar:** Pegadinha clássica: confundir entidades parecidas. BRICS é um agrupamento (bloco) de países; G20 é um fórum de cooperação econômica que inclui UE e UA. Decore a sequência do G20 (Brasil 2024, África do Sul 2025, EUA 2026) e que o Brasil presidiu o BRICS em 2025.\n\n**Fontes (checadas em out/2026):** [agenciabrasil.ebc.com.br](https://agenciabrasil.ebc.com.br/internacional/noticia/2025-07/em-declaracao-sobre-ia-brics-defende-codigo-aberto-para-tecnologia) · [agenciabrasil.ebc.com.br](https://agenciabrasil.ebc.com.br/economia/noticia/2025-01/brasil-anuncia-entrada-da-indonesia-como-membro-pleno-do-brics) · [agenciagov.ebc.com.br](https://agenciagov.ebc.com.br/noticias/202404/g20-o-que-e-e-como-funciona) · [portuguese.news.cn](https://portuguese.news.cn/20251125/ab7e4fe10e0444a48f9c39e32983c175/c.html) · [cbsnews.com](https://www.cbsnews.com/amp/miami/news/trump-g20-summit-2026-doral-resort-florida)",
      "gabarito": "**Resposta comentada (autoral).** Gabarito: B (II, apenas). A afirmativa II está certa: o Brasil presidiu o BRICS em 2025 e a 17ª cúpula foi no Rio de Janeiro (6 e 7/7/2025). A I está errada: o G20 inclui países que não estão no BRICS (como EUA, Alemanha e Japão), além da União Europeia e da União Africana; são entidades distintas. A III está errada: o Brasil presidiu o G20 em 2024, a África do Sul em 2025 e os EUA em 2026.",
      "sourceUrl": null,
      "sourceLabel": null,
      "sourceNote": null,
-     "answerLetter": null,
+     "quiz": {
+      "stem": "Entre 2024 e 2026, a presidência do G20 passou por Brasil, África do Sul e Estados Unidos, e o Brasil também presidiu o BRICS.\nJulgue os itens:\nI. O G20 é formado pelos mesmos países do BRICS, reunidos em um fórum de cooperação econômica.\nII. O Brasil presidiu o BRICS em 2025 e sediou a cúpula do grupo no Rio de Janeiro.\nIII. O Brasil presidiu o G20 em 2025 e transferiu a presidência à África do Sul em 2026.\nEstá correto o que se afirma em",
+      "options": {
+       "A": "I, apenas.",
+       "B": "II, apenas.",
+       "C": "I e II, apenas.",
+       "D": "I e III, apenas.",
+       "E": "I, II e III."
+      }
+     },
+     "answerLetter": "B",
      "asks": null,
      "alts": null
     },
     {
      "n": 20,
      "title": "ECA Digital (Lei 15.211/2025): o que vale desde março de 2026",
-     "guia": "**Resumo:** A Lei 15.211/2025 (ECA Digital), de 17/9/2025, entrou em vigor em 17/3/2026 e vale para produtos e serviços digitais direcionados a crianças e adolescentes ou de acesso provável por eles, inclusive de empresas estrangeiras. Exige verificação de idade por meios confiáveis (vedada a autodeclaração), vincula contas de redes sociais de usuários de até 16 anos a um responsável legal e proíbe caixas de recompensa (loot boxes) em jogos para esse público. A fiscalização é da ANPD, transformada em agência pela Lei 15.352/2026.\n\n**Exemplo autoral:** Um jogo online com loot boxes e cadastro aberto a adolescentes precisa retirar as caixas de recompensa e checar a idade por método confiável, não por um botão \"tenho mais de 18 anos\".\n\n**Como atacar:** Desconfie de alternativas que facilitem demais (\"basta declarar a idade\"), que limitem o alcance (\"só empresas brasileiras\") ou que troquem a autoridade: a fiscalização cabe à ANPD, não à Anatel nem ao CGI.br.\n\n**Teste relâmpago (autoral, não é questão FGV):** Uma plataforma estrangeira de jogos e redes sociais é muito acessada por adolescentes no Brasil.\nJulgue os itens:\nI. A Lei 15.211/2025 alcança serviços de acesso provável por crianças e adolescentes no Brasil, ainda que a empresa seja estrangeira.\nII. A verificação de idade deve usar mecanismos confiáveis, sendo vedada a simples autodeclaração.\nIII. A lei veda as caixas de recompensa (loot boxes) em jogos eletrônicos direcionados a crianças e adolescentes.\nEstá correto o que se afirma em\n(A) I, apenas.\n(B) II, apenas.\n(C) I e II, apenas.\n(D) I e III, apenas.\n(E) I, II e III.\n\n**Fontes (checadas em out/2026):** [planalto.gov.br](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15211.htm) · [unicef.org](https://www.unicef.org/brazil/estatuto-digital-da-crianca-e-do-adolescente-eca-digital) · [gov.br](https://www.gov.br/anpd/pt-br/assuntos/eca-digital)",
+     "guia": "**Resumo:** A Lei 15.211/2025 (ECA Digital), de 17/9/2025, entrou em vigor em 17/3/2026 e vale para produtos e serviços digitais direcionados a crianças e adolescentes ou de acesso provável por eles, inclusive de empresas estrangeiras. Exige verificação de idade por meios confiáveis (vedada a autodeclaração), vincula contas de redes sociais de usuários de até 16 anos a um responsável legal e proíbe caixas de recompensa (loot boxes) em jogos para esse público. A fiscalização é da ANPD, transformada em agência pela Lei 15.352/2026.\n\n**Exemplo autoral:** Um jogo online com loot boxes e cadastro aberto a adolescentes precisa retirar as caixas de recompensa e checar a idade por método confiável, não por um botão \"tenho mais de 18 anos\".\n\n**Como atacar:** Desconfie de alternativas que facilitem demais (\"basta declarar a idade\"), que limitem o alcance (\"só empresas brasileiras\") ou que troquem a autoridade: a fiscalização cabe à ANPD, não à Anatel nem ao CGI.br.\n\n**Fontes (checadas em out/2026):** [planalto.gov.br](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15211.htm) · [unicef.org](https://www.unicef.org/brazil/estatuto-digital-da-crianca-e-do-adolescente-eca-digital) · [gov.br](https://www.gov.br/anpd/pt-br/assuntos/eca-digital)",
      "gabarito": "**Resposta comentada (autoral).** Gabarito: E (I, II e III). A afirmativa I está certa: a lei vale para produtos e serviços de tecnologia da informação direcionados a crianças e adolescentes ou de acesso provável por eles, independentemente de onde a empresa esteja sediada. A II está certa: exige-se verificação confiável de idade, e a simples autodeclaração é vedada. A III está certa: as caixas de recompensa (loot boxes) são proibidas em jogos direcionados a esse público.",
      "sourceUrl": null,
      "sourceLabel": null,
      "sourceNote": null,
-     "answerLetter": null,
+     "quiz": {
+      "stem": "Uma plataforma estrangeira de jogos e redes sociais é muito acessada por adolescentes no Brasil.\nJulgue os itens:\nI. A Lei 15.211/2025 alcança serviços de acesso provável por crianças e adolescentes no Brasil, ainda que a empresa seja estrangeira.\nII. A verificação de idade deve usar mecanismos confiáveis, sendo vedada a simples autodeclaração.\nIII. A lei veda as caixas de recompensa (loot boxes) em jogos eletrônicos direcionados a crianças e adolescentes.\nEstá correto o que se afirma em",
+      "options": {
+       "A": "I, apenas.",
+       "B": "II, apenas.",
+       "C": "I e II, apenas.",
+       "D": "I e III, apenas.",
+       "E": "I, II e III."
+      }
+     },
+     "answerLetter": "E",
      "asks": null,
      "alts": null
     },
     {
      "n": 21,
      "title": "Redata: incentivo fiscal a data centers (Lei 15.504/2026)",
-     "guia": "**Resumo:** O Redata (Regime Especial de Tributação para Serviços de Datacenter) surgiu na MP 1.318, de 17/9/2025, que perdeu a validade sem votação; o tema voltou como PL 278/2026 e virou a Lei 15.504/2026, sancionada em 15/9/2026. A lei suspende PIS/Cofins, IPI e imposto de importação sobre equipamentos de data centers habilitados, em troca de contrapartidas, como usar energia renovável ou de baixa emissão e direcionar ao menos 10% da atividade ao mercado interno. Parte das regras ainda depende de regulamentação.\n\n**Exemplo autoral:** Uma empresa que importa servidores para um data center movido a energia solar e eólica pode ter PIS/Cofins, IPI e imposto de importação suspensos, se estiver habilitada e cumprir as contrapartidas.\n\n**Como atacar:** Guarde a lógica: benefício sobre tributos federais em troca de contrapartidas (energia limpa e mercado interno). Alternativas com \"sem contrapartida\", \"tributos estaduais\" ou \"energia fóssil obrigatória\" invertem o conceito; liga-se ao tema de 2024 (impacto ambiental dos data centers).\n\n**Teste relâmpago (autoral, não é questão FGV):** O Brasil criou, por lei, um regime especial para atrair data centers.\nJulgue os itens:\nI. O Redata suspende tributos federais, como PIS/Cofins e IPI, incidentes sobre equipamentos de data centers habilitados.\nII. O regime dispensa qualquer exigência quanto à origem da energia elétrica usada pelos data centers.\nIII. Entre as contrapartidas está direcionar ao menos 10% da atividade ao mercado interno.\nEstá correto o que se afirma em\n(A) I, apenas.\n(B) II, apenas.\n(C) I e II, apenas.\n(D) I e III, apenas.\n(E) I, II e III.\n\n**Fontes (checadas em out/2026):** [camara.leg.br](https://www.camara.leg.br/noticias/1304932-nova-lei-cria-incentivo-fiscal-para-instalacao-de-datacenters-no-brasil) · [teletime.com.br](https://teletime.com.br/15/09/2026/governo-sanciona-redata-data-centers/) · [www12.senado.leg.br](https://www12.senado.leg.br/noticias/materias/2025/09/18/medida-provisoria-cria-estimulo-a-instalacao-de-datacenters-no-pais)",
+     "guia": "**Resumo:** O Redata (Regime Especial de Tributação para Serviços de Datacenter) surgiu na MP 1.318, de 17/9/2025, que perdeu a validade sem votação; o tema voltou como PL 278/2026 e virou a Lei 15.504/2026, sancionada em 15/9/2026. A lei suspende PIS/Cofins, IPI e imposto de importação sobre equipamentos de data centers habilitados, em troca de contrapartidas, como usar energia renovável ou de baixa emissão e direcionar ao menos 10% da atividade ao mercado interno. Parte das regras ainda depende de regulamentação.\n\n**Exemplo autoral:** Uma empresa que importa servidores para um data center movido a energia solar e eólica pode ter PIS/Cofins, IPI e imposto de importação suspensos, se estiver habilitada e cumprir as contrapartidas.\n\n**Como atacar:** Guarde a lógica: benefício sobre tributos federais em troca de contrapartidas (energia limpa e mercado interno). Alternativas com \"sem contrapartida\", \"tributos estaduais\" ou \"energia fóssil obrigatória\" invertem o conceito; liga-se ao tema de 2024 (impacto ambiental dos data centers).\n\n**Fontes (checadas em out/2026):** [camara.leg.br](https://www.camara.leg.br/noticias/1304932-nova-lei-cria-incentivo-fiscal-para-instalacao-de-datacenters-no-brasil) · [teletime.com.br](https://teletime.com.br/15/09/2026/governo-sanciona-redata-data-centers/) · [www12.senado.leg.br](https://www12.senado.leg.br/noticias/materias/2025/09/18/medida-provisoria-cria-estimulo-a-instalacao-de-datacenters-no-pais)",
      "gabarito": "**Resposta comentada (autoral).** Gabarito: D (I e III, apenas). A afirmativa I está certa: o Redata suspende tributos federais (PIS/Cofins, IPI e imposto de importação) sobre equipamentos de data centers habilitados. A II está errada: a lei exige energia de fontes renováveis ou de baixa emissão, e \"dispensa qualquer exigência\" inverte a lógica de contrapartida ambiental. A III está certa: uma das contrapartidas é direcionar ao menos 10% da atividade ao mercado interno.",
      "sourceUrl": null,
      "sourceLabel": null,
      "sourceNote": null,
-     "answerLetter": null,
+     "quiz": {
+      "stem": "O Brasil criou, por lei, um regime especial para atrair data centers.\nJulgue os itens:\nI. O Redata suspende tributos federais, como PIS/Cofins e IPI, incidentes sobre equipamentos de data centers habilitados.\nII. O regime dispensa qualquer exigência quanto à origem da energia elétrica usada pelos data centers.\nIII. Entre as contrapartidas está direcionar ao menos 10% da atividade ao mercado interno.\nEstá correto o que se afirma em",
+      "options": {
+       "A": "I, apenas.",
+       "B": "II, apenas.",
+       "C": "I e II, apenas.",
+       "D": "I e III, apenas.",
+       "E": "I, II e III."
+      }
+     },
+     "answerLetter": "D",
      "asks": null,
      "alts": null
     },
     {
      "n": 22,
      "title": "Reforma tributária do consumo: o cronograma de transição",
-     "guia": "**Resumo:** A EC 132/2023 (20/12/2023) criou o IVA dual, regulamentado pela LC 214/2025 (16/1/2025): CBS (federal) e IBS (estados e municípios), além do Imposto Seletivo. Em 2026, ano de teste, a CBS é de 0,9% e o IBS de 0,1%, compensáveis com PIS/Cofins; a partir de 2027 a CBS substitui PIS/Cofins; de 2029 a 2032 ICMS e ISS caem gradualmente, e a transição termina em 2033. A LC 227/2026 (13/1/2026) criou o Comitê Gestor do IBS.\n\n**Exemplo autoral:** Em 2026, uma loja emite nota fiscal com CBS e IBS destacados, mas desconta esses valores do PIS/Cofins; ICMS e ISS seguem cobrados normalmente até a redução que começa em 2029.\n\n**Como atacar:** Datas e papéis são o foco: 2026 é teste (0,9% + 0,1%), PIS/Cofins saem a partir de 2027 e ICMS e ISS só deixam de existir em 2033. Cuidado com \"extinção imediata\" e com a inversão de quem é federal (CBS) e quem é subnacional (IBS).\n\n**Teste relâmpago (autoral, não é questão FGV):** A reforma tributária sobre o consumo está em fase de transição.\nJulgue os itens:\nI. Em 2026, a CBS (0,9%) e o IBS (0,1%) são cobrados em alíquotas de teste, com compensação contra PIS/Cofins.\nII. Desde 2026, o ICMS e o ISS estão extintos e foram substituídos integralmente pelo IBS.\nIII. A CBS é um tributo estadual e municipal, enquanto o IBS é um tributo federal.\nEstá correto o que se afirma em\n(A) I, apenas.\n(B) II, apenas.\n(C) I e II, apenas.\n(D) I e III, apenas.\n(E) I, II e III.\n\n**Fontes (checadas em out/2026):** [mattosfilho.com.br](https://www.mattosfilho.com.br/unico/lei-complementar-reforma-tributaria/) · [agenciabrasil.ebc.com.br](https://agenciabrasil.ebc.com.br/economia/noticia/2026-01/reforma-tributaria-entra-em-fase-de-testes-em-2026) · [conjur.com.br](https://conjur.com.br/2025-dez-30/periodo-de-testes-do-ibs-e-cbs-ja-prenuncia-conflitos/) · [upb.org.br](https://upb.org.br/2026/01/19/reforma-tributaria-sancionada-lei-que-institui-comite-gestor-do-ibs/)",
+     "guia": "**Resumo:** A EC 132/2023 (20/12/2023) criou o IVA dual, regulamentado pela LC 214/2025 (16/1/2025): CBS (federal) e IBS (estados e municípios), além do Imposto Seletivo. Em 2026, ano de teste, a CBS é de 0,9% e o IBS de 0,1%, compensáveis com PIS/Cofins; a partir de 2027 a CBS substitui PIS/Cofins; de 2029 a 2032 ICMS e ISS caem gradualmente, e a transição termina em 2033. A LC 227/2026 (13/1/2026) criou o Comitê Gestor do IBS.\n\n**Exemplo autoral:** Em 2026, uma loja emite nota fiscal com CBS e IBS destacados, mas desconta esses valores do PIS/Cofins; ICMS e ISS seguem cobrados normalmente até a redução que começa em 2029.\n\n**Como atacar:** Datas e papéis são o foco: 2026 é teste (0,9% + 0,1%), PIS/Cofins saem a partir de 2027 e ICMS e ISS só deixam de existir em 2033. Cuidado com \"extinção imediata\" e com a inversão de quem é federal (CBS) e quem é subnacional (IBS).\n\n**Fontes (checadas em out/2026):** [mattosfilho.com.br](https://www.mattosfilho.com.br/unico/lei-complementar-reforma-tributaria/) · [agenciabrasil.ebc.com.br](https://agenciabrasil.ebc.com.br/economia/noticia/2026-01/reforma-tributaria-entra-em-fase-de-testes-em-2026) · [conjur.com.br](https://conjur.com.br/2025-dez-30/periodo-de-testes-do-ibs-e-cbs-ja-prenuncia-conflitos/) · [upb.org.br](https://upb.org.br/2026/01/19/reforma-tributaria-sancionada-lei-que-institui-comite-gestor-do-ibs/)",
      "gabarito": "**Resposta comentada (autoral).** Gabarito: A (I, apenas). A afirmativa I está certa: 2026 é ano de teste, com CBS de 0,9% e IBS de 0,1%, compensáveis com PIS/Cofins. A II está errada: ICMS e ISS seguem cobrados até serem reduzidos gradualmente entre 2029 e 2032, e só são extintos em 2033. A III está errada: os papéis estão invertidos, pois a CBS é federal e o IBS é de estados e municípios.",
      "sourceUrl": null,
      "sourceLabel": null,
      "sourceNote": null,
-     "answerLetter": null,
+     "quiz": {
+      "stem": "A reforma tributária sobre o consumo está em fase de transição.\nJulgue os itens:\nI. Em 2026, a CBS (0,9%) e o IBS (0,1%) são cobrados em alíquotas de teste, com compensação contra PIS/Cofins.\nII. Desde 2026, o ICMS e o ISS estão extintos e foram substituídos integralmente pelo IBS.\nIII. A CBS é um tributo estadual e municipal, enquanto o IBS é um tributo federal.\nEstá correto o que se afirma em",
+      "options": {
+       "A": "I, apenas.",
+       "B": "II, apenas.",
+       "C": "I e II, apenas.",
+       "D": "I e III, apenas.",
+       "E": "I, II e III."
+      }
+     },
+     "answerLetter": "A",
      "asks": null,
      "alts": null
     },
     {
      "n": 23,
      "title": "Tarifas dos EUA ao Brasil (2025 e 2026): linha do tempo",
-     "guia": "**Resumo:** Em 30/7/2025, os EUA fixaram sobretaxa de 40% a produtos brasileiros, que levou muitos itens a 50% desde 6/8/2025, com exceções como aviões, suco de laranja e celulose; em 20/11/2025, nova ordem retirou a sobretaxa de itens como café e carne bovina. Em 20/2/2026, a Suprema Corte dos EUA decidiu, por 6 a 3, que a lei IEEPA não autoriza as tarifas globais. Em 15/7/2026, o USTR concluiu a investigação da Seção 301 e fixou tarifa de 25% a partir de 22/7. No Brasil, a Lei 15.122/2025 autoriza contramedidas (reciprocidade).\n\n**Exemplo autoral:** Um exportador de café viu a sobretaxa de 40% valer a partir de agosto de 2025 e depois ser retirada para esse tipo de produto, em novembro.\n\n**Como atacar:** A FGV tende a usar absolutos (\"todos os produtos\", \"automática\", \"sem exceção\") e a trocar a lei ou o tribunal envolvido. Lembre: a IEEPA foi a lei analisada pela Suprema Corte; a Lei de Reciprocidade brasileira autoriza contramedidas, não as impõe.\n\n**Teste relâmpago (autoral, não é questão FGV):** Desde 2025, o comércio entre Brasil e Estados Unidos passou por mudanças tarifárias e disputas jurídicas.\nJulgue os itens:\nI. Em agosto de 2025, a sobretaxa de 40% sobre produtos brasileiros foi aplicada a todos os itens, sem nenhuma exceção.\nII. Em fevereiro de 2026, a Suprema Corte dos EUA decidiu, por 6 votos a 3, que o presidente excedeu sua autoridade ao usar a lei IEEPA para impor tarifas globais.\nIII. A Lei de Reciprocidade Econômica brasileira (Lei 15.122/2025) obriga o governo a aplicar, de forma automática, tarifa idêntica sempre que os EUA elevarem as suas.\nEstá correto o que se afirma em\n(A) I, apenas.\n(B) II, apenas.\n(C) I e II, apenas.\n(D) I e III, apenas.\n(E) I, II e III.\n\n**Fontes (checadas em out/2026):** [poder360.com.br](https://www.poder360.com.br/poder-internacional/tarifaco-passa-a-valer-em-6-de-agosto/) · [cnnbrasil.com.br](https://www.cnnbrasil.com.br/economia/macroeconomia/trump-reduz-tarifas-de-alguns-produtos-agricolas-brasileiros/) · [agenciabrasil.ebc.com.br](https://agenciabrasil.ebc.com.br/internacional/noticia/2026-02/suprema-corte-dos-eua-derruba-tarifaco-imposto-por-trump) · [ustr.gov](https://ustr.gov/about/policy-offices/press-office/press-releases/2026/july/ustr-section-301-action-brazils-unreasonable-acts-policies-and-practices) · [migalhas.com.br](https://www.migalhas.com.br/quentes/428377/apos-tarifaco-de-trump-lula-sanciona-lei-da-reciprocidade-economica)",
+     "guia": "**Resumo:** Em 30/7/2025, os EUA fixaram sobretaxa de 40% a produtos brasileiros, que levou muitos itens a 50% desde 6/8/2025, com exceções como aviões, suco de laranja e celulose; em 20/11/2025, nova ordem retirou a sobretaxa de itens como café e carne bovina. Em 20/2/2026, a Suprema Corte dos EUA decidiu, por 6 a 3, que a lei IEEPA não autoriza as tarifas globais. Em 15/7/2026, o USTR concluiu a investigação da Seção 301 e fixou tarifa de 25% a partir de 22/7. No Brasil, a Lei 15.122/2025 autoriza contramedidas (reciprocidade).\n\n**Exemplo autoral:** Um exportador de café viu a sobretaxa de 40% valer a partir de agosto de 2025 e depois ser retirada para esse tipo de produto, em novembro.\n\n**Como atacar:** A FGV tende a usar absolutos (\"todos os produtos\", \"automática\", \"sem exceção\") e a trocar a lei ou o tribunal envolvido. Lembre: a IEEPA foi a lei analisada pela Suprema Corte; a Lei de Reciprocidade brasileira autoriza contramedidas, não as impõe.\n\n**Fontes (checadas em out/2026):** [poder360.com.br](https://www.poder360.com.br/poder-internacional/tarifaco-passa-a-valer-em-6-de-agosto/) · [cnnbrasil.com.br](https://www.cnnbrasil.com.br/economia/macroeconomia/trump-reduz-tarifas-de-alguns-produtos-agricolas-brasileiros/) · [agenciabrasil.ebc.com.br](https://agenciabrasil.ebc.com.br/internacional/noticia/2026-02/suprema-corte-dos-eua-derruba-tarifaco-imposto-por-trump) · [ustr.gov](https://ustr.gov/about/policy-offices/press-office/press-releases/2026/july/ustr-section-301-action-brazils-unreasonable-acts-policies-and-practices) · [migalhas.com.br](https://www.migalhas.com.br/quentes/428377/apos-tarifaco-de-trump-lula-sanciona-lei-da-reciprocidade-economica)",
      "gabarito": "**Resposta comentada (autoral).** Gabarito: B (II, apenas). A afirmativa II está certa: em 20/2/2026 a Suprema Corte dos EUA decidiu por 6 a 3 que o uso da IEEPA para impor tarifas globais excedeu a autoridade do presidente. A I está errada: houve exceções à tarifa de 2025, como aviões civis, suco de laranja e celulose, e \"sem nenhuma exceção\" é um absoluto. A III está errada: a Lei 15.122/2025 autoriza o Executivo a adotar contramedidas, mas não impõe tarifa idêntica nem de forma automática.",
      "sourceUrl": null,
      "sourceLabel": null,
      "sourceNote": null,
-     "answerLetter": null,
+     "quiz": {
+      "stem": "Desde 2025, o comércio entre Brasil e Estados Unidos passou por mudanças tarifárias e disputas jurídicas.\nJulgue os itens:\nI. Em agosto de 2025, a sobretaxa de 40% sobre produtos brasileiros foi aplicada a todos os itens, sem nenhuma exceção.\nII. Em fevereiro de 2026, a Suprema Corte dos EUA decidiu, por 6 votos a 3, que o presidente excedeu sua autoridade ao usar a lei IEEPA para impor tarifas globais.\nIII. A Lei de Reciprocidade Econômica brasileira (Lei 15.122/2025) obriga o governo a aplicar, de forma automática, tarifa idêntica sempre que os EUA elevarem as suas.\nEstá correto o que se afirma em",
+      "options": {
+       "A": "I, apenas.",
+       "B": "II, apenas.",
+       "C": "I e II, apenas.",
+       "D": "I e III, apenas.",
+       "E": "I, II e III."
+      }
+     },
+     "answerLetter": "B",
      "asks": null,
      "alts": null
     },
     {
      "n": 24,
      "title": "Pix: Pix Automático e o ataque à C&M (2025)",
-     "guia": "**Resumo:** O Pix, lançado pelo Banco Central em 16/11/2020, opera 24 horas por dia, todos os dias. Em 16/6/2025 começou o Pix Automático, que permite cobranças recorrentes (assinaturas, contas) após uma única autorização do pagador. Em 1/7/2025, um ataque à C&M Software, prestadora de infraestrutura ligada ao Pix, desviou ao menos R$ 800 milhões de contas de reserva de instituições no Banco Central, com uso indevido de credenciais.\n\n**Exemplo autoral:** Uma academia cobra mensalidade: o aluno aceita uma única vez a cobrança recorrente no app do banco, e as parcelas seguintes são debitadas pelo Pix Automático, sem novo QR Code a cada mês.\n\n**Como atacar:** O Pix é do Banco Central e funciona 24 horas por dia, todos os dias; o Pix Automático depende de autorização única do pagador. Evite alternativas que limitem o Pix a dias úteis. O caso C&M ilustra o risco de prestadores terceiros e de credenciais mal protegidas.\n\n**Teste relâmpago (autoral, não é questão FGV):** O Pix é o sistema de pagamentos instantâneos mantido pelo Banco Central.\nJulgue os itens:\nI. O Pix foi lançado em novembro de 2020 e é operado e regulado pelo Banco Central do Brasil.\nII. O Pix Automático permite cobranças recorrentes mediante uma única autorização do pagador.\nIII. O Pix só funciona em dias úteis e em horário bancário.\nEstá correto o que se afirma em\n(A) I, apenas.\n(B) II, apenas.\n(C) I e II, apenas.\n(D) I e III, apenas.\n(E) I, II e III.\n\n**Fontes (checadas em out/2026):** [bcb.gov.br](https://www.bcb.gov.br/estabilidadefinanceira/pix) · [agenciabrasil.ebc.com.br](https://agenciabrasil.ebc.com.br/economia/noticia/2025-06/bancos-passam-oferecer-pix-automatico-partir-desta-segunda) · [infomoney.com.br](https://www.infomoney.com.br/brasil/ataque-hacker-afeta-infraestrutura-de-empresa-ligada-ao-pix-prejuizo-supera-r800-mi/)",
+     "guia": "**Resumo:** O Pix, lançado pelo Banco Central em 16/11/2020, opera 24 horas por dia, todos os dias. Em 16/6/2025 começou o Pix Automático, que permite cobranças recorrentes (assinaturas, contas) após uma única autorização do pagador. Em 1/7/2025, um ataque à C&M Software, prestadora de infraestrutura ligada ao Pix, desviou ao menos R$ 800 milhões de contas de reserva de instituições no Banco Central, com uso indevido de credenciais.\n\n**Exemplo autoral:** Uma academia cobra mensalidade: o aluno aceita uma única vez a cobrança recorrente no app do banco, e as parcelas seguintes são debitadas pelo Pix Automático, sem novo QR Code a cada mês.\n\n**Como atacar:** O Pix é do Banco Central e funciona 24 horas por dia, todos os dias; o Pix Automático depende de autorização única do pagador. Evite alternativas que limitem o Pix a dias úteis. O caso C&M ilustra o risco de prestadores terceiros e de credenciais mal protegidas.\n\n**Fontes (checadas em out/2026):** [bcb.gov.br](https://www.bcb.gov.br/estabilidadefinanceira/pix) · [agenciabrasil.ebc.com.br](https://agenciabrasil.ebc.com.br/economia/noticia/2025-06/bancos-passam-oferecer-pix-automatico-partir-desta-segunda) · [infomoney.com.br](https://www.infomoney.com.br/brasil/ataque-hacker-afeta-infraestrutura-de-empresa-ligada-ao-pix-prejuizo-supera-r800-mi/)",
      "gabarito": "**Resposta comentada (autoral).** Gabarito: C (I e II, apenas). A afirmativa I está certa: o Pix foi lançado em 16/11/2020 e é operado e regulado pelo Banco Central. A II está certa: o Pix Automático, em operação desde 16/6/2025, permite cobranças recorrentes depois de uma única autorização do pagador. A III está errada: o Pix funciona 24 horas por dia, todos os dias, inclusive fins de semana e feriados.",
      "sourceUrl": null,
      "sourceLabel": null,
      "sourceNote": null,
-     "answerLetter": null,
+     "quiz": {
+      "stem": "O Pix é o sistema de pagamentos instantâneos mantido pelo Banco Central.\nJulgue os itens:\nI. O Pix foi lançado em novembro de 2020 e é operado e regulado pelo Banco Central do Brasil.\nII. O Pix Automático permite cobranças recorrentes mediante uma única autorização do pagador.\nIII. O Pix só funciona em dias úteis e em horário bancário.\nEstá correto o que se afirma em",
+      "options": {
+       "A": "I, apenas.",
+       "B": "II, apenas.",
+       "C": "I e II, apenas.",
+       "D": "I e III, apenas.",
+       "E": "I, II e III."
+      }
+     },
+     "answerLetter": "C",
      "asks": null,
      "alts": null
     }
@@ -1609,6 +1916,7 @@ window.STUDY_DATA = {
      "sourceUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/ati-desenvolvimento-de-software-cns003-tipo-01.pdf#page=12",
      "sourceLabel": "D · questão 54 · página 12",
      "sourceNote": null,
+     "quiz": null,
      "answerLetter": "B",
      "asks": "correta",
      "alts": {
@@ -1622,12 +1930,22 @@ window.STUDY_DATA = {
     {
      "n": 2,
      "title": "Elicitação de requisitos: técnicas e processo",
-     "guia": "**Resumo:** Elicitar é descobrir o que os interessados precisam. Técnicas comuns: entrevista (conversa dirigida), questionário (muitas pessoas, respostas padronizadas), brainstorming (ideias em grupo, sem crítica no início), observação (ver o trabalho acontecer), workshop ou JAD (reunião estruturada), análise de documentos, cenários e casos de uso, e prototipação (um modelo para o usuário reagir e validar). O processo passa por elicitação, análise, especificação, validação e gestão de mudanças; acontece no começo e de forma iterativa, não \"depois da implementação\".\n\n**Exemplo autoral:** Para entender o trabalho de um caixa de agência, observá-lo mostra passos que uma entrevista não revelaria. Mostrar uma tela desenhada e pedir correções é prototipação.\n\n**Como atacar:** Palavras absolutas (\"apenas\", \"somente\", \"geralmente depois do código\") tendem a ser falsas. Ligue a técnica ao verbo: perguntar é entrevista, ver é observação, desenhar um modelo é protótipo, gerar ideias em grupo é brainstorming.\n\n**Teste relâmpago (autoral, não é questão FGV):** Uma equipe levanta os requisitos de um sistema de atendimento ao cidadão.\nJulgue os itens:\nI. Observar os atendentes no balcão é uma técnica de elicitação e pode revelar necessidades que não aparecem em entrevistas.\nII. A engenharia de requisitos ocorre uma única vez, antes de qualquer outra atividade, e os requisitos não devem ser revistos depois.\nIII. Mostrar telas desenhadas aos usuários e colher correções é uma forma de prototipação.\nEstá correto o que se afirma em\n(A) I, apenas.\n(B) II, apenas.\n(C) III, apenas.\n(D) I e II, apenas.\n(E) I e III, apenas.",
+     "guia": "**Resumo:** Elicitar é descobrir o que os interessados precisam. Técnicas comuns: entrevista (conversa dirigida), questionário (muitas pessoas, respostas padronizadas), brainstorming (ideias em grupo, sem crítica no início), observação (ver o trabalho acontecer), workshop ou JAD (reunião estruturada), análise de documentos, cenários e casos de uso, e prototipação (um modelo para o usuário reagir e validar). O processo passa por elicitação, análise, especificação, validação e gestão de mudanças; acontece no começo e de forma iterativa, não \"depois da implementação\".\n\n**Exemplo autoral:** Para entender o trabalho de um caixa de agência, observá-lo mostra passos que uma entrevista não revelaria. Mostrar uma tela desenhada e pedir correções é prototipação.\n\n**Como atacar:** Palavras absolutas (\"apenas\", \"somente\", \"geralmente depois do código\") tendem a ser falsas. Ligue a técnica ao verbo: perguntar é entrevista, ver é observação, desenhar um modelo é protótipo, gerar ideias em grupo é brainstorming.",
      "gabarito": "**Resposta comentada (autoral).** Gabarito: E (I e III, apenas). A I está certa: observar o trabalho real é uma técnica de elicitação e mostra o que as pessoas fazem e não pensam em dizer na entrevista. A II está errada: a engenharia de requisitos é iterativa; os requisitos são validados e mudam ao longo do projeto, então \"uma única vez\" e \"não devem ser revistos\" são falsos. A III está certa: mostrar telas desenhadas e colher correções é prototipação.",
      "sourceUrl": null,
      "sourceLabel": null,
      "sourceNote": null,
-     "answerLetter": null,
+     "quiz": {
+      "stem": "Uma equipe levanta os requisitos de um sistema de atendimento ao cidadão.\nJulgue os itens:\nI. Observar os atendentes no balcão é uma técnica de elicitação e pode revelar necessidades que não aparecem em entrevistas.\nII. A engenharia de requisitos ocorre uma única vez, antes de qualquer outra atividade, e os requisitos não devem ser revistos depois.\nIII. Mostrar telas desenhadas aos usuários e colher correções é uma forma de prototipação.\nEstá correto o que se afirma em",
+      "options": {
+       "A": "I, apenas.",
+       "B": "II, apenas.",
+       "C": "III, apenas.",
+       "D": "I e II, apenas.",
+       "E": "I e III, apenas."
+      }
+     },
+     "answerLetter": "E",
      "asks": null,
      "alts": null
     },
@@ -1639,6 +1957,7 @@ window.STUDY_DATA = {
      "sourceUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/ati-desenvolvimento-de-software-cns003-tipo-01.pdf#page=12",
      "sourceLabel": "D · questão 56 · página 12",
      "sourceNote": null,
+     "quiz": null,
      "answerLetter": "C",
      "asks": "incorreta",
      "alts": {
@@ -1652,12 +1971,22 @@ window.STUDY_DATA = {
     {
      "n": 4,
      "title": "Blockchain: consenso, imutabilidade e contratos inteligentes",
-     "guia": "**Resumo:** A rede é distribuída: cada nó guarda uma cópia do livro-razão e um mecanismo de consenso decide qual bloco entra. Na prova de trabalho (PoW, Bitcoin), mineradores gastam poder computacional para achar um nonce válido; na prova de participação (PoS, Ethereum desde 2022), validadores colocam moedas em garantia. A imutabilidade vem do encadeamento: alterar um bloco muda seu hash e quebra os seguintes, e refazer a cadeia mais rápido que a rede honesta exige poder enorme (ataque de 51%). Contratos inteligentes são programas gravados na blockchain e executados automaticamente.\n\n**Exemplo autoral:** Mudar o valor de uma transação antiga muda o hash daquele bloco; o bloco seguinte guardava o hash antigo, então a cadeia deixa de \"fechar\".\n\n**Como atacar:** Cuidado com \"impossível alterar\" (é impraticável, não impossível) e com \"uma autoridade central valida os blocos\" (o consenso distribuído substitui a autoridade). PoW é gasto de poder computacional; PoS é valor em garantia.\n\n**Teste relâmpago (autoral, não é questão FGV):** Um órgão público avalia usar blockchain para registrar certificados.\nJulgue os itens:\nI. Na prova de trabalho, mineradores competem para achar um nonce válido, e o primeiro que consegue propõe o bloco.\nII. Contratos inteligentes são programas armazenados na blockchain que executam automaticamente quando as condições programadas são cumpridas.\nIII. Alterar uma transação em um bloco antigo afeta apenas aquele bloco, sem invalidar os seguintes.\nEstá correto o que se afirma em\n(A) I, apenas.\n(B) II, apenas.\n(C) III, apenas.\n(D) I e II, apenas.\n(E) I e III, apenas.",
+     "guia": "**Resumo:** A rede é distribuída: cada nó guarda uma cópia do livro-razão e um mecanismo de consenso decide qual bloco entra. Na prova de trabalho (PoW, Bitcoin), mineradores gastam poder computacional para achar um nonce válido; na prova de participação (PoS, Ethereum desde 2022), validadores colocam moedas em garantia. A imutabilidade vem do encadeamento: alterar um bloco muda seu hash e quebra os seguintes, e refazer a cadeia mais rápido que a rede honesta exige poder enorme (ataque de 51%). Contratos inteligentes são programas gravados na blockchain e executados automaticamente.\n\n**Exemplo autoral:** Mudar o valor de uma transação antiga muda o hash daquele bloco; o bloco seguinte guardava o hash antigo, então a cadeia deixa de \"fechar\".\n\n**Como atacar:** Cuidado com \"impossível alterar\" (é impraticável, não impossível) e com \"uma autoridade central valida os blocos\" (o consenso distribuído substitui a autoridade). PoW é gasto de poder computacional; PoS é valor em garantia.",
      "gabarito": "**Resposta comentada (autoral).** Gabarito: D (I e II, apenas). A I está certa: na prova de trabalho os mineradores competem para achar um nonce válido, e quem consegue primeiro propõe o bloco. A II está certa: contratos inteligentes são programas gravados na blockchain que executam sozinhos quando as condições programadas se cumprem. A III está errada: cada bloco guarda o hash do anterior; ao alterar uma transação antiga, o hash daquele bloco muda e os blocos seguintes deixam de \"fechar\", ou seja, ficam inválidos. É assim que a cadeia detecta adulteração.",
      "sourceUrl": null,
      "sourceLabel": null,
      "sourceNote": null,
-     "answerLetter": null,
+     "quiz": {
+      "stem": "Um órgão público avalia usar blockchain para registrar certificados.\nJulgue os itens:\nI. Na prova de trabalho, mineradores competem para achar um nonce válido, e o primeiro que consegue propõe o bloco.\nII. Contratos inteligentes são programas armazenados na blockchain que executam automaticamente quando as condições programadas são cumpridas.\nIII. Alterar uma transação em um bloco antigo afeta apenas aquele bloco, sem invalidar os seguintes.\nEstá correto o que se afirma em",
+      "options": {
+       "A": "I, apenas.",
+       "B": "II, apenas.",
+       "C": "III, apenas.",
+       "D": "I e II, apenas.",
+       "E": "I e III, apenas."
+      }
+     },
+     "answerLetter": "D",
      "asks": null,
      "alts": null
     },
@@ -1669,6 +1998,7 @@ window.STUDY_DATA = {
      "sourceUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/ati-desenvolvimento-de-software-cns003-tipo-01.pdf#page=13",
      "sourceLabel": "D · questão 57 · página 13",
      "sourceNote": null,
+     "quiz": null,
      "answerLetter": "E",
      "asks": "correta",
      "alts": {
@@ -1687,6 +2017,7 @@ window.STUDY_DATA = {
      "sourceUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/ati-desenvolvimento-de-software-cns003-tipo-01.pdf#page=10",
      "sourceLabel": "D · questão 43 · página 10",
      "sourceNote": null,
+     "quiz": null,
      "answerLetter": "D",
      "asks": "correta",
      "alts": {
@@ -1700,12 +2031,22 @@ window.STUDY_DATA = {
     {
      "n": 7,
      "title": "Microsserviços na prática: banco por serviço, containers e transações distribuídas",
-     "guia": "**Resumo:** Em microsserviços cada serviço é dono dos seus dados (banco por serviço) e os outros o acessam por API ou mensagem, não direto no banco. Containers (Docker) empacotam o serviço com suas dependências e rodam igual em qualquer ambiente, compartilhando o kernel do host (por isso são mais leves que máquinas virtuais); um orquestrador (Kubernetes) cuida de escala e reinício. Sem uma transação ACID única entre vários bancos, usa-se o padrão Saga: uma sequência de transações locais, cada uma com uma ação de compensação caso algo falhe adiante. O commit em duas fases (2PC) existe, mas é pesado. O resultado típico é consistência eventual.\n\n**Exemplo autoral:** Um pedido reserva estoque e depois cobra o cartão. Se o pagamento falha, a Saga executa a compensação \"liberar o estoque\".\n\n**Como atacar:** \"Transação ACID global entre todos os serviços\" e \"todos compartilham um único banco\" descrevem monólito. Container não carrega um sistema operacional completo, como faz a máquina virtual.\n\n**Teste relâmpago (autoral, não é questão FGV):** Uma plataforma de pedidos foi dividida em microsserviços.\nJulgue os itens:\nI. Para garantir consistência imediata, todos os serviços devem compartilhar um único banco de dados.\nII. Cada container carrega um sistema operacional completo, como uma máquina virtual, e por isso é tão pesado quanto ela.\nIII. No padrão Saga, quando um passo falha, ações de compensação desfazem os passos já concluídos.\nEstá correto o que se afirma em\n(A) I, apenas.\n(B) II, apenas.\n(C) III, apenas.\n(D) I e II, apenas.\n(E) I e III, apenas.",
+     "guia": "**Resumo:** Em microsserviços cada serviço é dono dos seus dados (banco por serviço) e os outros o acessam por API ou mensagem, não direto no banco. Containers (Docker) empacotam o serviço com suas dependências e rodam igual em qualquer ambiente, compartilhando o kernel do host (por isso são mais leves que máquinas virtuais); um orquestrador (Kubernetes) cuida de escala e reinício. Sem uma transação ACID única entre vários bancos, usa-se o padrão Saga: uma sequência de transações locais, cada uma com uma ação de compensação caso algo falhe adiante. O commit em duas fases (2PC) existe, mas é pesado. O resultado típico é consistência eventual.\n\n**Exemplo autoral:** Um pedido reserva estoque e depois cobra o cartão. Se o pagamento falha, a Saga executa a compensação \"liberar o estoque\".\n\n**Como atacar:** \"Transação ACID global entre todos os serviços\" e \"todos compartilham um único banco\" descrevem monólito. Container não carrega um sistema operacional completo, como faz a máquina virtual.",
      "gabarito": "**Resposta comentada (autoral).** Gabarito: C (III, apenas). A I está errada: compartilhar um único banco amarra os serviços entre si e contradiz a independência dos microsserviços; o normal é cada serviço ter seus dados e aceitar consistência eventual. A II está errada: o container compartilha o kernel do sistema operacional do host e empacota só a aplicação e suas dependências, por isso é bem mais leve que a máquina virtual, que carrega um sistema operacional completo. A III está certa: no padrão Saga, cada passo é uma transação local e, se um passo falha, ações de compensação desfazem os passos já concluídos (por exemplo, liberar o estoque reservado).",
      "sourceUrl": null,
      "sourceLabel": null,
      "sourceNote": null,
-     "answerLetter": null,
+     "quiz": {
+      "stem": "Uma plataforma de pedidos foi dividida em microsserviços.\nJulgue os itens:\nI. Para garantir consistência imediata, todos os serviços devem compartilhar um único banco de dados.\nII. Cada container carrega um sistema operacional completo, como uma máquina virtual, e por isso é tão pesado quanto ela.\nIII. No padrão Saga, quando um passo falha, ações de compensação desfazem os passos já concluídos.\nEstá correto o que se afirma em",
+      "options": {
+       "A": "I, apenas.",
+       "B": "II, apenas.",
+       "C": "III, apenas.",
+       "D": "I e II, apenas.",
+       "E": "I e III, apenas."
+      }
+     },
+     "answerLetter": "C",
      "asks": null,
      "alts": null
     },
@@ -1717,6 +2058,7 @@ window.STUDY_DATA = {
      "sourceUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/ati-desenvolvimento-de-software-cns003-tipo-01.pdf#page=12",
      "sourceLabel": "D · questão 55 · página 12",
      "sourceNote": null,
+     "quiz": null,
      "answerLetter": "B",
      "asks": "correta",
      "alts": {
@@ -1735,6 +2077,7 @@ window.STUDY_DATA = {
      "sourceUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/ati-desenvolvimento-de-software-cns003-tipo-01.pdf#page=13",
      "sourceLabel": "D · questão 62 · página 13",
      "sourceNote": null,
+     "quiz": null,
      "answerLetter": "B",
      "asks": "correta",
      "alts": {
@@ -1753,6 +2096,7 @@ window.STUDY_DATA = {
      "sourceUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/ati-desenvolvimento-de-software-cns003-tipo-01.pdf#page=14",
      "sourceLabel": "D · questão 64 · página 14",
      "sourceNote": null,
+     "quiz": null,
      "answerLetter": "C",
      "asks": "correta",
      "alts": {
@@ -1771,6 +2115,7 @@ window.STUDY_DATA = {
      "sourceUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/ati-desenvolvimento-de-software-cns003-tipo-01.pdf#page=14",
      "sourceLabel": "D · questão 63 · página 14",
      "sourceNote": "A lista de 2025 está em [owasp.org](https://owasp.org/Top10/)",
+     "quiz": null,
      "answerLetter": "A",
      "asks": "correta",
      "alts": {
@@ -1789,6 +2134,7 @@ window.STUDY_DATA = {
      "sourceUrl": "https://conhecimento.fgv.br/sites/default/files/concursos/ati-desenvolvimento-de-software-cns003-tipo-01.pdf#page=11",
      "sourceLabel": "D · questão 46 · página 11",
      "sourceNote": null,
+     "quiz": null,
      "answerLetter": "B",
      "asks": "correta",
      "alts": {

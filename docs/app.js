@@ -276,6 +276,19 @@
           '<div class="answer-feedback" id="answerFeedback"></div>'+
         '</div>';
     }
+    else if(card.quiz){
+      var opts = ["A","B","C","D","E"].filter(function(l){ return card.quiz.options[l]; });
+      questionBoxHtml =
+        '<div class="question-box">'+
+          '<div class="q-label">Teste autoral · não é questão FGV</div>'+
+          '<div class="q-stem card-body">'+mdLite(card.quiz.stem)+'</div>'+
+          '<div class="q-options">'+opts.map(function(l){
+            return '<div class="q-opt"><span class="ex-letter">'+l+'</span><div>'+escapeHtml(card.quiz.options[l])+'</div></div>';
+          }).join("")+'</div>'+
+          (card.answerLetter ? renderLetterPicker(opts) : '')+
+          '<div class="answer-feedback" id="answerFeedback"></div>'+
+        '</div>';
+    }
 
     app.innerHTML =
       '<a class="back-link" href="#/subject/'+subject.id+'">&larr; '+escapeHtml(subject.name)+'</a>'+
@@ -351,8 +364,8 @@
     }
     return html;
   }
-  function renderLetterPicker(){
-    var letters = ["A","B","C","D","E"];
+  function renderLetterPicker(letters){
+    letters = letters || ["A","B","C","D","E"];
     return '<div class="letter-picker">'+letters.map(function(l){
       return '<button class="letter-btn" data-letter="'+l+'">'+l+'</button>';
     }).join("")+'</div>';

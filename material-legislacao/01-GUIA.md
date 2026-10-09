@@ -90,7 +90,12 @@ Essa prova não é da DATAPREV nem do cargo de Desenvolvimento de Software — �
 
 **Regra.** A LAI (Lei 12.527/2011) consagra a **publicidade** como preceito geral e o **sigilo** como exceção (art. 3º). Informações de interesse público devem ser divulgadas de ofício, independentemente de pedido, sempre que possível.
 
-**Teste relâmpago (autoral, não é questão FGV).** Um órgão público nega acesso a um dado só porque "não foi pedido antes" e "não é praxe divulgar". Isso está certo ou errado à luz da LAI, e por quê?
+**Teste relâmpago (autoral, não é questão FGV).** Um órgão público nega acesso a um dado só porque "não foi pedido antes" e "não é praxe divulgar". À luz da LAI, essa negativa é:
+A) Correta, porque a divulgação só passa a ser obrigatória depois do primeiro pedido.
+B) Correta, porque o órgão tem discricionariedade para seguir sua praxe de divulgação.
+C) Incorreta, porque a publicidade é a regra e o sigilo a exceção; falta de pedido anterior ou de praxe não justifica negar.
+D) Incorreta, mas só porque a negativa de acesso precisa ser decidida por um juiz.
+E) Correta, desde que o órgão comunique o motivo por escrito em até 20 dias.
 
 ---
 
@@ -98,20 +103,43 @@ Essa prova não é da DATAPREV nem do cargo de Desenvolvimento de Software — �
 
 **Regra.** O órgão deve conceder acesso imediato, se a informação estiver disponível. Se não for possível, o prazo é de até **20 dias**, prorrogável por mais **10 dias** mediante justificativa expressa (art. 11).
 
-**Teste relâmpago (autoral, não é questão FGV).** Um pedido de acesso é feito no dia 1º. O órgão não tem a informação pronta e justifica a demora. Até que dia ele pode responder, no limite?
+**Teste relâmpago (autoral, não é questão FGV).** Um pedido de acesso à informação é feito. O órgão não tem a informação pronta e justifica expressamente a demora. No limite, em quantos dias ele pode responder?
+A) 10 dias.
+B) 15 dias.
+C) 20 dias, improrrogáveis.
+D) 30 dias (20 dias + 10 de prorrogação justificada).
+E) 45 dias.
 
 ---
 
 ## Cartão 11 — Lei 12.737: invasão de dispositivo informático (art. 154-A do CP)
 
-**Regra.** É crime invadir dispositivo informático alheio, conectado ou não à rede, mediante violação indevida de mecanismo de segurança, com o fim de obter, adulterar ou destruir dados/informações sem autorização do titular, ou instalar vulnerabilidade para obter vantagem ilícita. Pena: detenção de 3 meses a 1 ano, e multa.
+**Regra.** É crime invadir dispositivo informático **de uso alheio**, conectado ou não à rede, com o fim de obter, adulterar ou destruir dados ou informações sem autorização expressa ou tácita do usuário, ou de instalar vulnerabilidades para obter vantagem ilícita. Pena: **reclusão de 1 a 4 anos**, e multa. Essa é a redação dada pela **Lei 14.155/2021**, que alterou o artigo criado pela Lei 12.737/2012 ("Lei Carolina Dieckmann").
 
-**Teste relâmpago (autoral, não é questão FGV).** Alguém acessa um computador que ficou sem senha, sem burlar nenhum mecanismo de segurança, e olha arquivos alheios. Isso configura o crime do art. 154-A? Por quê?
+**Pegadinha.** A redação original de 2012 exigia "violação indevida de mecanismo de segurança" e punia com detenção de 3 meses a 1 ano. Desde 2021 a lei **não exige mais** burlar senha ou mecanismo de segurança, e a pena virou reclusão.
+
+**Teste relâmpago (autoral, não é questão FGV).** Alguém acessa o computador de um colega que ficou sem senha e copia arquivos dele sem autorização. Pela redação atual do art. 154-A:
+A) Não é crime, porque não houve violação de mecanismo de segurança.
+B) Pode ser crime, porque desde 2021 o tipo não exige mais violar mecanismo de segurança: basta invadir dispositivo de uso alheio para obter dados sem autorização.
+C) Só é crime se o computador estiver conectado à internet.
+D) Só é crime se a invasão causar prejuízo econômico.
+E) É crime, com pena de detenção de 3 meses a 1 ano.
 
 ---
 
-## Cartão 12 — Lei 12.737: majorantes da pena
+## Cartão 12 — Lei 12.737: majorantes e qualificadora
 
-**Regra.** A pena aumenta de 1/6 a 1/3 se da invasão resulta prejuízo econômico. Se resulta obtenção de conteúdo de comunicações eletrônicas privadas, segredos comerciais/industriais, informações sigilosas, ou controle remoto não autorizado do dispositivo, a pena passa a ser de reclusão de 6 meses a 2 anos e multa (se o fato não constituir crime mais grave). Há aumento de metade a 2/3 se há divulgação, comercialização ou transmissão a terceiro dos dados obtidos.
+**Regra.** Pela redação atual do art. 154-A:
+- §2º: a pena **aumenta de 1/3 a 2/3** se da invasão resulta **prejuízo econômico**.
+- §3º (qualificadora): se resulta obtenção de conteúdo de comunicações eletrônicas privadas, segredos comerciais ou industriais, informações sigilosas, ou controle remoto não autorizado do dispositivo, a pena passa a ser **reclusão de 2 a 5 anos**, e multa (se a conduta não constitui crime mais grave).
+- §4º: no caso do §3º, a pena **aumenta de 1 a 2/3** se houver **divulgação, comercialização ou transmissão a terceiro** dos dados obtidos.
+- §5º: aumenta de 1/3 à metade se o crime for contra Presidente da República, governadores, prefeitos, presidentes do Congresso, da Câmara, do Senado, de Assembleias e Câmaras, e do STF, ou dirigente máximo da administração direta e indireta.
 
-**Teste relâmpago (autoral, não é questão FGV).** Uma invasão resulta na obtenção de segredos comerciais de uma empresa, que depois são vendidos a um concorrente. Isso muda a pena-base de detenção para reclusão, e ainda pode aumentar mais? Por quê?
+**Exemplo.** Antes de 2021 o §2º era de 1/6 a 1/3 e o §3º era reclusão de 6 meses a 2 anos. Se aparecerem esses números, é a redação antiga.
+
+**Teste relâmpago (autoral, não é questão FGV).** Uma invasão resulta na obtenção de segredos comerciais de uma empresa, que depois são vendidos a um concorrente. Qual é o enquadramento da pena?
+A) Pena do caput (reclusão de 1 a 4 anos), sem aumento.
+B) Pena do caput aumentada de 1/3 a 2/3, só pelo prejuízo econômico.
+C) Qualificadora do §3º (reclusão de 2 a 5 anos), aumentada de 1 a 2/3 pela comercialização a terceiro.
+D) Qualificadora do §3º (reclusão de 2 a 5 anos), sem aumento, porque a venda já está dentro da qualificadora.
+E) Detenção de 3 meses a 1 ano, aumentada de metade a 2/3.

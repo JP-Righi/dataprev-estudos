@@ -14,6 +14,13 @@ Além do texto de cada cartão, extrai (quando existir):
         - A: por que essa alternativa é certa/errada (palavras próprias)
         - B: ...
     Essas linhas saem do texto do gabarito exibido e viram card["alts"].
+  - quiz: teste autoral de múltipla escolha, escrito no GUIA como
+        **Teste relâmpago (autoral, ...).** enunciado
+        A) alternativa
+        B) ...      (ou "(A) ...")
+    (alternativas logo abaixo do enunciado, sem linha em branco). Sai do texto
+    do cartão e vira card["quiz"] = {stem, options}; a letra certa vem do
+    GABARITO ("**Gabarito (autoral): C**").
 """
 import os, re, json
 
@@ -42,9 +49,12 @@ STRIP_LINE_RES = [
 ]
 QREAL_RE = re.compile(r'^\*\*(?:uma\s+)?quest[aã]o real', re.I)
 LINK_RE = re.compile(r'\[([^\]]+)\]\((https?://[^\s)]+)\)')
+QAUTORAL_RE = re.compile(r'^\*\*Teste rel[aâ]mpago', re.I)
+OPTION_RE = re.compile(r'^\(?([A-E])\)\s*(.+?)\s*$')
 ANSWER_RES = [
     re.compile(r'\*\*[^*]*?([A-E])\.\s*\*\*'),   # "**D5 — A.**" / "**D, questão 14: B.**"
     re.compile(r'\*\*[^*]*?:\s*([A-E])\*\*'),     # "**Gabarito oficial (questão 02): A**"
+    re.compile(r'Gabarito:\s*([A-E])\b'),           # "Gabarito: D (I e III, apenas)" (autorais)
 ]
 
 
@@ -140,6 +150,29 @@ def extract_source(guia_body):
     return guia_body, None, None, None
 
 
+def extract_quiz(guia_body):
+    """Acha o paragrafo do teste autoral com alternativas 'A) ...'. Devolve
+    (corpo_sem_ele, {"stem", "options"}) ou (guia_body, None)."""
+    paras = guia_body.split("\n\n")
+    for i, p in enumerate(paras):
+        lines = p.strip().split("\n")
+        if not QAUTORAL_RE.match(lines[0].strip()):
+            continue
+        stem, options = [], {}
+        for ln in lines:
+            m = OPTION_RE.match(ln.strip())
+            if m:
+                options[m.group(1)] = m.group(2)
+            elif not options:
+                stem.append(ln)
+        if not options:
+            continue
+        stem = re.sub(r'^\*\*[^*]+\*\*[:.]?\s*', '', "\n".join(stem).strip())
+        remaining = paras[:i] + paras[i+1:]
+        return "\n\n".join(remaining).strip(), {"stem": stem, "options": options}
+    return guia_body, None
+
+
 def extract_answer(gabarito_body):
     for rx in ANSWER_RES:
         m = rx.search(gabarito_body)
@@ -166,7 +199,10 @@ def main():
             g = guia_cards[n]
             a = gab_cards.get(n, {"title": g["title"], "body": "(gabarito nao encontrado)"})
             new_guia_body, url, label, extra = extract_source(g["body"])
-            answer_letter = extract_answer(a["body"]) if url else None
+            new_guia_body, quiz = extract_quiz(new_guia_body)
+            answer_letter = extract_answer(a["body"]) if (url or quiz) else None
+            if quiz and not answer_letter:
+                print(f"AVISO {s['id']}#{n}: teste autoral sem '**Gabarito (autoral): X**' no gabarito")
             gab_text, asks, alts = extract_explanations(a["body"])
             if alts:
                 if set(alts) != set("ABCDE"):
@@ -180,6 +216,7 @@ def main():
                 "guia": new_guia_body,
                 "gabarito": gab_text,
                 "sourceUrl": url, "sourceLabel": label, "sourceNote": extra or None,
+                "quiz": quiz,
                 "answerLetter": answer_letter,
                 "asks": asks if alts else None,
                 "alts": alts,

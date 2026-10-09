@@ -161,6 +161,9 @@ h2{font-size:1.1rem; margin:0 0 10px}
 .open-pdf-link{display:inline-block; margin-top:8px; font-size:.85rem; text-decoration:none; color:var(--accent)}
 .open-pdf-link:hover{text-decoration:underline}
 
+.q-stem{margin:6px 0 10px}
+.q-options{display:flex; flex-direction:column; gap:8px}
+.q-opt{display:flex; gap:10px; align-items:flex-start; line-height:1.45}
 .letter-picker{display:flex; gap:8px; margin-top:14px; flex-wrap:wrap}
 .letter-btn{
   width:44px; height:44px; border-radius:10px; border:1px solid var(--border);
